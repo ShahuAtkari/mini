@@ -1,0 +1,1681 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.8" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="undecorated" type="boolean" value="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,-24,0,0,6,114"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+    <Property name="useNullLayout" type="boolean" value="false"/>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="0" y="0" width="-1" height="100"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="false"/>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="48" style="3"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="rganization"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="290" y="10" width="240" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Container class="javax.swing.JPanel" name="jPanel6">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel6MouseClicked"/>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel6MouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel6MouseExited"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="770" y="30" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace pref="21" max="32767" attributes="0"/>
+                      <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel11">
+              <Properties>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="HOME"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Hand Cursor"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel11MouseEntered"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel7">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel7MouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel7MouseExited"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="863" y="30" width="70" height="-1"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel12" pref="50" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel12">
+              <Properties>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="FEATURE"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Hand Cursor"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel12MouseClicked"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel8">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="f0" green="f0" red="f0" type="rgb"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel8MouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel8MouseExited"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="950" y="30" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel13">
+              <Properties>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="CONTACT"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Hand Cursor"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel13MousePressed"/>
+                <EventHandler event="mouseReleased" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel13MouseReleased"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel9">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel9MouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel9MouseExited"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="1030" y="30" width="70" height="-1"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel14">
+              <Properties>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="ABOUT US"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Hand Cursor"/>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel10">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel10MouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel10MouseExited"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="1110" y="30" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel15" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jLabel15" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel15">
+              <Properties>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="SUPPORT"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Hand Cursor"/>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel11">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel11MouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel11MouseExited"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="1180" y="30" width="67" height="-1"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jLabel16" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel16" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel16">
+              <Properties>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="OTHERS"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Hand Cursor"/>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="jLabel17">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/mini_project/icons8-shutdown-48.png"/>
+            </Property>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Hand Cursor"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel17MouseClicked"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="1320" y="10" width="50" height="50"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel18">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="48" style="3"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="66" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="O"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="250" y="10" width="40" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel19">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="48" style="3"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="66" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="P"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="90" y="10" width="40" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel20">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="48" style="3"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="roject"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="120" y="10" width="140" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel51">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="2" name="F:\netbean\netbean project\mini_project\src\mini_project\icons8-slide-up-48.png"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel51MouseClicked"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="1260" y="10" width="-1" height="50"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="0" y="90" width="300" height="780"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="false"/>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel4">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="33" green="33" red="33" type="rgb"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="10" y="11" width="282" height="-1"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="85" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jLabel2" pref="32" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel2">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="24" style="0"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="C Projects"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel5">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+                <MatteColorBorder>
+                  <Color PropertyName="color" blue="f0" green="f0" red="f0" type="rgb"/>
+                </MatteColorBorder>
+              </Border>
+            </Property>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Hand Cursor"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel5MouseClicked"/>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel5MouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel5MouseExited"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="10" y="72" width="282" height="52"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+            <Property name="useNullLayout" type="boolean" value="false"/>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel3">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="18" style="0"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Hospital management "/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="70" y="10" width="-1" height="30"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel12">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+                <MatteColorBorder>
+                  <Color PropertyName="color" blue="f0" green="f0" red="f0" type="rgb"/>
+                </MatteColorBorder>
+              </Border>
+            </Property>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Hand Cursor"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel12MouseClicked"/>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel12MouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel12MouseExited"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="10" y="135" width="282" height="46"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+            <Property name="useNullLayout" type="boolean" value="false"/>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel4">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="18" style="0"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="66" red="ff" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Medical store management system"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="0" y="10" width="-1" height="20"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel16">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+                <MatteColorBorder>
+                  <Color PropertyName="color" blue="f0" green="f0" red="f0" type="rgb"/>
+                </MatteColorBorder>
+              </Border>
+            </Property>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Hand Cursor"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel16MouseClicked"/>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel16MouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel16MouseExited"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="10" y="199" width="282" height="42"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+            <Property name="useNullLayout" type="boolean" value="false"/>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel8">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="18" style="0"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Quiz Game"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="100" y="10" width="-1" height="24"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel21">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+                <MatteColorBorder>
+                  <Color PropertyName="color" blue="f0" green="f0" red="f0" type="rgb"/>
+                </MatteColorBorder>
+              </Border>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="f0" green="f0" red="f0" type="rgb"/>
+            </Property>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Hand Cursor"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel21MouseClicked"/>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel21MouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel21MouseExited"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="10" y="259" width="282" height="-1"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+            <Property name="useNullLayout" type="boolean" value="false"/>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel23">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="18" style="0"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Exit"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="119" y="0" width="-1" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="about">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="300" y="150" width="1080" height="590"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="false"/>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel27">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="48" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="66" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="About"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="420" y="30" width="150" height="60"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JSeparator" name="jSeparator1">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="380" y="90" width="220" height="10"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel32">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="This mini project in C Medical Store Management System is a console application without graphic.  In this project, you can add, modify and delete records of customers,"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="50" y="190" width="880" height="20"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel33">
+          <Properties>
+            <Property name="text" type="java.lang.String" value=" suppliers and medicines. You can also search for customer or supplier details and medicines added into stock. Search can be done by medicine id, customer id or supplier name."/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="40" y="240" width="990" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel34">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Unlike other C program source codes, I haven&#x2019;t displayed the source code for this mini project on Medical Store Management System in C here because it&#x2019;s too long &#x2013; over 2500 lines."/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="50" y="290" width="890" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel35">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="18" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="66" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Medical Store Management System"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="40" y="120" width="310" height="30"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel37">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="This mini project is a very comprehensive one. File handling has been extensively and effectively used for almost major functions. The whole project is based on file handling as all medical records are stored in file."/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="40" y="370" width="1030" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel38">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Data structure have been used to store and organize records. Overall, understanding this project will provide you valuable information on how to store, edit, search and delete data using file."/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="40" y="400" width="940" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel39">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Here, you can input many information like medicine Id, rack no., cabinet no., supplier&#x2019;s name, unit cost, sales price, etc while adding a medicine into the store."/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="40" y="440" width="780" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel45">
+          <Properties>
+            <Property name="text" type="java.lang.String" value=" You can also view information about report and billing. (Also check out customer billing system project.)"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="40" y="460" width="870" height="30"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel46">
+          <Properties>
+            <Property name="text" type="java.lang.String" value=" You can directly access the source code plus application file from the download links."/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="40" y="330" width="520" height="20"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel26">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="300" y="100" width="1070" height="50"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="false"/>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="designs">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder roundedCorners="true"/>
+              </Border>
+            </Property>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Hand Cursor"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="designsMouseClicked"/>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="designsMouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="designsMouseExited"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="320" y="10" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                      <Component id="jLabel25" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="43" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel25" alignment="0" pref="30" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel25">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="18" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="design"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="abouts">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder roundedCorners="true"/>
+              </Border>
+            </Property>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Hand Cursor"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="aboutsMouseClicked"/>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="aboutsMouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="aboutsMouseExited"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="35" y="11" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="jLabel26" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="45" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel26" alignment="0" pref="30" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel26">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="18" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="about"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel25">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="66" red="ff" type="rgb"/>
+            </Property>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder roundedCorners="true"/>
+              </Border>
+            </Property>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Hand Cursor"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel25MouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel25MouseExited"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="320" y="180" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace pref="48" max="32767" attributes="0"/>
+                      <Component id="jLabel28" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel28" alignment="0" pref="30" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel28">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="18" style="0"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="ppt"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="sources">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder roundedCorners="true"/>
+              </Border>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="f0" green="f0" red="f0" type="rgb"/>
+            </Property>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Hand Cursor"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="sourcesMouseClicked"/>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="sourcesMouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="sourcesMouseExited"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="180" y="10" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                      <Component id="jLabel24" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="30" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel24" alignment="0" pref="30" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel24">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="18" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="source"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="ppt">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="300" y="150" width="1080" height="590"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="false"/>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel30">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="48" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="66" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="PowerPoint Presentation"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="260" y="20" width="620" height="51"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JSeparator" name="jSeparator2">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="212" y="69" width="750" height="10"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="design">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="300" y="150" width="1080" height="590"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="false"/>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel31">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="66" red="ff" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="48" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="66" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Design"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="420" y="20" width="180" height="60"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JSeparator" name="jSeparator3">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="410" y="80" width="190" height="10"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="0" y="90" width="1070" height="500"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jPanel3">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+              </Properties>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+                <Property name="useNullLayout" type="boolean" value="false"/>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel47">
+                  <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="2" name="F:\netbean\netbean project\mini_project\src\mini_project\medical store\menu3.png"/>
+                    </Property>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="120" y="0" width="640" height="530"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel48">
+                  <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="2" name="F:\netbean\netbean project\mini_project\src\mini_project\medical store\medicine-menu.png"/>
+                    </Property>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="120" y="500" width="640" height="570"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel49">
+                  <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="2" name="F:\netbean\netbean project\mini_project\src\mini_project\medical store\medicine-purchase.png"/>
+                    </Property>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="120" y="1100" width="640" height="460"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="prime">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="300" y="160" width="1080" height="580"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="false"/>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel52">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="36" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="66" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Prime Membership"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="370" y="30" width="370" height="57"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JSeparator" name="jSeparator4">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="370" y="92" width="330" height="10"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton1">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="24" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Submit"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="330" y="520" width="130" height="40"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton2">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="24" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="cancel"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="560" y="520" width="130" height="40"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JTextField" name="lname">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="null"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="340" y="120" width="370" height="20"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JSeparator" name="jSeparator5">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="340" y="140" width="370" height="10"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JTextField" name="laddress">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="null"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="laddressActionPerformed"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="340" y="180" width="370" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JSeparator" name="jSeparator6">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="340" y="200" width="370" height="10"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JTextField" name="laccount">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="null"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="340" y="230" width="370" height="20"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JSeparator" name="jSeparator11">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="340" y="250" width="370" height="10"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JTextField" name="lcode">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="null"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="340" y="270" width="370" height="20"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JSeparator" name="jSeparator12">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="340" y="290" width="370" height="10"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JTextField" name="lmob">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="null"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="340" y="320" width="370" height="20"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JSeparator" name="jSeparator13">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="340" y="340" width="370" height="10"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel53">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="name"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="240" y="130" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel54">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Address"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="230" y="200" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel9">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="account number"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="200" y="240" width="-1" height="20"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel10">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="IFSC Code"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="220" y="280" width="-1" height="20"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel21">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Bank account link mobile number"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="120" y="330" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel55">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="choose your Payment Method"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="130" y="390" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jComboBox1">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="4">
+                <StringItem index="0" value="Rupay"/>
+                <StringItem index="1" value="Mastercard"/>
+                <StringItem index="2" value="Paypal"/>
+                <StringItem index="3" value="Amex"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="350" y="390" width="370" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jComboBox2">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="3">
+                <StringItem index="0" value="Rs 1000 per project"/>
+                <StringItem index="1" value="Rs 8000 per month"/>
+                <StringItem index="2" value="Rs 20000 per month"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="340" y="460" width="390" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel56">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="choose your Plans "/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="190" y="460" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="prime_confirmation">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="300" y="150" width="1080" height="590"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="false"/>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel5">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="48" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="66" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Prime Membership"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="290" y="20" width="470" height="70"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JSeparator" name="jSeparator7">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="280" y="90" width="490" height="10"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Username"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="180" y="160" width="60" height="30"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel7">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Bank account link mobile number"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="80" y="220" width="210" height="30"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JTextField" name="lmno">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="null"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="340" y="220" width="430" height="30"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JTextField" name="usern">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="null"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="usernActionPerformed"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="340" y="160" width="430" height="30"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton3">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Ok"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="370" y="300" width="100" height="30"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton4">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="cancel"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="600" y="300" width="100" height="30"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JSeparator" name="jSeparator8">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="340" y="190" width="430" height="10"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JSeparator" name="jSeparator9">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="340" y="250" width="430" height="20"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="300" y="150" width="1080" height="590"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="#include&lt;stdio.h&gt;&#xa;#include&lt;conio.h&gt;&#xa;#include&lt;string.h&gt;&#xa;#include&lt;math.h&gt;&#xa;#include&lt;dos.h&gt;&#xa;#include&lt;time.h&gt;&#xa;#include&lt;ctype.h&gt;&#xa;#include&lt;windows.h&gt;&#xa;&#xa;COORD coord = {0, 0};&#xa;void gotoxy(int x, int y)&#xa;{&#xa; COORD coord;&#xa; coord.X = x;&#xa; coord.Y = y;&#xa; SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), coord);&#xa;}&#xa;&#xa;int i;&#xa;//function for auto increment customer &amp; supplier Id.&#xa;int getcust_id();&#xa;int getsupp_id();&#xa;//function for welcome &amp; main menu&#xa;void welcome();&#xa;void main_menu();&#xa;//function for all box&#xa;void main_box();&#xa;void box1();&#xa;void wbox();&#xa;//function for bill slip&#xa;void bill();&#xa;//function for about menu&#xa;void about();&#xa;//function for medicine menu&#xa;void medicine();&#xa;void medi_sale();&#xa;void stock();&#xa;void update_stock();&#xa;void medi_entry();&#xa;void medi_search();&#xa;void remainder();&#xa;//function for supplier menu&#xa;void supplier();&#xa;void supp_entry();&#xa;void supp_list();&#xa;void sup_update();&#xa;void search();&#xa;void search_id();&#xa;void search_name();&#xa;//function for customer menu&#xa;void customer();&#xa;void cust_search();&#xa;void search_cid();&#xa;void search_cname();&#xa;void cust_entry();&#xa;void cust_list();&#xa;void cust_update();&#xa;//function for report menu&#xa;void report_menu();&#xa;void report();&#xa;void sale_rpt();&#xa;void sale_rpt_daily();&#xa;void profit_rpt();&#xa;void pur_rpt();&#xa;void pur_rpt_daily();&#xa;//===================================structures =========================&#xa;struct medical&#xa;{&#xa;&#x9;char id[6];&#xa;&#x9;char medi_name[20];&#xa;&#x9;int rack;&#xa;&#x9;char cabnit[2];&#xa;&#x9;int quantity;&#xa;&#x9;float sale;&#xa;&#x9;float total;&#xa;&#x9;float unit;&#xa;&#x9;float cost;&#xa;&#x9;float profit;&#xa;&#x9;float bye;&#xa;&#x9;int qty;&#xa;&#x9;char pur_date[15];&#xa;&#x9;char exp_date[15];&#xa;&#x9;char manu_date[15];&#xa;&#x9;int bill_no;&#xa;&#x9;char comp_name[20];&#xa;&#x9;char supp_name[30];&#xa; };&#xa;&#xa;struct medical temp;&#xa;struct medical x[20];&#xa;FILE *ptr;&#xa;&#xa;char a[10];&#xa;struct supplier&#xa;{&#xa;&#x9;int supp_id;&#xa;&#x9;char supp_name[25];&#xa;&#x9;char city[20];&#xa;&#x9;char mob_no[11];&#xa;&#x9;char email[30];&#xa;&#xa;};&#xa;struct supplier temp1;&#xa;&#xa;struct customer&#xa;{&#xa;&#x9;int cust_id;&#xa;&#x9;char cust_name[30];&#xa;&#x9;char city[20];&#xa;&#x9;char mob_no[11];&#xa;&#x9;char email[50];&#xa;&#xa;};&#xa;struct customer temp_c;&#xa;FILE *ptr1;&#xa;&#xa;struct bill&#xa;{&#xa;&#x9;char billno[6];&#xa;&#x9;char cname[30];&#xa;&#x9;char mediname[30];&#xa;&#x9;int medi_qty;&#xa;&#x9;float medi_rate;&#xa;&#x9;float total;&#xa;&#x9;int day;&#xa;&#x9;int month;&#xa;&#x9;int year;&#xa;&#xa;};&#xa;struct bill bil;&#xa;FILE *ptrbill;&#xa;struct sales_report&#xa;{&#xa;&#x9;char medi_id[6];&#xa;&#x9;char medir_name[20];&#xa;&#x9;char cust_name[30];&#xa;&#x9;int sDay,sMonth,sYear;&#xa;&#x9;int qty;&#xa;&#x9;float rate;&#xa;&#x9;float total;&#xa;};&#xa;struct sales_report s_r;&#xa;FILE *ptrs_r;&#xa;&#xa;struct purchase_report&#xa;{&#xa;&#x9;char medi_id[6];&#xa;&#x9;char medir_name[20];&#xa;&#x9;char supp_name[30];&#xa;&#x9;int sDay,sMonth,sYear;&#xa;&#x9;int qty;&#xa;&#x9;float rate;&#xa;&#x9;float total;&#xa;};&#xa;struct purchase_report p_r;&#xa;FILE *ptrp_r;&#xa;&#xa;struct profit_report&#xa;{&#xa;&#x9;char medi_id[6];&#xa;&#x9;char medir_name[20];&#xa;&#x9;int sDay,sMonth,sYear;&#xa;&#x9;int qty;&#xa;&#x9;float rate;&#xa;&#x9;float unit;&#xa;&#x9;float profit;&#xa;};&#xa;struct profit_report pr_r;&#xa;FILE *ptrpr_r;&#xa;&#xa;void linkfloat()&#xa;{&#xa;&#x9;float f,*p;&#xa;&#x9;p=&amp;f;&#xa;&#x9;f=*p;&#xa;}&#xa;&#xa;//=========================Time &amp; Date ====================&#xa;int t(void)&#xa;{&#xa;&#x9;//struct date d;&#xa;&#x9;//struct time t;&#xa;&#xa;    time_t t = time(0);   // get time now&#xa;    struct tm * now = localtime( &amp; t );&#xa;&#x9;//getdate(&amp;d);&#xa;&#x9;//gettime(&amp;t);&#xa;&#x9;gotoxy(55,46);&#xa;&#x9;printf(&quot;Date: %d-%d-%d &quot;,now-&gt;tm_mday,now-&gt;tm_mon,now-&gt;tm_year);&#xa;&#x9;gotoxy(55,48);&#xa;&#x9;printf(&quot;Time: %d:%d:%d&quot;,now-&gt;tm_hour, now-&gt;tm_min,now-&gt;tm_sec);&#xa;&#x9;return 0;&#xa;}&#xa;&#xa;//=======================Animation ==========================&#xa;void animation()&#xa;{&#xa;&#x9;for (i=45; i&gt;=1; i--)&#xa;&#x9;{&#xa;&#x9;&#x9;Sleep(30);&#xa;&#x9;&#x9;gotoxy(1,i);&#xa;&#x9;&#x9;//clreol();&#xa;&#x9;}&#xa;&#x9;for (i=1; i&lt;=20; i++)&#xa;&#x9;{&#xa;&#x9;&#x9;//clreol();&#xa;&#x9;&#x9;Sleep(40);&#xa;&#x9;&#x9;gotoxy(1,i);&#xa;&#x9;}&#xa;}&#xa;//=========================== validation =========================&#xa;void ventry(char t[],int code)&#xa;{&#xa;  int i=0;&#xa;&#x9;if(code==0)&#xa;&#x9;{&#xa;&#x9;&#x9;while((t[i]=getch())!=&apos;\u005cr&apos; &amp;&amp; i&lt;30)&#xa;&#x9;&#x9;if((t[i]&gt;=97 &amp;&amp; t[i]&lt;=122) || (t[i]&gt;=65 &amp;&amp; t[i]&lt;=90) || t[i]==32 || t[i]==&apos;_&apos;)&#xa;&#x9;&#x9;{&#xa;&#x9;&#x9;&#x9;printf(&quot;%c&quot;,t[i]);&#xa;&#x9;&#x9;&#x9;i++;&#xa;&#x9;&#x9;}&#xa;&#x9;&#x9;else if(t[i]==8 &amp;&amp; i&gt;0)&#xa;&#x9;&#x9;{&#xa;&#x9;&#x9;&#x9;printf(&quot;%c%c%c&quot;,8,32,8);&#xa;&#x9;&#x9;&#x9;i--;              //Length counter is decremented.&#xa;&#xa;&#x9;&#x9;}&#xa;&#x9;}&#xa;&#x9;else if(code==1)&#xa;&#x9;{&#xa;&#x9;&#x9;while((t[i]=getch())!=&apos;\u005cr&apos; &amp;&amp; i&lt;10 )&#xa;&#x9;&#x9;if((t[i]&gt;=48 &amp;&amp; t[i]&lt;=57) || t[i]==46 ||  t[i]==&apos;-&apos;)&#xa;&#x9;&#x9;{&#xa;&#x9;&#x9;&#x9;printf(&quot;%c&quot;,t[i]);&#xa;&#x9;&#x9;&#x9;i++;&#xa;&#x9;&#x9;}&#xa;&#x9;&#x9;else if(t[i]==8 &amp;&amp; i&gt;0)&#xa;&#x9;&#x9;{&#xa;&#x9;&#x9;&#x9;printf(&quot;%c%c%c&quot;,8,32,8);&#xa;&#x9;&#x9;&#x9;i--;              //Length counter is decremented.&#xa;&#xa;&#x9;&#x9;}&#xa;&#x9;}&#xa;&#x9;else if(code==2)&#xa;&#x9;{&#xa;&#x9;&#x9;while((t[i]=getch())!=&apos;\u005cr&apos; &amp;&amp; i&lt;30 )&#xa;&#x9;&#x9;if((t[i]&gt;=97 &amp;&amp; t[i]&lt;=122) || (t[i]&gt;=65 &amp;&amp; t[i]&lt;=90) ||(t[i]&gt;=48 &amp;&amp; t[i]&lt;=57) || t[i]==32 || t[i]==8 ||t[i]==&apos;@&apos;||t[i]==&apos;.&apos;)&#xa;&#x9;&#x9;{&#xa;&#x9;&#x9;&#x9;printf(&quot;%c&quot;,t[i]);&#xa;&#x9;&#x9;&#x9;i++;&#xa;&#x9;&#x9;}&#xa;&#x9;&#x9;else if(t[i]==8 &amp;&amp; i&gt;0)&#xa;&#x9;&#x9;{&#xa;&#x9;&#x9;&#x9;printf(&quot;%c%c%c&quot;,8,32,8);&#xa;&#x9;&#x9;&#x9;i--;              //Length counter is decremented.&#xa;&#xa;&#x9;&#x9;}&#xa;&#x9;}&#xa;&#xa;&#x9;t[i]=&apos;\u005c0&apos;;&#xa;}&#xa;//============================================================================&#xa;void box()&#xa;{&#xa;   for(i=3;i&lt;=79;i++) &#x9;//This &apos;FOR&apos; loop will print a combination of&#xa;&#x9;{&#xa;&#x9;&#x9;gotoxy(i,3);    //the 79th column is reached.&#xa;&#x9;&#x9;printf(&quot;%c&quot;,219);&#xa;&#x9;&#x9;gotoxy(78,45);&#xa;&#x9;&#x9;printf(&quot;%c&quot;,219);&#xa;&#x9;&#x9;gotoxy(i,45);&#xa;&#x9;&#x9;printf(&quot;%c&quot;,219);&#xa;&#x9;}&#xa;&#xa;&#x9;for(i=3;i&lt;=45;i++)      //This &apos;FOR&apos; loop will print asterisks &apos;I&apos;&#xa;&#x9;{                       //vertically till the 3th row is reached.&#xa;&#x9;&#x9;gotoxy(3,i);&#xa;&#x9;&#x9;printf(&quot;%c&quot;,219);&#xa;&#x9;&#x9;gotoxy(79,i);&#xa;&#x9;&#x9;printf(&quot;%c&quot;,219);&#xa;&#x9;}&#xa;}&#xa;void wbox()&#xa;{&#xa;&#x9;for(i=5;i&lt;=75;i++) &#x9;//This &apos;FOR&apos; loop will print a combination of&#xa;&#x9;{&#xa;&#x9;&#x9;gotoxy(i,5);    //the 75th column is reached.&#xa;&#x9;&#x9;printf(&quot;%c&quot;,219);&#xa;&#x9;&#x9;gotoxy(74,40);&#xa;&#x9;&#x9;printf(&quot;%c&quot;,219);&#xa;&#x9;&#x9;gotoxy(i,40);&#xa;&#x9;&#x9;printf(&quot;%c&quot;,219);&#xa;&#x9;}&#xa;&#xa;&#x9;for(i=5;i&lt;=40;i++)      //This &apos;FOR&apos; loop will print asteriks &apos;I&apos;&#xa;&#x9;{                       //vertically till the 17th row is reached.&#xa;&#x9;&#x9;gotoxy(5,i);&#xa;&#x9;&#x9;printf(&quot;%c&quot;,219);&#xa;&#x9;&#x9;gotoxy(75,i);&#xa;&#x9;&#x9;printf(&quot;%c&quot;,219);&#xa;&#x9;}&#xa;}&#xa;//=========================getsupp_id =======================&#xa;int getsupp_id()&#xa;{&#xa;&#xa; FILE *fp;&#xa;&#x9; fp=fopen(&quot;supplier.dat&quot;,&quot;r&quot;);&#xa;&#x9; if(fp==NULL)&#xa;&#x9; {&#xa;&#x9;&#x9;gotoxy(22,15);&#xa;&#x9;&#x9;printf(&quot;Data not Found.....&quot;);&#xa;&#x9;&#x9;getch();&#xa;&#x9; }&#xa;&#x9; else&#xa;&#x9; {&#xa;&#x9;&#x9;temp1.supp_id=100;&#xa;&#x9;&#x9;rewind(fp);&#xa;&#x9;&#x9;while(fscanf(fp,&quot;%d %s %s %s %s&quot;,&amp;temp1.supp_id,temp1.supp_name,temp1.city, temp1.mob_no,temp1.email)!=EOF)&#xa;&#x9;&#x9;{&#xa;&#x9;&#x9;}&#xa;&#x9; }&#xa;&#x9; fclose(fp);&#xa;&#x9; return temp1.supp_id+1;&#xa;}&#xa;&#xa;//=========================getcust_id =======================&#xa;int getcust_id()&#xa;{&#xa; FILE *fp;&#xa;&#x9; fp=fopen(&quot;customer.dat&quot;,&quot;r&quot;);&#xa;&#x9; if(fp==NULL)&#xa;&#x9; {&#xa;&#x9;&#x9;gotoxy(22,15);&#xa;&#x9;&#x9;printf(&quot;Data not Found.....&quot;);&#xa;&#x9;&#x9;getch();&#xa;&#x9; }&#xa;&#x9; else&#xa;&#x9; {&#xa;&#x9;&#x9;temp_c.cust_id=100;&#xa;&#x9;&#x9;rewind(fp);&#xa;&#x9;&#x9;while(fscanf(fp,&quot;%d %s %s %s %s&quot;,&amp;temp_c.cust_id,temp_c.cust_name,temp_c.mob_no, temp_c.city,temp_c.email)!=EOF)&#xa;&#x9;&#x9;{&#xa;&#x9;&#x9;}&#xa;&#x9; }&#xa;&#x9; fclose(fp);&#xa;&#x9; return temp_c.cust_id+1;&#xa;}&#xa;&#xa;&#xa;//=========================welcome screen ==============&#xa;&#xa;void welcome()&#xa;{&#xa; int j,k,l,m;&#xa; system(&quot;cls&quot;);&#xa;&#x9;for(m=0;m&lt;16;m++)&#xa;&#x9;{&#xa;&#x9;&#x9;//textcolor(m);&#xa;&#x9;&#x9;wbox();&#xa;&#x9;for(i=0;i&lt;16;i++)&#xa;&#x9;{&#xa;&#x9;&#x9;//textcolor(i);&#xa;&#x9;&#x9;gotoxy(35,20);&#xa;&#x9;&#x9;printf(&quot;WELCOME&quot;);&#xa;&#x9;&#x9;k=i+2;&#xa;&#x9;&#x9;//textcolor(k);&#xa;&#x9;&#x9;gotoxy(38,22);&#xa;&#x9;&#x9;printf(&quot;TO&quot;);&#xa;&#x9;&#x9;l=i+3;&#xa;&#x9;&#x9;//textcolor(l);&#xa;&#x9;&#x9;gotoxy(28,24);&#xa;&#x9;&#x9;printf(&quot;MEDICAL&quot;);&#xa;&#x9;&#x9;//textcolor(l);&#xa;&#x9;&#x9;gotoxy(36,24);&#xa;&#x9;&#x9;printf(&quot;STORE&quot;);&#xa;&#x9;&#x9;//textcolor(l);&#xa;&#x9;&#x9;gotoxy(42,24);&#xa;&#x9;&#x9;printf(&quot;SYSTEM&quot;);&#xa;&#x9;&#x9;gotoxy(52,45);&#xa;&#x9;&#x9;j=i+1;&#xa;&#x9;&#x9;//textcolor(j);&#xa;&#x9;&#x9;printf(&quot;Loading......&quot;);&#xa;&#x9;&#x9;Sleep(40);&#xa;&#x9;}&#xa;&#x9;}&#xa;}&#xa;//============================ box for label ==========&#xa;void lbox()&#xa;{&#xa;&#x9;gotoxy(25,6);&#xa;&#x9;printf(&quot;%c&quot;,201);&#xa;&#x9;for(i=26;i&lt;55;i++)&#xa;&#x9;{&#xa;&#x9;&#x9;gotoxy(i,6);&#xa;&#x9;&#x9;printf(&quot;%c&quot;,205);&#xa;&#x9;}&#xa;&#x9;gotoxy(55,6);&#xa;&#x9;printf(&quot;%c&quot;,187);&#xa;&#x9;gotoxy(25,6);&#xa;&#x9;for(i=6;i&lt;8;i++)&#xa;&#x9;{&#xa;&#x9;&#x9;gotoxy(25,i+1);&#xa;&#x9;&#x9;printf(&quot;%c&quot;,186);&#xa;&#x9;}&#xa;&#x9;gotoxy(25,9);&#xa;&#x9;printf(&quot;%c&quot;,200);&#xa;&#x9;for(i=26;i&lt;55;i++)&#xa;&#x9;{&#xa;&#x9;&#x9;gotoxy(i,9);&#xa;&#x9;&#x9;printf(&quot;%c&quot;,205);&#xa;&#x9;}&#xa;&#x9;gotoxy(55,9);&#xa;&#x9;printf(&quot;%c&quot;,188);&#xa;&#x9;gotoxy(55,6);&#xa;&#x9;for(i=6;i&lt;8;i++)&#xa;&#x9;{&#xa;&#x9;&#x9;gotoxy(55,i+1);&#xa;&#x9;&#x9;printf(&quot;%c&quot;,186);&#xa;&#x9;}&#xa;&#xa;}&#xa;//============================small box ===============&#xa;void box1()&#xa;{&#xa;&#x9;gotoxy(1,3);&#xa;&#x9;printf(&quot;%c&quot;,201);&#xa;&#x9;for(i=1;i&lt;79;i++)&#xa;&#x9;{&#xa;&#x9;&#x9;gotoxy(1+i,3);&#xa;&#x9;&#x9;printf(&quot;%c&quot;,205);&#xa;&#x9;}&#xa;&#xa;&#x9;gotoxy(80,3);&#xa;&#x9;printf(&quot;%c&quot;,187);&#xa;&#x9;gotoxy(1,3);&#xa;&#x9;for(i=4;i&lt;10;i++)&#xa;&#x9;{&#xa;&#x9;&#x9;gotoxy(1,i);&#xa;&#x9;&#x9;printf(&quot;%c&quot;,186);&#xa;&#x9;}&#xa;&#x9;gotoxy(1,9);&#xa;&#x9;for(i=4;i&lt;8;i++)&#xa;&#x9;{&#xa;&#x9;&#x9;gotoxy(80,i);&#xa;&#x9;&#x9;printf(&quot;%c&quot;,186);&#xa;&#x9;}&#xa;}&#xa;&#xa;//===========================main ===================&#xa;&#xa;int main()&#xa;{&#xa;&#x9;char name[15];&#xa;&#x9;char pass[15];&#xa;&#x9;int count=0,i;&#xa;&#xa;&#x9;system(&quot;cls&quot;);&#xa;&#xa;&#x9;/*start:&#xa;&#x9;//textcolor(5);&#xa;&#x9;wbox();&#xa;&#x9;lbox();&#xa;&#x9;//textcolor(GREEN);&#xa;&#x9;gotoxy(35,8);&#xa;&#x9;printf(&quot; LOGIN &quot;);&#xa;&#xa;&#x9;//textcolor(RED);&#xa;&#x9;gotoxy(32,18);&#xa;&#x9;printf(&quot;Enter user name :&quot;);&#xa;&#x9;gotoxy(32,22);&#xa;&#x9;printf(&quot;Enter password  :&quot;);&#xa;&#x9;gotoxy(51,18);&#xa;&#x9;strcpy(gets(name),name);&#xa;&#xa;&#x9;gotoxy(51,22);&#xa;&#xa;&#x9;i=0;&#xa;&#x9;do&#xa;&#x9;{&#xa;&#x9;&#x9;pass[i] = getch();&#xa;&#x9;&#x9;if(pass[i] == 13 )&#xa;&#x9;&#x9;{&#xa;&#x9;&#x9;&#x9;break;&#xa;&#x9;&#x9;}&#xa;&#x9;&#x9;else if(pass[i]==8 &amp;&amp; i&gt;0)&#xa;&#x9;&#x9;{&#xa;&#x9;&#x9;&#x9;printf(&quot;%c%c%c&quot;,8,32,8);&#xa;&#x9;&#x9;&#x9;i--;&#xa;&#x9;&#x9;}&#xa;&#x9;&#x9;else&#xa;&#x9;&#x9;{&#xa;&#x9;&#x9;&#x9;printf(&quot;*&quot;);&#xa;&#x9;&#x9;&#x9;i++;&#xa;&#x9;&#x9;}&#xa;&#x9;}while(pass[i]!=13);&#xa;&#x9;pass[i] = &apos;\u005c0&apos;;&#xa;&#xa;&#x9;if(strcmp(name,&quot;rana&quot;) || strcmp(pass,&quot;singh&quot;))&#xa;&#x9;{&#xa;&#x9; system(&quot;cls&quot;);&#xa;&#x9; gotoxy(20,20);&#xa;&#x9; printf(&quot;Please Enter vailid Username &amp; Passward!!!!!&quot;);&#xa;&#x9; count++;&#xa;&#x9; gotoxy(20,23);&#xa;&#x9; printf(&quot;%d chance left!!!!&quot;,3-count);&#xa;&#x9; getch();&#xa;&#x9; system(&quot;cls&quot;);&#xa;&#x9; if(count==3)&#xa;&#x9; exit(0);&#xa;&#x9; else&#xa;&#x9; goto start;&#xa;&#x9;}&#xa;&#x9;else&#xa;&#x9;{*/&#xa;&#x9; //welcome();&#xa;&#x9; main_menu();&#xa;&#x9;//}&#xa;&#xa;}&#xa;&#xa;void main_box()&#xa;{&#xa;&#x9;gotoxy(1,6);&#xa;&#x9;printf(&quot;%c&quot;,201);&#xa;&#x9;for(i=1;i&lt;79;i++)&#xa;&#x9;{&#xa;&#x9;&#x9;gotoxy(1+i,6);&#xa;&#x9;&#x9;printf(&quot;%c&quot;,205);&#xa;&#x9;}&#xa;&#xa;&#x9;gotoxy(80,6);&#xa;&#x9;printf(&quot;%c&quot;,187);&#xa;&#x9;gotoxy(1,6);&#xa;&#x9;for(i=5;i&lt;35;i++)&#xa;&#x9;{&#xa;&#x9;&#x9;gotoxy(1,2+i);&#xa;&#x9;&#x9;printf(&quot;%c&quot;,186);&#xa;&#x9;}&#xa;&#x9;gotoxy(1,37);&#xa;&#x9;printf(&quot;%c&quot;,200);&#xa;&#x9;for(i=1;i&lt;79;i++)&#xa;&#x9;{&#xa;&#x9;&#x9;gotoxy(1+i,37);&#xa;&#x9;&#x9;printf(&quot;%c&quot;,205);&#xa;&#x9;}&#xa;&#x9;gotoxy(80,37);&#xa;&#x9;printf(&quot;%c&quot;,188);&#xa;&#x9;gotoxy(80,6);&#xa;&#x9;for(i=5;i&lt;35;i++)&#xa;&#x9;{&#xa;&#x9;&#x9;gotoxy(80,2+i);&#xa;&#x9;&#x9;printf(&quot;%c&quot;,186);&#xa;&#x9;}&#xa;}&#xa;&#xa;void main_menu()&#xa;{&#xa;  char ch;&#xa;&#xa;&#x9;do&#xa;&#x9;{&#xa;&#x9;&#x9;//window(1,1,80,50);&#xa;&#x9;&#x9;//textbackground(BLACK);&#xa;&#x9;&#x9;system(&quot;cls&quot;);&#xa;&#x9;&#x9;//textcolor(4+BLINK);&#xa;&#x9;&#x9;gotoxy(3,5);&#xa;&#x9;&#x9;printf(&quot;S&quot;);&#xa;&#x9;&#x9;//textcolor(WHITE);&#xa;&#x9;&#x9;gotoxy(4,5);&#xa;&#x9;&#x9;printf(&quot;upplier Info&quot;);&#xa;&#x9;&#x9;//textcolor(4+BLINK);&#xa;&#x9;&#x9;gotoxy(19,5);&#xa;&#x9;&#x9;printf(&quot;C&quot;);&#xa;&#x9;&#x9;//textcolor(15);&#xa;&#x9;&#x9;gotoxy(20,5);&#xa;&#x9;&#x9;printf(&quot;ustomer Info&quot;);&#xa;&#x9;&#x9;//textcolor(4+BLINK);&#xa;&#x9;&#x9;gotoxy(36,5);&#xa;&#x9;&#x9;printf(&quot;M&quot;);&#xa;&#x9;&#x9;//textcolor(15);&#xa;&#x9;&#x9;gotoxy(37,5);&#xa;&#x9;&#x9;printf(&quot;edicine&quot;);&#xa;&#x9;&#x9;//textcolor(4+BLINK);&#xa;&#x9;&#x9;gotoxy(48,5);&#xa;&#x9;&#x9;printf(&quot;R&quot;);&#xa;&#x9;&#x9;//textcolor(15);&#xa;&#x9;&#x9;gotoxy(49,5);&#xa;&#x9;&#x9;printf(&quot;Report&quot;);&#xa;&#x9;&#x9;//textcolor(4+BLINK);&#xa;&#x9;&#x9;gotoxy(57,5);&#xa;&#x9;&#x9;printf(&quot;B&quot;);&#xa;&#x9;&#x9;//textcolor(15);&#xa;&#x9;&#x9;gotoxy(58,5);&#xa;&#x9;&#x9;printf(&quot;ill&quot;);&#xa;&#x9;&#x9;//textcolor(4+BLINK);&#xa;&#x9;&#x9;gotoxy(64,5);&#xa;&#x9;&#x9;printf(&quot;A&quot;);&#xa;&#x9;&#x9;//textcolor(15);&#xa;&#x9;&#x9;gotoxy(65,5);&#xa;&#x9;&#x9;printf(&quot;bout&quot;);&#xa;&#x9;&#x9;//textcolor(4+BLINK);&#xa;&#x9;&#x9;gotoxy(72,5);&#xa;&#x9;&#x9;printf(&quot;E&quot;);&#xa;&#x9;&#x9;//textcolor(15);&#xa;&#x9;&#x9;gotoxy(73,5);&#xa;&#x9;&#x9;printf(&quot;xit&quot;);&#xa;&#x9;&#x9;t();   //this function display date &amp; time&#xa;&#x9;&#x9;box1();&#xa;&#x9;&#x9;main_box();&#xa;&#x9;&#x9;gotoxy(30,10);&#xa;&#x9;&#x9;//textcolor(GREEN);&#xa;&#x9;&#x9;printf(&quot;Welcome To Medical Store &quot;);&#xa;&#x9;&#x9;gotoxy(2,28);&#xa;&#x9;&#x9;//textcolor(15);&#xa;&#xa;&#x9;&#x9;remainder();//this function is active when medicine qty is less then 10.&#xa;&#x9;&#x9;gotoxy(10,40);&#xa;&#x9;&#x9;//textcolor(RED+BLINK);&#xa;&#x9;&#x9;printf(&quot;Press &quot;);&#xa;&#x9;&#x9;gotoxy(16,40);&#xa;&#x9;&#x9;//textcolor(15);&#xa;&#x9;&#x9;printf(&quot;First Character for further Menu  &quot;);&#xa;&#xa;&#x9;&#x9;ch=toupper(getche());&#xa;&#x9;&#x9;switch(ch)&#xa;&#x9;&#x9;{&#xa;&#x9;&#x9;&#x9;case &apos;S&apos;:supplier();&#xa;&#x9;&#x9;&#x9;&#x9; break;&#xa;&#x9;&#x9;&#x9;case &apos;C&apos;:customer();&#xa;&#x9;&#x9;&#x9;&#x9; break;&#xa;&#x9;&#x9;&#x9;case &apos;M&apos;:medicine();&#xa;&#x9;&#x9;&#x9;&#x9; break;&#xa;&#x9;&#x9;&#x9;case &apos;R&apos;:report_menu();&#xa;&#x9;&#x9;&#x9;&#x9; break;&#xa;&#x9;&#x9;&#x9;case &apos;B&apos;:bill();&#xa;&#x9;&#x9;&#x9;&#x9; break;&#xa;&#x9;&#x9;&#x9;case &apos;A&apos;:about();&#xa;&#x9;&#x9;&#x9;&#x9; break;&#xa;&#x9;&#x9;&#x9;case &apos;E&apos;:gotoxy(23,20);&#xa;&#x9;&#x9;&#x9;&#x9; //textcolor(4);&#xa;&#x9;&#x9;&#x9;printf(&quot;Do you want to exit now? Y/N :&quot;);&#xa;&#x9;&#x9;&#x9;Sleep(100);&#xa;&#x9;&#x9;&#x9;ch=(getche());&#xa;&#x9;&#x9;&#x9;ch=toupper(ch);&#xa;&#x9;&#x9;&#x9;if(ch==&apos;Y&apos;)&#xa;&#x9;&#x9;&#x9;{&#xa;&#x9;&#x9;&#x9;&#x9;animation();&#xa;&#x9;&#x9;&#x9;&#x9;system(&quot;cls&quot;);&#xa;&#x9;&#x9;&#x9;&#x9;//textcolor(2);&#xa;&#x9;&#x9;&#x9;&#x9;gotoxy(35,20);&#xa;&#x9;&#x9;&#x9;&#x9;printf(&quot; Please wait.....&quot;);&#xa;&#x9;&#x9;&#x9;&#x9;Sleep(2000);&#xa;&#x9;&#x9;&#x9;&#x9;exit(0);&#xa;&#x9;&#x9;&#x9;}&#xa;&#x9;&#x9;&#x9;else&#xa;&#x9;&#x9;&#x9;{&#xa;&#x9;&#x9;&#x9;&#x9;main_menu();&#xa;&#x9;&#x9;&#x9;}&#xa;&#xa;&#x9;&#x9;&#x9;default://textcolor(4+BLINK);&#xa;&#x9;&#x9;&#x9;gotoxy(11,34);&#xa;&#x9;&#x9;&#x9;printf(&quot;Plese Enter right character ONLY (S,C,M,R,B,A).&quot;);&#xa;&#x9;&#x9;&#x9;getch();&#xa;&#x9;&#x9;}&#xa;&#x9;}while(ch!=&apos;E&apos;);&#xa;}&#xa;//=========================For supplier ===========================&#xa;void supplier()&#xa;{&#xa;  char ch;&#xa;&#x9;do&#xa;&#x9;{&#xa;&#x9;  system(&quot;cls&quot;);&#xa;&#x9;  gotoxy(34,3);&#xa;&#x9;  //textcolor(GREEN);&#xa;&#x9;  printf(&quot;----------------&quot;);&#xa;&#x9;  gotoxy(35,4);&#xa;&#x9;  //textcolor(GREEN);&#xa;&#x9;  printf(&quot;Supplier MENU&quot;);&#xa;&#x9;  gotoxy(34,5);&#xa;&#x9;  //textcolor(GREEN);&#xa;&#x9;  printf(&quot;----------------&quot;);&#xa;&#x9;  gotoxy(25,11);&#xa;&#x9;  //textcolor(4+BLINK);&#xa;&#x9;  printf(&quot;A&quot;);&#xa;&#x9;  gotoxy(26,11);&#xa;&#x9;  //textcolor(15);&#xa;&#x9;  printf(&quot;dd New Supplier&quot;);&#xa;&#xa;&#x9;  gotoxy(25,15);&#xa;&#x9;  //textcolor(4+BLINK);&#xa;&#x9;  printf(&quot;U&quot;);&#xa;&#x9;  gotoxy(26,15);&#xa;&#x9;  //textcolor(15);&#xa;&#x9;  printf(&quot;pdate Supplier&quot;);&#xa;&#xa;&#x9;  gotoxy(25,19);&#xa;&#x9;  //textcolor(4+BLINK);&#xa;&#x9;  printf(&quot;S&quot;);&#xa;&#x9;  gotoxy(26,19);&#xa;&#x9;  //textcolor(15);&#xa;&#x9;  printf(&quot;earch Supplier&quot;);&#xa;&#xa;&#x9;  gotoxy(25,23);&#xa;&#x9;  //textcolor(4+BLINK);&#xa;&#x9;  printf(&quot;L&quot;);&#xa;&#x9;  gotoxy(26,23);&#xa;&#x9;  //textcolor(15);&#xa;&#x9;  printf(&quot;ist of Existing Supplier&quot;);&#xa;&#xa;&#x9;  gotoxy(25,27);&#xa;&#x9;  //textcolor(4+BLINK);&#xa;&#x9;  printf(&quot;M&quot;);&#xa;&#x9;  gotoxy(26,27);&#xa;&#x9;  //textcolor(15);&#xa;&#x9;  printf(&quot;ain Menu&quot;);&#xa;&#x9;  main_box();&#xa;&#xa;&#x9;  gotoxy(10,40);&#xa;&#x9;  //textcolor(15);&#xa;&#x9;  printf(&quot;Press First Character for further Operation &quot;);&#xa;&#xa;&#xa;&#x9;  ch=toupper(getche());&#xa;&#x9;  switch(ch)&#xa;&#x9;  {&#xa;&#x9;&#x9;case &apos;A&apos;:animation();&#xa;&#x9;&#x9;&#x9; supp_entry();&#xa;&#x9;&#x9;&#x9; break;&#xa;&#x9;&#x9;case &apos;U&apos;:animation();&#xa;&#x9;&#x9;&#x9; sup_update();&#xa;&#x9;&#x9;&#x9; break;&#xa;&#x9;&#x9;case &apos;L&apos;:animation();&#xa;&#x9;&#x9;&#x9; supp_list();&#xa;&#x9;&#x9;&#x9; break;&#xa;&#x9;&#x9;case &apos;S&apos;:search();&#xa;&#x9;&#x9;&#x9; break;&#xa;&#x9;&#x9;case &apos;M&apos;:main_menu();&#xa;&#x9;&#x9;&#x9; break;&#xa;&#x9;&#x9;default://textcolor(4+BLINK);&#xa;&#x9;&#x9;&#x9;gotoxy(11,34);&#xa;&#x9;&#x9;&#x9;printf(&quot;Plese Enter right character ONLY (A,L,U,S,M).&quot;);&#xa;&#x9;&#x9;&#x9;getch();&#xa;&#x9;  }&#xa;&#x9;}while(ch!=&apos;M&apos;);&#xa;&#xa;}&#xa;//=========================For customer ===========================&#xa;void customer()&#xa;{&#xa;&#x9;char ch;&#xa;&#x9;do&#xa;&#x9;{&#xa;&#x9;  system(&quot;cls&quot;);&#xa;&#xa;&#x9;  gotoxy(34,3);&#xa;&#x9;  //textcolor(GREEN);&#xa;&#x9;  printf(&quot;---------------&quot;);&#xa;&#x9;  gotoxy(35,4);&#xa;&#x9;  printf(&quot;Customer Menu.&quot;);&#xa;&#x9;  gotoxy(34,5);&#xa;&#x9;  printf(&quot;---------------&quot;);&#xa;&#x9;  gotoxy(25,11);&#xa;&#x9;  //textcolor(4+BLINK);&#xa;&#x9;  printf(&quot;A&quot;);&#xa;&#x9;  gotoxy(26,11);&#xa;&#x9;  //textcolor(15);&#xa;&#x9;  printf(&quot;dd New Customer&quot;);&#xa;&#xa;&#x9;  gotoxy(25,15);&#xa;&#x9;  //textcolor(4+BLINK);&#xa;&#x9;  printf(&quot;U&quot;);&#xa;&#x9;  gotoxy(26,15);&#xa;&#x9;  //textcolor(15);&#xa;&#x9;  printf(&quot;pdate Customer&quot;);&#xa;&#xa;&#x9;  gotoxy(25,19);&#xa;&#x9;  //textcolor(4+BLINK);&#xa;&#x9;  printf(&quot;S&quot;);&#xa;&#x9;  gotoxy(26,19);&#xa;&#x9;  //textcolor(15);&#xa;&#x9;  printf(&quot;earch Customer&quot;);&#xa;&#xa;&#x9;  gotoxy(25,23);&#xa;&#x9;  //textcolor(4+BLINK);&#xa;&#x9;  printf(&quot;L&quot;);&#xa;&#x9;  gotoxy(26,23);&#xa;&#x9;  //textcolor(15);&#xa;&#x9;  printf(&quot;ist of Existing Customer&quot;);&#xa;&#xa;&#x9;  gotoxy(25,27);&#xa;&#x9;  //textcolor(4+BLINK);&#xa;&#x9;  printf(&quot;M&quot;);&#xa;&#x9;  gotoxy(26,27);&#xa;&#x9;  //textcolor(15);&#xa;&#x9;  printf(&quot;ain Menu&quot;);&#xa;&#x9;  main_box();&#xa;&#xa;&#x9;  gotoxy(10,40);&#xa;&#x9;  //textcolor(15);&#xa;&#x9;  printf(&quot;Press First Character for further Operations  &quot;);&#xa;&#xa;&#xa;&#x9;  ch=toupper(getche());&#xa;&#x9;  switch(ch)&#xa;&#x9;  {&#xa;&#x9;&#x9;case &apos;A&apos;:animation();&#xa;&#x9;&#x9;&#x9; cust_entry();&#xa;&#x9;&#x9;&#x9; break;&#xa;&#x9;&#x9;case &apos;U&apos;:animation();&#xa;&#x9;&#x9;&#x9; cust_update();&#xa;&#x9;&#x9;&#x9; break;&#xa;&#x9;&#x9;case &apos;L&apos;:animation();&#xa;&#x9;&#x9;&#x9; cust_list();&#xa;&#x9;&#x9;&#x9; break;&#xa;&#x9;&#x9;case &apos;S&apos;:cust_search();&#xa;&#x9;&#x9;&#x9; break;&#xa;&#x9;&#x9;case &apos;M&apos;:main_menu();&#xa;&#x9;&#x9;&#x9; break;&#xa;&#x9;&#x9;default://textcolor(4+BLINK);&#xa;&#x9;&#x9;&#x9;gotoxy(11,34);&#xa;&#x9;&#x9;&#x9;printf(&quot;Plese Enter right character ONLY (A,L,U,S,M).&quot;);&#xa;&#x9;&#x9;&#x9;getch();&#xa;&#x9;  }&#xa;&#x9;}while(ch!=&apos;M&apos;);&#xa;&#xa;}&#xa;//=========================For Medicine ===========================&#xa;void medicine()&#xa;{&#xa;&#x9;char ch;&#xa;&#x9;do&#xa;&#x9;{&#xa;&#x9;  system(&quot;cls&quot;);&#xa;&#xa;&#x9;  gotoxy(34,3);&#xa;&#x9;  //textcolor(GREEN);&#xa;&#x9;  printf(&quot;---------------&quot;);&#xa;&#x9;  gotoxy(35,4);&#xa;&#x9;  printf(&quot;Medicine Menu.&quot;);&#xa;&#x9;  gotoxy(34,5);&#xa;&#x9;  printf(&quot;---------------&quot;);&#xa;&#x9;  gotoxy(25,15);&#xa;&#x9;  //textcolor(4+BLINK);&#xa;&#x9;  printf(&quot;P&quot;);&#xa;&#x9;  gotoxy(26,15);&#xa;&#x9;  //textcolor(15);&#xa;&#x9;  printf(&quot;urchase New Medicine&quot;);&#xa;&#xa;&#x9;  gotoxy(25,19);&#xa;&#x9;  //textcolor(4+BLINK);&#xa;&#x9;  printf(&quot;S&quot;);&#xa;&#x9;  gotoxy(26,19);&#xa;&#x9;  //textcolor(15);&#xa;&#x9;  printf(&quot;ale Medicine&quot;);&#xa;&#xa;&#x9;  gotoxy(25,23);&#xa;&#x9;  //textcolor(15);&#xa;&#x9;  printf(&quot;Sto&quot;);&#xa;&#x9;  gotoxy(28,23);&#xa;&#x9;  //textcolor(4+BLINK);&#xa;&#x9;  printf(&quot;c&quot;);&#xa;&#x9;  gotoxy(29,23);&#xa;&#x9;  //textcolor(15);&#xa;&#x9;  printf(&quot;k of Medicine&quot;);&#xa;&#xa;&#x9;  gotoxy(25,27);&#xa;&#x9;  //textcolor(15);&#xa;&#x9;  printf(&quot;Se&quot;);&#xa;&#x9;  gotoxy(27,27);&#xa;&#x9;  //textcolor(4+BLINK);&#xa;&#x9;  printf(&quot;a&quot;);&#xa;&#x9;  gotoxy(28,27);&#xa;&#x9;  //textcolor(15);&#xa;&#x9;  printf(&quot;rch Medicine&quot;);&#xa;&#xa;&#x9;  gotoxy(25,31);&#xa;&#x9;  //textcolor(4+BLINK);&#xa;&#x9;  printf(&quot;M&quot;);&#xa;&#x9;  gotoxy(26,31);&#xa;&#x9;  //textcolor(15);&#xa;&#x9;  printf(&quot;ain Menu&quot;);&#xa;&#x9;  main_box();&#xa;&#xa;&#x9;  gotoxy(10,40);&#xa;&#x9;  //textcolor(15);&#xa;&#x9;  printf(&quot;Press First Character for further Operations  &quot;);&#xa;&#xa;&#xa;&#x9;  ch=toupper(getche());&#xa;&#x9;  switch(ch)&#xa;&#x9;  {&#xa;&#x9;&#x9;case &apos;P&apos;:medi_entry();&#xa;&#x9;&#x9;&#x9; break;&#xa;&#x9;&#x9;case &apos;S&apos;:medi_sale();&#xa;&#x9;&#x9;&#x9; break;&#xa;&#x9;&#x9;case &apos;C&apos;:stock();&#xa;&#x9;&#x9;&#x9; break;&#xa;&#x9;&#x9;case &apos;A&apos;:medi_search();&#xa;&#x9;&#x9;&#x9; break;&#xa;&#x9;&#x9;case &apos;M&apos;:main_menu();&#xa;&#x9;&#x9;&#x9; break;&#xa;&#x9;&#x9;default://textcolor(4+BLINK);&#xa;&#x9;&#x9;&#x9;gotoxy(11,34);&#xa;&#x9;&#x9;&#x9;printf(&quot;Plese Enter right character ONLY (P,S,C,M).&quot;);&#xa;&#x9;&#x9;&#x9;getch();&#xa;&#x9;  }&#xa;&#x9;}while(ch!=&apos;M&apos;);&#xa;&#xa;}&#xa;//=========================For Report ===========================&#xa;void report_menu()&#xa;{&#xa;&#x9;char ch;&#xa;&#x9;do&#xa;&#x9;{&#xa;&#x9;  system(&quot;cls&quot;);&#xa;&#xa;&#x9;  gotoxy(34,3);&#xa;&#x9;  //textcolor(GREEN);&#xa;&#x9;  printf(&quot;---------------&quot;);&#xa;&#x9;  gotoxy(35,4);&#xa;&#x9;  printf(&quot;Report Menu.&quot;);&#xa;&#x9;  gotoxy(34,5);&#xa;&#x9;  printf(&quot;---------------&quot;);&#xa;&#x9;  gotoxy(25,12);&#xa;&#x9;  //textcolor(4+BLINK);&#xa;&#x9;  printf(&quot;P&quot;);&#xa;&#x9;  gotoxy(26,12);&#xa;&#x9;  //textcolor(15);&#xa;&#x9;  printf(&quot;urchase Report&quot;);&#xa;&#xa;&#x9;  gotoxy(25,16);&#xa;&#x9;  //textcolor(4+BLINK);&#xa;&#x9;  printf(&quot;S&quot;);&#xa;&#x9;  gotoxy(26,16);&#xa;&#x9;  //textcolor(15);&#xa;&#x9;  printf(&quot;ale Report&quot;);&#xa;&#xa;&#x9;  gotoxy(25,20);&#xa;&#x9;  //textcolor(15);&#xa;&#x9;  printf(&quot;Pr&quot;);&#xa;&#x9;  gotoxy(27,20);&#xa;&#x9;  //textcolor(4+BLINK);&#xa;&#x9;  printf(&quot;o&quot;);&#xa;&#x9;  gotoxy(28,20);&#xa;&#x9;  //textcolor(15);&#xa;&#x9;  printf(&quot;fit Report&quot;);&#xa;&#xa;&#x9;  gotoxy(25,24);&#xa;&#x9;  //textcolor(15);&#xa;&#x9;  printf(&quot;D&quot;);&#xa;&#x9;  gotoxy(26,24);&#xa;&#x9;  //textcolor(4+BLINK);&#xa;&#x9;  printf(&quot;a&quot;);&#xa;&#x9;  gotoxy(27,24);&#xa;&#x9;  //textcolor(15);&#xa;&#x9;  printf(&quot;ily Sale Report&quot;);&#xa;&#xa;&#x9;  gotoxy(25,28);&#xa;&#x9;  //textcolor(4+BLINK);&#xa;&#x9;  printf(&quot;D&quot;);&#xa;&#x9;  gotoxy(26,28);&#xa;&#x9;  //textcolor(15);&#xa;&#x9;  printf(&quot;aily Purchase Report&quot;);&#xa;&#xa;&#x9;  gotoxy(25,32);&#xa;&#x9;  //textcolor(4+BLINK);&#xa;&#x9;  printf(&quot;M&quot;);&#xa;&#x9;  gotoxy(26,32);&#xa;&#x9;  //textcolor(15);&#xa;&#x9;  printf(&quot;ain Menu&quot;);&#xa;&#x9;  main_box();&#xa;&#xa;&#x9;  gotoxy(10,40);&#xa;&#x9;  //textcolor(15);&#xa;&#x9;  printf(&quot;Press First Character for further Operations  &quot;);&#xa;&#xa;&#xa;&#x9;  ch=toupper(getche());&#xa;&#x9;  switch(ch)&#xa;&#x9;  {&#xa;&#x9;&#x9;case &apos;P&apos;:pur_rpt();&#xa;&#x9;&#x9;&#x9; break;&#xa;&#x9;&#x9;case &apos;S&apos;:sale_rpt();&#xa;&#x9;&#x9;&#x9; break;&#xa;&#x9;&#x9;case &apos;A&apos;:sale_rpt_daily();&#xa;&#x9;&#x9;&#x9; break;&#xa;&#x9;&#x9;case &apos;O&apos;:profit_rpt();&#xa;&#x9;&#x9;&#x9; break;&#xa;&#x9;&#x9;case &apos;D&apos;:pur_rpt_daily();&#xa;&#x9;&#x9;&#x9; break;&#xa;&#x9;&#x9;case &apos;M&apos;:main_menu();&#xa;&#x9;&#x9;&#x9; break;&#xa;&#x9;&#x9;default://textcolor(4+BLINK);&#xa;&#x9;&#x9;&#x9;gotoxy(11,34);&#xa;&#x9;&#x9;&#x9;printf(&quot;Plese Enter right character ONLY (P,S,O,M).&quot;);&#xa;&#x9;&#x9;&#x9;getch();&#xa;&#x9;  }&#xa;&#x9;}while(ch!=&apos;M&apos;);&#xa;&#xa;}&#xa;&#xa;void about()&#xa;{  int c;&#xa;   system(&quot;cls&quot;);&#xa;&#xa;   do&#xa;   {&#xa;//   window(1,1,80,50);&#xa;&#xa;&#x9;//textcolor(LIGHTGRAY);&#xa;&#x9;gotoxy(28,4);&#xa;&#x9;//textcolor(RED+BLINK);&#xa;&#x9;printf(&quot;***** MEDICAL STORE *****&quot;);&#xa;&#x9;gotoxy(10,8);&#xa;&#x9;printf(&quot;=&gt; This Project Is About Medical Store &quot;);&#xa;&#x9;gotoxy(10,10);&#xa;&#x9;printf(&quot;=&gt; In This Project we Can Add Medicine ,Customer,Supplier Details&quot;);&#xa;&#x9;gotoxy(10,12);&#xa;&#x9;printf(&quot;=&gt; We Can Modifed &amp; Delete Existing Record&quot;);&#xa;&#x9;gotoxy(10,14);&#xa;&#x9;printf(&quot;=&gt; We Can Also Search Medicine ,Customer,Supplier Details&quot;);&#xa;&#x9;gotoxy(10,16);&#xa;&#x9;printf(&quot;=&gt; It&apos;s Helpfull For Display Stock Of Medicine &quot;);&#xa;&#xa;&#x9;printf(&quot;&lt;&lt;&lt;&lt;-Press 1 for main menu-&gt;&gt;&gt;&gt;&quot;);&#xa;&#x9;c = (getche());&#xa;&#xa;&#x9;switch (c)      //This &apos;SWITCH&apos; structure will ask the user for input from [1] to [7] and will display error on Invalid Entry.&#xa;&#x9;&#x9;{&#xa;&#x9;&#x9;&#x9;case &apos;1&apos;:animation(); main_menu();&#xa;&#x9;&#x9;&#x9;&#x9;gotoxy(26,24);&#xa;&#x9;&#x9;&#x9;&#x9;puts(&quot;&lt;&lt;--ENTER FROM 1 PLEASE--&gt;&gt;&quot;);&#x9;//This message will only print on INVALID ENTRY and Will ask again for input.&#xa;&#x9;&#x9;&#x9;&#x9;getch();&#xa;&#x9;&#x9;}&#xa;&#xa;}while(c != &apos;1&apos;);&#xa;&#xa;}&#xa;//======================Remainder for medicine stock ===============&#xa;void remainder()&#xa;{&#xa;&#x9;ptr1=fopen(&quot;medical.dat&quot;,&quot;r&quot;);&#xa;&#x9;if(ptr1==NULL)&#xa;&#x9;{&#xa;&#x9;//&#x9;printf(&quot;\u005cn\u005ct Can not open File! &quot;);&#xa;&#x9;}&#xa;&#x9;while((fread(&amp;temp,sizeof(temp),1,ptr1))==1)&#xa;&#x9;{&#xa;&#x9;&#x9;if(temp.quantity&lt;10)&#xa;&#x9;&#x9;{&#xa;&#x9;&#x9;&#x9;gotoxy(10,45);&#xa;&#x9;&#x9;&#x9;//textcolor(RED);&#xa;&#x9;&#x9;&#x9;printf(&quot;%s : &quot;,temp.medi_name);&#xa;&#x9;&#x9;&#x9;printf(&quot;Quantity of this medicine is less then 10&quot;);&#xa;&#x9;&#x9;}&#xa;&#x9;}&#xa;}&#xa;&#xa;//========================for bill =============================&#xa;void bill()&#xa;{&#xa;//struct date d;&#xa;    time_t td = time(0);   // get time now&#xa;    struct tm * now = localtime( &amp; td );&#xa;&#xa;&#x9;   FILE *ptrbill;&#xa;&#x9;   char id[6];&#xa;&#x9;   int j=1,d1,m,y,k;&#xa;&#x9;   float netamt=0.0;&#xa;&#x9;   //getdate(&amp;d);&#xa;&#x9;   d1=now-&gt;tm_mday;&#xa;&#x9;   m=now-&gt;tm_mon;&#xa;&#x9;   y=now-&gt;tm_year;&#xa;&#x9;   system(&quot;cls&quot;);&#xa;&#x9;   ptrbill=fopen(&quot;dbbill.dat&quot;,&quot;r&quot;);&#xa;&#x9;   gotoxy(13,4);&#xa;&#x9;   printf(&quot;Enter bill no : &quot;);&#xa;&#x9;   scanf(&quot;%s&quot;,&amp;id);&#xa;&#x9;   system(&quot;cls&quot;);&#xa;&#x9;   gotoxy(25,3);&#xa;&#x9;   ////textcolor(YELLOW+BLINK);&#xa;&#x9;  // printf(&quot;***** CareWell Medico *****&quot;);&#xa;&#x9;   box();&#xa;&#x9;   gotoxy(7,7);&#xa;&#x9;   printf(&quot;Bill No: &quot;);&#xa;&#x9;   printf(&quot; %s&quot;,id);&#xa;&#x9;   gotoxy(7,9);&#xa;&#x9;   printf(&quot;Customer Name: &quot;);&#xa;&#x9;   gotoxy(50,7);&#xa;&#x9;   printf(&quot;Date : &quot;);&#xa;&#x9;   printf(&quot;%d-%d-%d&quot;,d1,m,y);&#xa;&#x9;   gotoxy(7,12);&#xa;&#x9;   printf(&quot;Sr.No   Medicine Name       Qty          Rate         Total &quot;);&#xa;&#x9;   gotoxy(6,14);&#xa;&#x9;   printf(&quot;---------------------------------------------------------------------&quot;);&#xa;&#xa;&#x9;   i=15;&#xa;&#x9;   while(fscanf(ptrbill,&quot;%s %s %s %d %f %f %d %d %d&quot;,bil.billno,bil.cname,bil.mediname,&amp;bil.medi_qty,&amp;bil.medi_rate,&amp;bil.total,&amp;bil.day,&amp;bil.month,&amp;bil.year)!=EOF)&#xa;&#x9;   {&#xa;&#xa;&#x9;&#x9;       do&#xa;&#x9;&#x9;       {&#xa;&#x9;&#x9;&#x9;if(strcmp(id,bil.billno)==0)&#xa;&#x9;&#x9;&#x9;{&#xa;&#x9;&#x9;&#x9;&#x9;gotoxy(7,i);&#xa;&#x9;&#x9;&#x9;&#x9;printf(&quot; %d&quot;,j);&#xa;&#x9;&#x9;&#x9;&#x9;gotoxy(14,i);&#xa;&#x9;&#x9;&#x9;&#x9;printf(&quot; %s&quot;,bil.mediname);&#xa;&#x9;&#x9;&#x9;&#x9;gotoxy(22,9);&#xa;&#x9;&#x9;&#x9;&#x9;printf(&quot; %s&quot;,bil.cname);&#xa;&#x9;&#x9;&#x9;&#x9;gotoxy(35,i);&#xa;&#x9;&#x9;&#x9;&#x9;printf(&quot; %d&quot;,bil.medi_qty);&#xa;&#x9;&#x9;&#x9;&#x9;gotoxy(47,i);&#xa;&#x9;&#x9;&#x9;&#x9;printf(&quot; %.2f&quot;,bil.medi_rate);&#xa;&#x9;&#x9;&#x9;&#x9;gotoxy(60,i);&#xa;&#x9;&#x9;&#x9;&#x9;printf(&quot; %.2f&quot;,bil.total);&#xa;&#x9;&#x9;&#x9;&#x9;netamt=netamt+bil.total;&#xa;&#x9;&#x9;&#x9;&#x9;i++;&#xa;&#x9;&#x9;&#x9;&#x9;j++;&#xa;&#x9;&#x9;&#x9;&#x9;gotoxy(35,32);&#xa;&#x9;&#x9;&#x9;&#x9;printf(&quot;                                &quot;);&#xa;&#x9;&#x9;&#x9;&#x9;gotoxy(20,50);&#xa;&#x9;&#x9;&#x9;&#x9;//textcolor(YELLOW+BLINK);&#xa;&#x9;&#x9;&#x9;&#x9;printf(&quot;Press Any key to go to  MENU ...........&quot;);&#xa;&#xa;&#x9;&#x9;&#x9;       //&#x9;break;&#xa;&#x9;&#x9;&#x9;}&#xa;&#xa;&#xa;&#x9;&#x9;}while(feof(ptrbill));&#xa;&#xa;&#x9;   }&#xa;&#xa;&#xa;&#x9;   gotoxy(6,35);&#xa;&#x9;   printf(&quot;---------------------------------------------------------------------&quot;);&#xa;&#x9;   gotoxy(50,37);&#xa;&#x9;   printf(&quot;Net Amount : &quot;);&#xa;&#x9;   printf(&quot;%.2f&quot;,netamt);&#xa;&#xa;&#x9;   fclose(ptrbill);&#xa;&#x9;   getch();&#xa;}&#xa;&#xa;//========FOR SUPPLIERS ENTRY=================&#xa;void supp_entry()&#xa;{&#xa; int id;&#xa; char ch;&#xa; FILE *fp;&#xa; system(&quot;cls&quot;);&#xa;&#xa;&#x9;   fp=fopen(&quot;supplier.dat&quot;,&quot;a&quot;);&#xa;&#x9;   if(fp==NULL)&#xa;&#x9;   {&#xa;&#x9;&#x9;printf(&quot;\u005cn Can not open file!!&quot;);&#xa;&#x9;&#x9;exit(0);&#xa;&#x9;   }&#xa;&#x9;   system(&quot;cls&quot;);&#xa;&#x9;   ch=&apos;y&apos;;&#xa;&#x9;   while(ch==&apos;y&apos;)&#xa;&#x9;   {&#xa;&#x9;&#x9;system(&quot;cls&quot;);&#xa;&#x9;&#x9;//textcolor(14);&#xa;&#x9;&#x9;t();&#xa;&#x9;&#x9;box();&#xa;&#x9;&#x9;lbox();&#xa;&#x9;&#x9;gotoxy(30,8);&#xa;&#x9;&#x9;printf(&quot; SUPPLIER ENTRY &quot;);&#xa;&#x9;&#x9;gotoxy(8,13);&#xa;//&#x9;&#x9;//flushall();&#xa;&#x9;&#x9;temp1.supp_id=getsupp_id();&#xa;&#x9;&#x9;printf(&quot;SUPPLIER ID : %d &quot;,temp1.supp_id);&#xa;&#x9;&#x9;//ventry(temp1.supp_id,1);&#xa;&#x9;&#x9;//flushall();&#xa;&#x9;&#x9;gotoxy(39,13);&#xa;&#x9;&#x9;printf(&quot;SUPPLIER NAME : &quot;);&#xa;&#x9;&#x9;gotoxy(8,18);&#xa;&#x9;&#x9;printf(&quot;CITY        : &quot;);&#xa;&#x9;&#x9;gotoxy(39,18);&#xa;&#x9;&#x9;printf(&quot;CONTACT NO.   : &quot;);&#xa;&#x9;&#x9;gotoxy(8,23);&#xa;&#x9;&#x9;printf(&quot;EMAIL ID    : &quot;);&#xa;&#xa;&#x9;&#x9;gotoxy(55,13);&#xa;&#x9;&#x9;//flushall();&#xa;&#x9;&#x9;ventry(temp1.supp_name,0);&#xa;&#x9;&#x9;gotoxy(22,18);&#xa;&#x9;&#x9;ventry(temp1.city,0);&#xa;&#x9;&#x9;//flushall();&#xa;&#x9;&#x9;gotoxy(55,18);&#xa;&#x9;&#x9;ventry(temp1.mob_no,1);&#xa;&#x9;&#x9;//flushall();&#xa;&#x9;&#x9;gotoxy(22,23);&#xa;&#x9;&#x9;gets(temp1.email);&#xa;&#x9;&#x9;//flushall();&#xa;&#xa;&#x9;&#x9;gotoxy(20,30);&#xa;&#x9;&#x9;//textcolor(RED+BLINK);&#xa;&#x9;&#x9;printf(&quot;S&quot;);&#xa;&#x9;&#x9;//textcolor(WHITE);&#xa;&#x9;&#x9;gotoxy(21,30);&#xa;&#x9;&#x9;printf(&quot;ave&quot;);&#xa;&#x9;&#x9;gotoxy(28,30);&#xa;&#x9;&#x9;//textcolor(RED+BLINK);&#xa;&#x9;&#x9;printf(&quot;C&quot;);&#xa;&#x9;&#x9;//textcolor(WHITE);&#xa;&#x9;&#x9;gotoxy(29,30);&#xa;&#x9;&#x9;printf(&quot;ancel&quot;);&#xa;&#x9;&#x9;gotoxy(18,36);&#xa;&#x9;&#x9;printf(&quot;Press First charecter for the operation : &quot;);&#xa;&#x9;&#x9;ch=getch();&#xa;&#x9;&#x9;if(ch==&apos;s&apos; || ch==&apos;S&apos;)&#xa;&#x9;&#x9;{&#xa;&#x9;&#x9;&#x9;fprintf(fp,&quot;%d %s %s %s %s\u005cn\u005cn&quot;,temp1.supp_id,temp1.supp_name,temp1.mob_no,temp1.city,temp1.email);&#xa;&#x9;&#x9;&#x9;fprintf(fp,&quot;\u005cn&quot;);&#xa;&#x9;&#x9;&#x9;//flushall();&#xa;&#x9;&#x9;&#x9;system(&quot;cls&quot;);&#xa;&#x9;&#x9;&#x9;gotoxy(20,20);&#xa;&#x9;&#x9;&#x9;printf(&quot;Supplier Added successfully!!!!!&quot;);&#xa;&#x9;&#x9;&#x9;//textcolor(10);&#xa;&#x9;&#x9;&#x9;gotoxy(20,25);&#xa;&#x9;&#x9;&#x9;printf(&quot;More entries  [y/n]&quot;);&#xa;&#x9;&#x9;&#x9;ch=getche();&#xa;&#x9;&#x9;}&#xa;&#x9;   }&#xa;&#x9;   fclose(fp);&#xa;&#xa;}&#xa;//=========FOR SUPPLIER DISPLAY LIST ==========&#xa;void supp_list()&#xa;{&#xa; char ch;&#xa; int j;&#xa; system(&quot;cls&quot;);&#xa;&#x9;   ptr1=fopen(&quot;supplier.dat&quot;,&quot;r&quot;);&#xa;&#x9;   if(ptr1==NULL)&#xa;&#x9;   {&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005ct Can not open File! &quot;);&#xa;&#x9;&#x9;exit(0);&#xa;&#x9;   }&#xa;&#x9;   system(&quot;cls&quot;);&#xa;&#x9;   box();&#xa;&#x9;   t();&#xa;&#x9;   //textcolor(GREEN+BLINK);&#xa;&#x9;   gotoxy(8,48);&#xa;&#x9;   printf(&quot;Press Anykey to go to SUPPLIER MENU !!!&quot;);&#xa;&#x9;   //textcolor(GREEN);&#xa;&#x9;   lbox();&#xa;&#x9;   gotoxy(30,8);&#xa;&#x9;   printf(&quot; SUPPLIER LIST &quot;);&#xa;&#x9;   //textcolor(WHITE);&#xa;&#x9;   gotoxy(5,10);&#xa;&#x9;   printf(&quot;ID.  SUPPLIER NAME.      PH.NO.     CITY.         EMAIL&quot;);&#xa;&#x9;   gotoxy(4,12);&#xa;&#x9;   i=14;&#xa;&#x9;   printf(&quot;=================================================================&quot;);&#xa;&#x9;   while(fscanf(ptr1,&quot;%d %s %s %s %s&quot;,&amp;temp1.supp_id,temp1.supp_name,temp1.city,temp1.mob_no,temp1.email)!=EOF)&#xa;&#x9;   {&#xa;&#x9;&#x9;gotoxy(4,i);&#xa;&#x9;&#x9;printf(&quot; %d&quot;,temp1.supp_id);&#xa;&#x9;&#x9;gotoxy(9,i);&#xa;&#x9;&#x9;printf(&quot; %s&quot;,temp1.supp_name);&#xa;&#x9;&#x9;gotoxy(29,i);&#xa;&#x9;&#x9;printf(&quot; %s&quot;,temp1.city);&#xa;&#x9;&#x9;gotoxy(41,i);&#xa;&#x9;&#x9;printf(&quot; %s&quot;,temp1.mob_no);&#xa;&#x9;&#x9;gotoxy(54,i);&#xa;&#x9;&#x9;printf(&quot; %s&quot;,temp1.email);&#xa;&#x9;&#x9;i=i+2;&#xa;&#x9;   }&#xa;&#x9;   getche();&#xa;}&#xa;//======================search supplier==================&#xa;void search()&#xa;{&#xa;  int ch;&#xa;&#xa;&#x9;do&#xa;&#x9; {&#xa;&#x9;   system(&quot;cls&quot;);&#xa;&#x9;   //textcolor(WHITE);&#xa;&#x9;   gotoxy(17,10);&#xa;&#x9;   printf(&quot; Two options Available for searching &quot;);&#xa;&#x9;   gotoxy(15,15);&#xa;&#x9;   printf(&quot;Search by&quot;);&#xa;&#x9;   gotoxy(25,15);&#xa;&#x9;   //textcolor(RED+BLINK);&#xa;&#x9;   printf(&quot;I&quot;);&#xa;&#x9;   //textcolor(WHITE);&#xa;&#x9;   gotoxy(26,15);&#xa;&#x9;   printf(&quot;D number&quot;);&#xa;&#xa;&#x9;   gotoxy(15,18);&#xa;&#x9;   printf(&quot;Search by&quot;);&#xa;&#x9;   gotoxy(25,18);&#xa;&#x9;   //textcolor(RED+BLINK);&#xa;&#x9;   printf(&quot;N&quot;);&#xa;&#x9;   //textcolor(WHITE);&#xa;&#x9;   gotoxy(26,18);&#xa;&#x9;   printf(&quot;ame&quot;);&#xa;&#xa;&#x9;   gotoxy(15,21);&#xa;&#x9;   //textcolor(RED+BLINK);&#xa;&#x9;   printf(&quot;R&quot;);&#xa;&#x9;   //textcolor(WHITE);&#xa;&#x9;   gotoxy(16,21);&#xa;&#x9;   printf(&quot;eturn&quot;);&#xa;&#x9;   main_box();&#xa;&#x9;   gotoxy(17,24);&#xa;&#x9;   printf(&quot;Press First charecter for the operation : &quot;);&#xa;&#x9;   ch=toupper(getche());&#xa;&#x9;   switch(ch)&#xa;&#x9;   {&#xa;&#x9;&#x9;case &apos;I&apos;:&#xa;&#x9;&#x9;&#x9;animation();&#xa;&#x9;&#x9;&#x9;search_id();&#xa;&#xa;&#x9;&#x9;&#x9;break;&#xa;&#x9;&#x9;case &apos;N&apos;:&#xa;&#x9;&#x9;&#x9;animation();&#xa;&#x9;&#x9;&#x9;search_name();&#xa;&#x9;&#x9;&#x9;break;&#xa;&#x9;&#x9;case &apos;R&apos;:&#xa;&#x9;&#x9;&#x9;animation();&#xa;&#x9;&#x9;&#x9;supplier();&#xa;&#x9;&#x9;&#x9;break;&#xa;&#x9;&#x9;default:&#xa;&#x9;&#x9;&#x9;gotoxy(22,18);&#xa;&#x9;&#x9;&#x9;printf(&quot;You entered wrong choice!!!!!&quot;);&#xa;&#x9;&#x9;&#x9;getch();&#xa;&#x9;   }&#xa;&#x9;   }while(ch!=&apos;R&apos;);&#xa;&#xa;}&#xa;//=============================== Search by id =============================&#xa;void search_id()&#xa;{&#xa;  int id;&#xa;  FILE *fp;&#xa;&#xa;&#x9;   fp=fopen(&quot;supplier.dat&quot;,&quot;r&quot;);&#xa;&#x9;   if(fp==NULL)&#xa;&#x9;   {&#xa;&#x9;     printf(&quot;file can&apos;t open!!!!&quot;);&#xa;&#xa;&#x9;   }&#xa;&#x9;   system(&quot;cls&quot;);&#xa;&#x9;   box();&#xa;&#x9;   gotoxy(13,8);&#xa;&#x9;   printf(&quot;Enter id to be searched:&quot;);&#xa;&#x9;   scanf(&quot;%d&quot;,&amp;id);&#xa;&#x9;   gotoxy(20,35);&#xa;&#x9;   //textcolor(YELLOW);&#xa;&#x9;   printf(&quot;Press Any key to Return Back Menu ....&quot;);&#xa;&#x9;   gotoxy(12,14);&#xa;&#x9;   printf(&quot;ID.  SUPPLIER NAME.   CITY.     PH.NO.       EMAIL&quot;);&#xa;&#x9;   gotoxy(12,16);&#xa;&#x9;   i=18;&#xa;&#x9;   printf(&quot;==============================================================&quot;);&#xa;&#x9;   while(fscanf(fp,&quot;%d %s %s %s %s&quot;,&amp;temp1.supp_id,temp1.supp_name,temp1.mob_no,temp1.city,temp1.email)!=EOF)&#xa;&#x9;   {&#xa;&#x9;&#x9;if(temp1.supp_id==id)&#xa;&#x9;&#x9;{&#xa;&#x9;&#x9;&#x9;gotoxy(10,i);&#xa;&#x9;&#x9;&#x9;printf(&quot; %d&quot;,temp1.supp_id);&#xa;&#x9;&#x9;&#x9;gotoxy(15,i);&#xa;&#x9;&#x9;&#x9;printf(&quot; %s&quot;,temp1.supp_name);&#xa;&#x9;&#x9;&#x9;gotoxy(30,i);&#xa;&#x9;&#x9;&#x9;printf(&quot; %s&quot;,temp1.city);&#xa;&#x9;&#x9;&#x9;gotoxy(40,i);&#xa;&#x9;&#x9;&#x9;printf(&quot; %s&quot;,temp1.mob_no);&#xa;&#x9;&#x9;&#x9;gotoxy(53,i);&#xa;&#x9;&#x9;&#x9;printf(&quot; %s&quot;,temp1.email);&#xa;&#x9;&#x9;&#x9;i++;&#xa;&#x9;&#x9;&#x9;break;&#xa;&#x9;&#x9;}&#xa;&#x9;   }&#xa;&#x9;   if(temp1.supp_id!=id)&#xa;&#x9;   {&#xa;&#x9;&#x9;gotoxy(20,30);&#xa;&#x9;&#x9;printf(&quot;Record not found!&quot;);&#xa;&#x9;   }&#xa;&#x9;   fclose(fp);&#xa;&#x9;   getche();&#xa;}&#xa;//============================ Search by name =============================&#xa;void search_name()&#xa;{&#xa;  char name[20];&#xa;  FILE *fp;&#xa;&#xa;&#x9;   fp=fopen(&quot;supplier.dat&quot;,&quot;r&quot;);&#xa;&#x9;   if(fp==NULL)&#xa;&#x9;   {&#xa;&#x9;     printf(&quot;file can&apos;t open!!!!&quot;);&#xa;&#xa;&#x9;   }&#xa;&#x9;   system(&quot;cls&quot;);&#xa;&#x9;   box();&#xa;&#x9;   fp=fopen(&quot;supplier.dat&quot;,&quot;rb&quot;);&#xa;&#x9;   gotoxy(13,8);&#xa;&#x9;   printf(&quot; Enter Supplier Name to be searched : &quot;);&#xa;&#x9;   scanf(&quot;%s&quot;,&amp;name);&#xa;&#x9;   gotoxy(20,35);&#xa;&#x9;   //textcolor(YELLOW);&#xa;&#x9;   printf(&quot;Press Any key to Return Back Menu ....&quot;);&#xa;&#x9;   gotoxy(12,14);&#xa;&#x9;   printf(&quot;ID. SUPPLIER NAME.   CITY.     PH.NO.       EMAIL&quot;);&#xa;&#x9;   gotoxy(12,16);&#xa;&#x9;   i=18;&#xa;&#x9;   printf(&quot;==============================================================&quot;);&#xa;&#xa;&#x9;   while(fscanf(fp,&quot;%d %s %s %s %s&quot;,&amp;temp1.supp_id,temp1.supp_name,temp1.mob_no, temp1.city,temp1.email)!=EOF)&#xa;&#x9;   {&#xa;&#x9;&#x9;if(strcmp(temp1.supp_name,name)==0)&#xa;&#x9;&#x9;{&#xa;&#x9;&#x9;&#x9;gotoxy(11,i);&#xa;&#x9;&#x9;&#x9;printf(&quot; %d&quot;,temp1.supp_id);&#xa;&#x9;&#x9;&#x9;gotoxy(15,i);&#xa;&#x9;&#x9;&#x9;printf(&quot; %s&quot;,temp1.supp_name);&#xa;&#x9;&#x9;&#x9;gotoxy(30,i);&#xa;&#x9;&#x9;&#x9;printf(&quot; %s&quot;,temp1.city);&#xa;&#x9;&#x9;&#x9;gotoxy(40,i);&#xa;&#x9;&#x9;&#x9;printf(&quot; %s&quot;,temp1.mob_no);&#xa;&#x9;&#x9;&#x9;gotoxy(53,i);&#xa;&#x9;&#x9;&#x9;printf(&quot; %s&quot;,temp1.email);&#xa;&#x9;&#x9;&#x9;i++;&#xa;&#x9;&#x9;&#x9;break;&#xa;&#x9;&#x9;}&#xa;&#x9;   }&#xa;&#x9;   if(strcmp(temp1.supp_name,name)!=0)&#xa;&#x9;   {&#xa;&#x9;&#x9;gotoxy(20,30);&#xa;&#x9;&#x9;//textcolor(YELLOW);&#xa;&#x9;&#x9;printf(&quot;Record not found!!!&quot;);&#xa;&#x9;   }&#xa;&#x9;   fclose(ptr1);&#xa;&#x9;   getche();&#xa;}&#xa;//============supp update=================&#xa;void sup_update()&#xa;{&#xa;  int i;&#xa;  char ch;&#xa;  int sid;&#xa;  FILE *ft;&#xa;  system(&quot;cls&quot;);&#xa;  box();&#xa;&#x9;   ptr1=fopen(&quot;supplier.dat&quot;,&quot;rb+&quot;);&#xa;&#x9;   if(ptr1==NULL )&#xa;&#x9;   {&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005ct Can not open file!! &quot;);&#xa;&#x9;&#x9;exit(0);&#xa;&#x9;   }&#xa;&#x9;   lbox();&#xa;&#x9;   gotoxy(30,8);&#xa;&#x9;   printf(&quot; Modifying Supplier &quot;);&#xa;&#x9;   gotoxy(12,13);&#xa;&#x9;   printf(&quot;Enter supplier ID :  &quot;);&#xa;&#x9;  // //flushall();&#xa;&#x9;   scanf(&quot;%d&quot;,&amp;sid);&#xa;&#x9;   gotoxy(12,15);&#xa;&#xa;&#x9;&#x9;ft=fopen(&quot;temp.dat&quot;,&quot;w&quot;);&#xa;&#x9;&#x9;if(ft==NULL)&#xa;&#x9;&#x9;{&#xa;&#x9;&#x9;&#x9;printf(&quot; Can not open file&quot;);&#xa;&#x9;&#x9;&#x9;exit(1);&#xa;&#x9;&#x9;}&#xa;&#x9;&#x9;else&#xa;&#x9;&#x9;{&#xa;&#x9;&#x9;&#x9;while(fscanf(ptr1,&quot;%d %s %s %s %s&quot;,&amp;temp1.supp_id,temp1.supp_name,temp1.mob_no, temp1.city,temp1.email)!=EOF)&#xa;&#x9;&#x9;&#x9;{&#xa;&#x9;&#x9;&#x9;&#x9;if(temp1.supp_id==sid)&#xa;&#x9;&#x9;&#x9;&#x9;{&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;gotoxy(18,17);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;printf(&quot; Existing Record  &quot;);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;gotoxy(10,19);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;printf(&quot;%d\u005ct %s \u005ct%s \u005ct%s \u005ct%s&quot;,temp1.supp_id,temp1.supp_name,temp1.mob_no, temp1.city,temp1.email);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;gotoxy(12,22);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;printf(&quot;Enter New Name       : &quot;);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;//flushall();&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;ventry(temp1.supp_name,0);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;gotoxy(12,24);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;printf(&quot;Enter New mobile no  : &quot;);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;//flushall();&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;ventry(temp1.mob_no,1);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;gotoxy(12,26);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;printf(&quot;Enter New City       : &quot;);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;//flushall();&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;ventry(temp1.city,0);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;gotoxy(12,28);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;printf(&quot;Enter New email      : &quot;);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;//flushall();&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;ventry(temp1.email,2);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;gotoxy(20,32);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;//textcolor(RED+BLINK);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;printf(&quot;U&quot;);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;gotoxy(21,32);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;//textcolor(WHITE);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;printf(&quot;pdate&quot;);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;gotoxy(30,32);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;//textcolor(RED+BLINK);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;printf(&quot;C&quot;);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;gotoxy(31,32);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;//textcolor(WHITE);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;printf(&quot;ancel&quot;);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;gotoxy(18,36);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;printf(&quot;Press First charecter for the operation : &quot;);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;ch=getch();&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;if(ch==&apos;u&apos; || ch==&apos;U&apos;)&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;{&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;    fprintf(ft,&quot;%d %s %s %s %s\u005cn&quot;,temp1.supp_id,temp1.supp_name,temp1.mob_no,temp1.city,temp1.email);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;    //flushall();&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;    gotoxy(20,38);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;    printf(&quot;Supplier updated successfully...&quot;);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;    remove(&quot;supplier.dat&quot;);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;    rename(&quot;temp.dat&quot;,&quot;supplier.dat&quot;);&#xa;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xa;&#x9;&#x9;&#x9;&#x9;}&#xa;&#x9;&#x9;&#x9;else&#xa;&#x9;&#x9;&#x9;{&#xa;&#x9;&#x9;&#x9;&#x9;fprintf(ft,&quot;%d %s %s %s %s\u005cn&quot;,temp1.supp_id,temp1.supp_name,temp1.mob_no,temp1.city,temp1.email);&#xa;&#x9;&#x9;&#x9;&#x9;fflush(stdin);&#xa;&#x9;&#x9;&#x9;}&#xa;&#x9;&#x9;}&#xa;&#xa;&#x9;   fclose(ft);&#xa;&#x9;   fclose(ptr1);&#xa;&#x9;   }&#xa;}&#xa;//===============================END OF SUPPLIER FUNCTION===================&#xa;//========FOR CUSTOMER ENTRY=================&#xa;void cust_entry()&#xa;{&#xa; char ch;&#xa; int id;&#xa; FILE *fp;&#xa; system(&quot;cls&quot;);&#xa;&#x9;   fp=fopen(&quot;customer.dat&quot;,&quot;a&quot;);&#xa;&#x9;   if(fp==NULL)&#xa;&#x9;   {&#xa;&#x9;&#x9;printf(&quot;\u005cn Can not open file!!&quot;);&#xa;&#x9;&#x9;exit(0);&#xa;&#x9;   }&#xa;&#x9;   system(&quot;cls&quot;);&#xa;&#x9;   ch=&apos;y&apos;;&#xa;&#x9;   while(ch==&apos;y&apos;)&#xa;&#x9;   {&#xa;&#x9;&#x9;system(&quot;cls&quot;);&#xa;&#x9;&#x9;//textcolor(14);&#xa;&#x9;&#x9;t();&#xa;&#x9;&#x9;box();&#xa;&#x9;&#x9;lbox();&#xa;&#x9;&#x9;gotoxy(30,8);&#xa;&#x9;&#x9;printf(&quot; CUSTOMER ENTRY &quot;);&#xa;&#x9;&#x9;gotoxy(8,13);&#xa;&#x9;&#x9;//flushall();&#xa;&#x9;&#x9;temp_c.cust_id=getcust_id();&#xa;&#x9;&#x9;printf(&quot;CUSTOMER ID :%d&quot;,temp_c.cust_id);&#xa;&#x9;&#x9;//ventry(temp_c.cust_id,1);&#xa;&#x9;&#x9;//flushall();&#xa;&#x9;&#x9;gotoxy(39,13);&#xa;&#x9;&#x9;printf(&quot;CUSTOMER NAME : &quot;);&#xa;&#x9;&#x9;gotoxy(8,18);&#xa;&#x9;&#x9;printf(&quot;CITY        : &quot;);&#xa;&#x9;&#x9;gotoxy(39,18);&#xa;&#x9;&#x9;printf(&quot;CONTACT NO.   : &quot;);&#xa;&#x9;&#x9;gotoxy(8,23);&#xa;&#x9;&#x9;printf(&quot;EMAIL ID    : &quot;);&#xa;&#xa;&#x9;&#x9;gotoxy(55,13);&#xa;&#x9;&#x9;//flushall();&#xa;&#x9;&#x9;ventry(temp_c.cust_name,0);&#xa;&#x9;&#x9;gotoxy(22,18);&#xa;&#x9;&#x9;ventry(temp_c.city,0);&#xa;&#x9;&#x9;//flushall();&#xa;&#x9;&#x9;gotoxy(55,18);&#xa;&#x9;&#x9;ventry(temp_c.mob_no,1);&#xa;&#x9;&#x9;//flushall();&#xa;&#x9;&#x9;gotoxy(22,23);&#xa;&#x9;&#x9;gets(temp_c.email);&#xa;&#x9;&#x9;//flushall();&#xa;&#xa;&#x9;&#x9;gotoxy(20,30);&#xa;&#x9;&#x9;//textcolor(RED+BLINK);&#xa;&#x9;&#x9;printf(&quot;S&quot;);&#xa;&#x9;&#x9;//textcolor(WHITE);&#xa;&#x9;&#x9;gotoxy(21,30);&#xa;&#x9;&#x9;printf(&quot;ave&quot;);&#xa;&#x9;&#x9;gotoxy(28,30);&#xa;&#x9;&#x9;//textcolor(RED+BLINK);&#xa;&#x9;&#x9;printf(&quot;C&quot;);&#xa;&#x9;&#x9;//textcolor(WHITE);&#xa;&#x9;&#x9;gotoxy(29,30);&#xa;&#x9;&#x9;printf(&quot;ancel&quot;);&#xa;&#x9;&#x9;gotoxy(18,36);&#xa;&#x9;&#x9;printf(&quot;Press First charecter for the operation : &quot;);&#xa;&#x9;&#x9;ch=getch();&#xa;&#x9;&#x9;if(ch==&apos;s&apos; || ch==&apos;S&apos;)&#xa;&#x9;&#x9;{&#xa;&#x9;&#x9;&#x9;fprintf(fp,&quot;%d %s %s %s %s\u005cn&quot;,temp_c.cust_id,temp_c.cust_name,temp_c.mob_no, temp_c.city,temp_c.email);&#xa;&#x9;&#x9;&#x9;fprintf(fp,&quot;\u005cn&quot;);&#xa;&#x9;&#x9;&#x9;fflush(stdin);&#xa;&#x9;&#x9;&#x9;system(&quot;cls&quot;);&#xa;&#x9;&#x9;&#x9;gotoxy(20,20);&#xa;&#x9;&#x9;&#x9;printf(&quot;Customer Added Successfully!!!!!&quot;);&#xa;&#x9;&#x9;&#x9;//textcolor(10);&#xa;&#x9;&#x9;&#x9;gotoxy(20,25);&#xa;&#x9;&#x9;&#x9;printf(&quot;More entries  [y/n] &quot;);&#xa;&#x9;&#x9;&#x9;ch=getche();&#xa;&#xa;&#x9;&#x9;}&#xa;&#x9;   }&#xa;&#x9;   fclose(fp);&#xa;}&#xa;&#xa;//=========FOR CUSTOMER DISPLAY LIST ==========&#xa;void cust_list()&#xa;{&#xa; char ch;&#xa; system(&quot;cls&quot;);&#xa;&#x9;   ptr1=fopen(&quot;customer.dat&quot;,&quot;r&quot;);&#xa;&#x9;   if(ptr1==NULL)&#xa;&#x9;   {&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005ct Can not open File! &quot;);&#xa;&#x9;&#x9;exit(0);&#xa;&#x9;   }&#xa;&#x9;   system(&quot;cls&quot;);&#xa;&#x9;   box();&#xa;&#x9;   //textcolor(GREEN+BLINK);&#xa;&#x9;   gotoxy(8,48);&#xa;&#x9;   printf(&quot;Press Anykey to go to CUSTOMER MENU!!!&quot;);&#xa;&#x9;   //textcolor(GREEN);&#xa;&#x9;   lbox();&#xa;&#x9;   gotoxy(30,8);&#xa;&#x9;   printf(&quot; CUSTOMER LIST &quot;);&#xa;&#x9;   //textcolor(WHITE);&#xa;&#x9;   i=14;&#xa;&#x9;   gotoxy(5,10);&#xa;&#x9;   printf(&quot; ID. CUSTOMER NAME.    CITY.     MOBILE.NO.      EMAIL&quot;);&#xa;&#x9;   gotoxy(4,12);&#xa;&#x9;   printf(&quot;==============================================================&quot;);&#xa;&#x9;   while(fscanf(ptr1,&quot;%d %s %s %s %s&quot;,&amp;temp_c.cust_id,temp_c.cust_name,temp_c.mob_no, temp_c.city,temp_c.email)!=EOF)&#xa;&#x9;   {&#xa;&#x9;&#x9;gotoxy(4,i);&#xa;&#x9;&#x9;printf(&quot; %d&quot;,temp_c.cust_id);&#xa;&#x9;&#x9;gotoxy(11,i);&#xa;&#x9;&#x9;printf(&quot; %s&quot;,temp_c.cust_name);&#xa;&#x9;&#x9;gotoxy(28,i);&#xa;&#x9;&#x9;printf(&quot; %s&quot;,temp_c.city);&#xa;&#x9;&#x9;gotoxy(40,i);&#xa;&#x9;&#x9;printf(&quot; %s&quot;,temp_c.mob_no);&#xa;&#x9;&#x9;gotoxy(53,i);&#xa;&#x9;&#x9;printf(&quot; %s&quot;,temp_c.email);&#xa;&#x9;&#x9;i=i+2;&#xa;&#x9;   }&#xa;&#x9;   getche();&#xa;}&#xa;//======================search CUSTOMER==================&#xa;void cust_search()&#xa;{&#xa;  int ch;&#xa;&#xa;&#x9;do&#xa;&#x9; {&#xa;&#x9;   system(&quot;cls&quot;);&#xa;&#x9;   //textcolor(WHITE);&#xa;&#x9;   gotoxy(17,10);&#xa;&#x9;   printf(&quot; Two options Available for searching &quot;);&#xa;&#x9;   gotoxy(15,15);&#xa;&#x9;   printf(&quot;Search by&quot;);&#xa;&#x9;   gotoxy(25,15);&#xa;&#x9;   //textcolor(RED+BLINK);&#xa;&#x9;   printf(&quot;I&quot;);&#xa;&#x9;   //textcolor(WHITE);&#xa;&#x9;   gotoxy(26,15);&#xa;&#x9;   printf(&quot;D number&quot;);&#xa;&#xa;&#x9;   gotoxy(15,18);&#xa;&#x9;   printf(&quot;Search by&quot;);&#xa;&#x9;   gotoxy(25,18);&#xa;&#x9;   //textcolor(RED+BLINK);&#xa;&#x9;   printf(&quot;N&quot;);&#xa;&#x9;   //textcolor(WHITE);&#xa;&#x9;   gotoxy(26,18);&#xa;&#x9;   printf(&quot;ame&quot;);&#xa;&#xa;&#x9;   gotoxy(15,21);&#xa;&#x9;   //textcolor(RED+BLINK);&#xa;&#x9;   printf(&quot;R&quot;);&#xa;&#x9;   //textcolor(WHITE);&#xa;&#x9;   gotoxy(16,21);&#xa;&#x9;   printf(&quot;eturn&quot;);&#xa;&#x9;   main_box();&#xa;&#x9;   gotoxy(17,24);&#xa;&#x9;   printf(&quot;Press First charecter for the operation : &quot;);&#xa;&#x9;   ch=toupper(getche());&#xa;&#x9;   switch(ch)&#xa;&#x9;   {&#xa;&#x9;&#x9;case &apos;I&apos;:&#xa;&#x9;&#x9;&#x9;animation();&#xa;&#x9;&#x9;&#x9;search_cid();&#xa;&#xa;&#x9;&#x9;&#x9;break;&#xa;&#x9;&#x9;case &apos;N&apos;:&#xa;&#x9;&#x9;&#x9;animation();&#xa;&#x9;&#x9;&#x9;search_cname();&#xa;&#x9;&#x9;&#x9;break;&#xa;&#x9;&#x9;case &apos;R&apos;:&#xa;&#x9;&#x9;&#x9;animation();&#xa;&#x9;&#x9;&#x9;customer();&#xa;&#x9;&#x9;&#x9;break;&#xa;&#x9;&#x9;default:&#xa;&#x9;&#x9;&#x9;gotoxy(22,18);&#xa;&#x9;&#x9;&#x9;printf(&quot;You entered wrong choice!!!!!&quot;);&#xa;&#x9;&#x9;&#x9;getch();&#xa;&#x9;   }&#xa;&#x9;   }while(ch!=&apos;R&apos;);&#xa;       getche();&#xa;}&#xa;//===========================Search by CustomerId=========================&#xa;void search_cid()&#xa;{&#xa;  int id;&#xa;  system(&quot;cls&quot;);&#xa;  box();&#xa;&#x9;   ptr1=fopen(&quot;customer.dat&quot;,&quot;rb&quot;);&#xa;&#x9;   gotoxy(13,8);&#xa;&#x9;   printf(&quot;\u005cxDB\u005cxDB\u005cxB2  Enter id to be searched:&quot;);&#xa;&#x9;   scanf(&quot;%d&quot;,&amp;id);&#xa;&#x9;   //textcolor(GREEN);&#xa;&#x9;   //textcolor(WHITE);&#xa;&#x9;   i=18;&#xa;&#x9;   gotoxy(9,15);&#xa;&#x9;   printf(&quot; ID. CUSTOMER NAME.    CITY.     MOBILE.NO.      EMAIL&quot;);&#xa;&#x9;   gotoxy(8,16);&#xa;&#x9;   printf(&quot;==============================================================&quot;);&#xa;&#x9;   while(fscanf(ptr1,&quot;%d %s %s %s %s&quot;,&amp;temp_c.cust_id,temp_c.cust_name,temp_c.mob_no, temp_c.city,temp_c.email)!=EOF)&#xa;&#x9;   {&#xa;&#x9;&#x9;if(temp_c.cust_id==id)&#xa;&#x9;&#x9;{&#xa;&#x9;&#x9;&#x9;gotoxy(8,i);&#xa;&#x9;&#x9;&#x9;printf(&quot; %d&quot;,temp_c.cust_id);&#xa;&#x9;&#x9;&#x9;gotoxy(15,i);&#xa;&#x9;&#x9;&#x9;printf(&quot; %s&quot;,temp_c.cust_name);&#xa;&#x9;&#x9;&#x9;gotoxy(28,i);&#xa;&#x9;&#x9;&#x9;printf(&quot; %s&quot;,temp_c.city);&#xa;&#x9;&#x9;&#x9;gotoxy(40,i);&#xa;&#x9;&#x9;&#x9;printf(&quot; %s&quot;,temp_c.mob_no);&#xa;&#x9;&#x9;&#x9;gotoxy(54,i);&#xa;&#x9;&#x9;&#x9;printf(&quot; %s&quot;,temp_c.email);&#xa;&#x9;&#x9;&#x9;gotoxy(20,35);&#xa;&#x9;&#x9;&#x9;//textcolor(YELLOW);&#xa;&#x9;&#x9;&#x9;printf(&quot;Press Any key to go to CUSTOMER MENU ...........&quot;);&#xa;&#x9;&#x9;&#x9;break;&#xa;&#x9;&#x9;}&#xa;&#x9;   }&#xa;&#x9;   if(temp_c.cust_id!=id)&#xa;&#x9;   {&#xa;&#x9;&#x9;gotoxy(20,30);&#xa;&#x9;&#x9;printf(&quot;Record not found!&quot;);&#xa;&#x9;   }&#xa;&#x9;   fclose(ptr1);&#xa;       getche();&#xa;}&#xa;/*****************************search by CUSTOMERname******************************/&#xa;void search_cname()&#xa;{&#xa;  char name[20];&#xa;  system(&quot;cls&quot;);&#xa;  box();&#xa;&#x9;   ptr1=fopen(&quot;customer.dat&quot;,&quot;rb&quot;);&#xa;&#x9;   gotoxy(12,8);&#xa;&#x9;   printf(&quot;\u005cxDB\u005cxDB\u005cxB2  Enter Customer Name to be searched:&quot;);&#xa;&#x9;   scanf(&quot;%s&quot;,&amp;name);&#xa;&#x9;   //textcolor(GREEN);&#xa;&#x9;   //textcolor(WHITE);&#xa;&#x9;   i=18;&#xa;&#x9;   gotoxy(9,15);&#xa;&#x9;   printf(&quot; ID. CUSTOMER NAME.    CITY.     MOBILE.NO.      EMAIL&quot;);&#xa;&#x9;   gotoxy(8,16);&#xa;&#x9;   printf(&quot;==============================================================&quot;);&#xa;&#x9;   while(fscanf(ptr1,&quot;%d %s %s %s %s&quot;,&amp;temp_c.cust_id,temp_c.cust_name,temp_c.mob_no, temp_c.city,temp_c.email)!=EOF)&#xa;&#x9;   {&#xa;&#x9;&#x9;if(strcmp(temp_c.cust_name,name)==0)&#xa;&#x9;&#x9;{&#xa;&#x9;&#x9;&#x9;gotoxy(8,i);&#xa;&#x9;&#x9;&#x9;printf(&quot; %d&quot;,temp_c.cust_id);&#xa;&#x9;&#x9;&#x9;gotoxy(15,i);&#xa;&#x9;&#x9;&#x9;printf(&quot; %s&quot;,temp_c.cust_name);&#xa;&#x9;&#x9;&#x9;gotoxy(28,i);&#xa;&#x9;&#x9;&#x9;printf(&quot; %s&quot;,temp_c.city);&#xa;&#x9;&#x9;&#x9;gotoxy(40,i);&#xa;&#x9;&#x9;&#x9;printf(&quot; %s&quot;,temp_c.mob_no);&#xa;&#x9;&#x9;&#x9;gotoxy(54,i);&#xa;&#x9;&#x9;&#x9;printf(&quot; %s&quot;,temp_c.email);&#xa;&#x9;&#x9;&#x9;gotoxy(20,35);&#xa;&#x9;&#x9;&#x9;//textcolor(YELLOW);&#xa;&#x9;&#x9;&#x9;printf(&quot;Press Any key to go to CUSTOMER MENU ...........&quot;);&#xa;&#x9;&#x9;&#x9;break;&#xa;&#x9;&#x9;}&#xa;&#x9;   }&#xa;&#x9;   if(strcmp(temp_c.cust_name,name)!=0)&#xa;&#x9;   {&#xa;&#x9;&#x9;gotoxy(5,10);&#xa;&#x9;&#x9;//textcolor(YELLOW);&#xa;&#x9;&#x9;printf(&quot;Record not found!&quot;);&#xa;&#x9;   }&#xa;&#x9;   fclose(ptr1);&#xa;&#x9;getche();&#xa;}&#xa;//============CUSTOMER update=================&#xa;void cust_update()&#xa;{&#xa;  int i;&#xa;  char ch;&#xa;  int cid;&#xa;  FILE *ft;&#xa;  system(&quot;cls&quot;);&#xa;  box();&#xa;&#x9;   ptr1=fopen(&quot;customer.dat&quot;,&quot;rb+&quot;);&#xa;&#x9;   if(ptr1==NULL)&#xa;&#x9;   {&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005ct Can not open file!! &quot;);&#xa;&#x9;&#x9;exit(0);&#xa;&#x9;   }&#xa;&#x9;   lbox();&#xa;&#x9;   gotoxy(30,8);&#xa;&#x9;   printf(&quot; Modifying customer &quot;);&#xa;&#x9;   gotoxy(12,13);&#xa;&#x9;   printf(&quot;Enter the CUSTOMER ID : &quot;);&#xa;&#x9;   scanf(&quot;%d&quot;,&amp;cid);&#xa;&#x9;   gotoxy(12,15);&#xa;&#xa;&#x9;&#x9;ft=fopen(&quot;temp.txt&quot;,&quot;w&quot;);&#xa;&#x9;&#x9;if(ft==NULL)&#xa;&#x9;&#x9;{&#xa;&#x9;&#x9;&#x9;printf(&quot;\u005cn Can not open file&quot;);&#xa;&#x9;&#x9;&#x9;exit(0);&#xa;&#x9;&#x9;}&#xa;&#x9;&#x9;else&#xa;&#x9;&#x9;{&#xa;&#xa;&#x9;&#x9;&#x9;while(fscanf(ptr1,&quot;%d %s %s %s %s&quot;,&amp;temp_c.cust_id,temp_c.cust_name,temp_c.mob_no, temp_c.city,temp_c.email)!=EOF)&#xa;&#x9;&#x9;&#x9;{&#xa;&#x9;&#x9;&#x9;&#x9;if(temp_c.cust_id==cid)&#xa;&#x9;&#x9;&#x9;&#x9;{&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;gotoxy(25,17);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;printf(&quot;*** Existing Record ***&quot;);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;gotoxy(10,19);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;printf(&quot;%d\u005ct %s \u005ct%s \u005ct%s \u005ct%s&quot;,temp_c.cust_id,temp_c.cust_name,temp_c.mob_no, temp_c.city,temp_c.email);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;gotoxy(12,22);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;printf(&quot;Enter New Name         : &quot;);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;//flushall();&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;ventry(temp_c.cust_name,0);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;gotoxy(12,24);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;printf(&quot;Enter New mobile no    : &quot;);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;//flushall();&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;ventry(temp_c.mob_no,1);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;gotoxy(12,26);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;printf(&quot;Enter New City         : &quot;);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;//flushall();&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;ventry(temp_c.city,0);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;gotoxy(12,28);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;printf(&quot;Enter New email        : &quot;);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;//flushall();&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;scanf(&quot;%s&quot;,temp_c.email);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;gotoxy(20,32);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;//textcolor(RED+BLINK);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;printf(&quot;U&quot;);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;gotoxy(21,32);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;//textcolor(WHITE);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;printf(&quot;pdate&quot;);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;gotoxy(30,32);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;//textcolor(RED+BLINK);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;printf(&quot;C&quot;);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;gotoxy(31,32);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;//textcolor(WHITE);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;printf(&quot;ancel&quot;);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;gotoxy(18,35);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;printf(&quot;Press First charecter for the operation : &quot;);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;ch=getche();&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;if(ch==&apos;u&apos; || ch==&apos;U&apos;)&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;{&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;fprintf(ft,&quot;%d %s %s %s %s\u005cn&quot;,temp_c.cust_id,temp_c.cust_name,temp_c.mob_no, temp_c.city,temp_c.email);&#xa;&#x9;&#x9;&#x9;&#x9;       //&#x9;fprintf(ft,&quot;\u005cn&quot;);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;fflush(stdin);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;gotoxy(20,36);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;printf(&quot;Customer updated successfully...&quot;);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;remove(&quot;customer.dat&quot;);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;rename(&quot;temp.txt&quot;,&quot;customer.dat&quot;);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;}&#x9;&#x9;&#x9;&#x9;&#x9;}&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;else&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;{&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;fprintf(ft,&quot;%d %s %s %s %s\u005cn&quot;,temp_c.cust_id,temp_c.cust_name,temp_c.mob_no, temp_c.city,temp_c.email);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;fflush(stdin);&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xa;&#x9;&#x9;&#x9;&#x9;  }&#xa;&#xa;&#xa;&#x9;   fclose(ft);&#xa;&#x9;   fclose(ptr1);&#xa;      }&#xa;&#xa;}&#xa;&#xa;//============================ END OF CUSTOMER FUNCTION ===================&#xa;//============================ FOR MEDICINE PURCHASE    ===================&#xa;void medi_entry()&#xa;{&#xa;  char ch,id[6];&#xa;//  struct date d;&#xa;    time_t t = time(0);   // get time now&#xa;    struct tm * now = localtime( &amp; t );&#xa;  int f;&#xa;  FILE *fp;&#xa;  system(&quot;cls&quot;);&#xa;&#x9;  //getdate(&amp;d);&#xa;&#xa;&#x9;  ptrp_r=fopen(&quot;purreport.dat&quot;,&quot;a&quot;);&#xa;&#x9;  ch=&apos;Y&apos;;&#xa;&#x9;  while(ch==&apos;Y&apos;)&#xa;&#x9;  {&#xa;&#x9;&#x9;system(&quot;cls&quot;);&#xa;&#x9;&#x9;box();&#xa;&#x9;&#x9;//textcolor(14);&#xa;//&#x9;&#x9;t();  // THIS FUN IS USED FOR DISPLAY DATE &amp; TIME.......&#xa;&#x9;&#x9;lbox();&#xa;&#x9;&#x9;gotoxy(30,8);&#xa;&#x9;&#x9;////textcolor(GREEN+BLINK);&#xa;&#x9;&#x9;printf(&quot; MEDICINE PURSHASE  &quot;);&#xa;&#x9;&#x9;{&#xa;&#x9;&#x9;&#x9;//textcolor(WHITE);&#xa;&#x9;&#x9;&#x9;gotoxy(7,11);&#xa;&#x9;&#x9;&#x9;printf(&quot;MEDICINE ID    : &quot;);&#xa;&#xa;&#x9;&#x9;&#x9;gotoxy(40,11);&#xa;&#x9;&#x9;&#x9;printf(&quot;MEDICINE NAME  : &quot;);&#xa;&#xa;&#x9;&#x9;&#x9;gotoxy(7,14);&#xa;&#x9;&#x9;&#x9;printf(&quot;ENTER RACK NO  : &quot;);&#xa;&#xa;&#x9;&#x9;&#x9;gotoxy(40,14);&#xa;&#x9;&#x9;&#x9;printf(&quot;CABNIT NO      : &quot;);&#xa;&#xa;&#x9;&#x9;&#x9;gotoxy(7,18);&#xa;&#x9;&#x9;&#x9;printf(&quot;COMPANY NAME   : &quot;);&#xa;&#xa;&#x9;&#x9;&#x9;gotoxy(40,18);&#xa;&#x9;&#x9;&#x9;printf(&quot;SUPPLIER NAME  : &quot;);&#xa;&#xa;&#x9;&#x9;&#x9;gotoxy(7,21);&#xa;&#x9;&#x9;&#x9;printf(&quot;UNIT COST   Rs.:  &quot;);&#xa;&#xa;&#x9;&#x9;&#x9;gotoxy(40,21);&#xa;&#x9;&#x9;&#x9;printf(&quot;SALE COST   Rs.: &quot;);&#xa;&#xa;&#x9;&#x9;&#x9;gotoxy(7,24);&#xa;&#x9;&#x9;&#x9;printf(&quot;QUANTITY       :  &quot;);&#xa;&#xa;&#x9;&#x9;&#x9;gotoxy(7,27);&#xa;&#x9;&#x9;&#x9;printf(&quot;MFG.DATE(dd-mm-yyyy): &quot;);&#xa;&#xa;&#x9;&#x9;&#x9;gotoxy(7,29);&#xa;&#x9;&#x9;&#x9;printf(&quot;EXP.DATE(dd-mm-yyyy): &quot;);&#xa;&#xa;&#x9;&#x9;&#x9;gotoxy(25,11);&#xa;&#x9;&#x9;&#x9;ventry(temp.id,1);&#xa;&#x9;&#x9;&#x9;strcpy(id,temp.id);&#xa;&#xa;&#x9;&#x9;&#x9;fp=fopen(&quot;medical.dat&quot;,&quot;r&quot;);&#xa;&#x9;&#x9;&#x9;while((fread(&amp;temp,sizeof(temp),1,fp))==1)&#xa;&#x9;&#x9;&#x9;{&#xa;&#xa;&#x9;&#x9;&#x9;if(strcmp(id,temp.id)==0)&#xa;&#x9;&#x9;&#x9;{&#xa;&#x9;&#x9;&#x9;&#x9;f=1;&#xa;&#x9;&#x9;&#x9;&#x9;break;&#xa;&#x9;&#x9;&#x9;}&#xa;&#x9;&#x9;&#x9;}&#xa;&#x9;&#x9;&#x9;fclose(fp);&#xa;&#x9;&#x9;&#x9;if(f==1)&#xa;&#x9;&#x9;&#x9;{&#xa;&#x9;&#x9;&#x9;&#x9;gotoxy(20,31);&#xa;&#x9;&#x9;&#x9;&#x9;printf(&quot;ID Allready Exists&quot;);&#xa;&#x9;&#x9;&#x9;&#x9;getche();&#xa;&#x9;&#x9;&#x9;&#x9;system(&quot;cls&quot;);&#xa;&#x9;&#x9;&#x9;&#x9;medi_entry();&#xa;&#x9;&#x9;&#x9;}&#xa;&#x9;&#x9;&#x9;else&#xa;&#x9;&#x9;&#x9;{&#xa;&#x9;&#x9;&#x9;ptr=fopen(&quot;medical.dat&quot;,&quot;a+b&quot;);&#xa;&#x9;&#x9;&#x9;strcpy(temp.id,id);&#xa;&#x9;&#x9;&#x9;strcpy(p_r.medi_id,temp.id);&#xa;&#x9;&#x9;&#x9;}&#xa;&#x9;&#x9;&#x9;//flushall();&#xa;&#x9;&#x9;&#x9;gotoxy(58,11);&#xa;&#x9;&#x9;&#x9;ventry(temp.medi_name,0);&#xa;&#x9;&#x9;&#x9;strcpy(p_r.medir_name,temp.medi_name);&#xa;&#x9;&#x9;&#x9;//flushall();&#xa;&#x9;&#x9;&#x9;gotoxy(25,14);&#xa;&#x9;&#x9;&#x9;ventry(a,1);&#xa;&#x9;&#x9;&#x9;temp.rack= atoi(a);//atoi() used for convert str to int.&#xa;&#x9;&#x9;&#x9;//flushall();&#xa;&#x9;&#x9;&#x9;gotoxy(58,14);&#xa;&#x9;&#x9;&#x9;ventry(temp.cabnit,2);&#xa;&#x9;&#x9;&#x9;//flushall();&#xa;&#x9;&#x9;&#x9;gotoxy(25,18);&#xa;&#x9;&#x9;&#x9;ventry(temp.comp_name,0);&#xa;&#x9;&#x9;&#x9;//flushall();&#xa;&#x9;&#x9;&#x9;gotoxy(58,18);&#xa;&#x9;&#x9;&#x9;ventry(temp.supp_name,0);&#xa;&#x9;&#x9;&#x9;strcpy(p_r.supp_name,temp.supp_name);&#xa;&#x9;&#x9;&#x9;//flushall();&#xa;&#x9;&#x9;&#x9;gotoxy(25,21);&#xa;&#x9;&#x9;&#x9;ventry(a,1);&#xa;&#x9;&#x9;&#x9;temp.unit= atof(a);&#xa;&#x9;&#x9;&#x9;//flushall();&#xa;&#x9;&#x9;&#x9;p_r.rate=temp.unit;&#xa;&#x9;&#x9;&#x9;gotoxy(58,21);&#xa;&#x9;&#x9;&#x9;ventry(a,1);&#xa;&#x9;&#x9;&#x9;temp.sale= atof(a);&#xa;&#x9;&#x9;&#x9;//flushall();&#xa;&#x9;&#x9;&#x9;gotoxy(25,24);&#xa;&#x9;&#x9;&#x9;ventry(a,1);&#xa;&#x9;&#x9;&#x9;temp.quantity= atoi(a);&#xa;&#x9;&#x9;&#x9;p_r.qty=temp.quantity;&#xa;&#x9;&#x9;&#x9;//flushall();&#xa;&#x9;&#x9;&#x9;gotoxy(29,27);&#xa;&#x9;&#x9;&#x9;//flushall();&#xa;&#x9;&#x9;&#x9;ventry(temp.manu_date,1);&#xa;&#x9;&#x9;&#x9;gotoxy(29,29);&#xa;&#x9;&#x9;&#x9;//flushall();&#xa;&#x9;&#x9;&#x9;ventry(temp.exp_date,1);&#xa;&#xa;&#x9;&#x9;&#x9;gotoxy(7,31);&#xa;&#x9;&#x9;&#x9;printf(&quot;==========================================================&quot;);&#xa;&#x9;&#x9;&#x9;temp.total=temp.quantity*temp.sale;&#xa;&#xa;&#x9;&#x9;&#x9;//textcolor(10);&#xa;&#x9;&#x9;&#x9;gotoxy(10,33);&#xa;&#x9;&#x9;&#x9;printf(&quot;TOTAL SALE COST = Rs. %.2f&quot;,temp.total);&#xa;&#x9;&#x9;&#x9;temp.cost=(temp.unit*temp.quantity);&#xa;&#x9;&#x9;&#x9;gotoxy(40,33);&#xa;&#x9;&#x9;&#x9;printf(&quot;TOTAL UNIT COST = Rs. %.2f&quot;,temp.cost);&#xa;&#x9;&#x9;&#x9;p_r.total=temp.cost;&#xa;&#x9;&#x9;&#x9;p_r.sDay=now-&gt;tm_mday;&#xa;&#x9;&#x9;&#x9;p_r.sMonth=now-&gt;tm_mon;&#xa;&#x9;&#x9;&#x9;p_r.sYear=now-&gt;tm_year;&#xa;&#x9;&#x9; }&#xa;&#x9;&#x9;gotoxy(20,35);&#xa;&#x9;&#x9;//textcolor(RED+BLINK);&#xa;&#x9;&#x9;printf(&quot;S&quot;);&#xa;&#x9;&#x9;//textcolor(WHITE);&#xa;&#x9;&#x9;gotoxy(21,35);&#xa;&#x9;&#x9;printf(&quot;ave&quot;);&#xa;&#x9;&#x9;gotoxy(28,35);&#xa;&#x9;&#x9;//textcolor(RED+BLINK);&#xa;&#x9;&#x9;printf(&quot;C&quot;);&#xa;&#x9;&#x9;//textcolor(WHITE);&#xa;&#x9;&#x9;gotoxy(29,35);&#xa;&#x9;&#x9;printf(&quot;ancel&quot;);&#xa;&#x9;&#x9;gotoxy(18,38);&#xa;&#x9;&#x9;printf(&quot;Press First charecter for the operation : &quot;);&#xa;&#xa;&#xa;&#x9;&#x9;ch=toupper(getche());&#xa;&#xa;&#x9;&#x9;if(ch==&apos;S&apos;)&#xa;&#x9;&#x9;{&#xa;&#x9;&#x9;&#x9;fwrite(&amp;temp,sizeof(temp),1,ptr);&#xa;&#x9;&#x9;&#x9;fflush(stdin);&#xa;&#x9;&#x9;&#x9;//textcolor(10);&#xa;&#x9;&#x9;&#x9;fprintf(ptrp_r,&quot;%s %s %s %d %.2f %.2f %d %d %d\u005cn&quot;,p_r.medi_id,p_r.medir_name,p_r.supp_name,p_r.qty,p_r.rate,p_r.total,p_r.sDay,p_r.sMonth,p_r.sYear);&#xa;&#x9;&#x9;&#x9;system(&quot;cls&quot;);&#xa;&#x9;&#x9;&#x9;gotoxy(20,20);&#xa;&#x9;&#x9;&#x9;printf(&quot;Medicine Added sucessfully!!!!!!&quot;);&#xa;&#x9;&#x9;&#x9;gotoxy(20,25);&#xa;&#x9;&#x9;&#x9;printf(&quot;More entries  [y/n]&quot;);&#xa;&#x9;&#x9;&#x9;ch=toupper(getche());&#xa;&#x9;&#x9;       /*&#x9;if(ch==&apos;Y&apos;)&#xa;&#x9;&#x9;&#x9;{&#xa;&#x9;&#x9;&#x9;&#x9;system(&quot;cls&quot;);&#xa;&#x9;&#x9;&#x9;&#x9;medi_entry();&#xa;&#x9;&#x9;&#x9;}*/&#xa;&#x9;&#x9;}&#xa;&#xa;&#x9;   }&#xa;&#x9;   fclose(ptr);&#xa;&#x9;   fclose(ptrp_r);&#xa;}&#xa;//===========FOR MEDICINE SALE=========================&#xa;void medi_sale()&#xa;{&#xa;  struct bill bil;&#xa;  //struct date d;&#xa;  time_t t = time(0);   // get time now&#xa;    struct tm * now = localtime( &amp; t );&#xa;  int j,n,i,a,billno;&#xa;  int d1,m,y;&#xa;  float b,total,rate;&#xa;  char tar[30],ch,mediname[30],c_name[30],cname[30];&#xa;  FILE *fp,*fpc;&#xa;  int count=0;&#xa;  //getdate(&amp;d);&#xa;  d1=now-&gt;tm_mday;&#xa;  m=now-&gt;tm_mon;&#xa;  y=now-&gt;tm_year;&#xa;&#x9;   ch=&apos;y&apos;;&#xa;&#x9;   while(ch==&apos;y&apos;)&#xa;&#x9;   {&#xa;&#x9;&#x9;fp = fopen(&quot;dbbill.dat&quot;,&quot;a&quot;);&#xa;&#x9;&#x9;ptr1 = fopen(&quot;customer.dat&quot;,&quot;r&quot;);&#xa;&#x9;&#x9;ptr = fopen(&quot;medical.dat&quot;,&quot;r&quot;);&#xa;&#x9;&#x9;ptrs_r=fopen(&quot;saleRpt.dat&quot;,&quot;a&quot;);&#xa;&#x9;&#x9;ptrpr_r=fopen(&quot;profitRpt.dat&quot;,&quot;a&quot;);&#xa;&#x9;&#x9;system(&quot;cls&quot;);&#xa;&#x9;&#x9;box();&#xa;&#x9;&#x9;for(i=3;i&lt;=45;i++)      //This &apos;FOR&apos; loop will print asteriks &apos;I&apos;&#xa;&#x9;&#x9;{                       //vertically till the 3th row is reached.&#xa;&#x9;&#x9;gotoxy(50,i);&#xa;&#x9;&#x9;printf(&quot;%c&quot;,219);&#xa;&#x9;&#x9;}&#xa;&#x9;&#x9;i=9;&#xa;&#x9;&#x9;gotoxy(52,7);&#xa;&#x9;&#x9;printf(&quot;Cust_ID    Cust_Name&quot;);&#xa;&#x9;&#x9;//flushall();&#xa;&#x9;&#x9;while(fscanf(ptr1,&quot;%d %s %s %s %s&quot;,&amp;temp_c.cust_id,temp_c.cust_name,temp_c.mob_no, temp_c.city,temp_c.email)!=EOF)&#xa;&#x9;&#x9;{&#xa;&#x9;&#x9;&#x9;gotoxy(53,i);&#xa;&#x9;&#x9;&#x9;printf(&quot;%d&quot;,temp_c.cust_id);&#xa;&#x9;&#x9;&#x9;gotoxy(64,i);&#xa;&#x9;&#x9;&#x9;printf(&quot;%s&quot;,temp_c.cust_name);&#xa;&#x9;&#x9;&#x9;i+=2;&#xa;&#x9;&#x9;}&#xa;&#xa;&#x9;&#x9;gotoxy(9,7);&#xa;&#x9;&#x9;printf(&quot;ENTER MEDICINE ID TO BE SOLD  : &quot;);&#xa;&#x9;&#x9;ventry(tar,1);&#xa;&#x9;&#x9;//scanf(&quot;%s&quot;,&amp;tar);&#xa;&#x9;&#x9;j=0;&#xa;&#x9;&#x9;while((fread(&amp;temp,sizeof(temp),1,ptr))==1)&#xa;&#x9;&#x9;{&#xa;&#x9;&#x9;&#x9;if((strcmp(temp.id,tar)&lt;0) || (strcmp(temp.id,tar)&gt;0))&#xa;&#x9;&#x9;&#x9;{&#xa;&#x9;&#x9;&#x9;&#x9;x[j] = temp;&#xa;&#x9;&#x9;&#x9;&#x9;j++;&#xa;&#x9;&#x9;&#x9;}&#xa;&#x9;&#x9;&#x9;else if((strcmp(temp.id,tar)==0))&#xa;&#x9;&#x9;&#x9;{&#xa;&#xa;&#x9;&#x9;&#x9;&#x9;gotoxy(8,10);&#xa;&#x9;&#x9;&#x9;&#x9;printf(&quot; Medicine Name        : %s&quot;,temp.medi_name);&#xa;&#x9;&#x9;&#x9;&#x9;gotoxy(8,12);&#xa;&#x9;&#x9;&#x9;&#x9;printf(&quot; Quantity in stock    : %d&quot;,temp.quantity);&#xa;&#x9;&#x9;&#x9;&#x9;gotoxy(8,14);&#xa;&#x9;&#x9;&#x9;&#x9;printf(&quot; Sales price          : %.2f&quot;,temp.sale);&#xa;&#x9;&#x9;&#x9;&#x9;gotoxy(8,16);&#xa;&#x9;&#x9;&#x9;&#x9;printf(&quot;Enter bill number     : &quot;);&#xa;&#x9;&#x9;&#x9;&#x9;//flushall();&#xa;&#x9;&#x9;&#x9;&#x9;ventry(bil.billno,1);&#xa;&#x9;&#x9;&#x9;&#x9;//scanf(&quot;%s&quot;,&amp;bil.billno);&#xa;&#x9;&#x9;&#x9;&#x9;gotoxy(8,18);&#xa;&#x9;&#x9;&#x9;&#x9;printf(&quot;Enter customer Name   : &quot;);&#xa;&#x9;&#x9;&#x9;&#x9;//flushall();&#xa;&#x9;&#x9;&#x9;&#x9;ventry(c_name,0);&#xa;&#x9;&#x9;&#x9;&#x9;//scanf(&quot;%s&quot;,&amp;c_name);&#xa;&#x9;&#x9;&#x9;&#x9;gotoxy(8,20);&#xa;&#x9;&#x9;&#x9;&#x9;printf(&quot;Quantity want to sale : &quot;);&#xa;&#x9;&#x9;&#x9;&#x9;//ventry(a,1);&#xa;&#x9;&#x9;&#x9;&#x9;scanf(&quot;%d&quot;,&amp;a);&#xa;&#xa;&#x9;&#x9;&#x9;&#x9;pr_r.profit=(temp.sale-temp.unit)*a;&#xa;&#x9;&#x9;&#x9;&#x9;x[j]=temp;&#xa;&#x9;&#x9;&#x9;&#x9;x[j].quantity=(x[j].quantity-a);&#xa;&#x9;&#x9;&#x9;&#x9;x[j].total=(x[j].quantity*temp.sale);&#xa;&#x9;&#x9;&#x9;&#x9;x[j].cost=(x[j].quantity*temp.unit);&#xa;&#x9;&#x9;&#x9;&#x9;x[j].bye=(x[j].sale*a);&#xa;&#x9;&#x9;&#x9;&#x9;b=x[j].bye;&#xa;&#x9;&#x9;&#x9;&#x9;x[j].qty=a;&#xa;&#x9;&#x9;&#x9;&#x9;j++;&#xa;&#x9;&#x9;&#x9;&#x9;count++;&#xa;&#x9;&#x9;&#x9;&#x9;strcpy(bil.cname,c_name);&#xa;&#x9;&#x9;&#x9;&#x9;strcpy(s_r.cust_name,c_name);&#xa;&#x9;&#x9;&#x9;&#x9;strcpy(bil.mediname,temp.medi_name);&#xa;&#x9;&#x9;&#x9;&#x9;bil.medi_qty=a;&#xa;&#x9;&#x9;&#x9;&#x9;bil.medi_rate=temp.sale;&#xa;&#x9;&#x9;&#x9;&#x9;bil.total=temp.sale*a;&#xa;&#xa;&#x9;&#x9;&#x9;&#x9;bil.day=d1;&#xa;&#x9;&#x9;&#x9;&#x9;bil.month=m;&#xa;&#x9;&#x9;&#x9;&#x9;bil.year=y;&#xa;&#xa;&#x9;&#x9;&#x9;&#x9;fprintf(fp,&quot;%s %s %s %d %.2f %.2f %d %d %d\u005cn&quot;,bil.billno,bil.cname,bil.mediname,bil.medi_qty,bil.medi_rate,bil.total,bil.day,bil.month,bil.year);&#xa;&#x9;&#x9;&#x9;&#x9;fflush(stdin);&#xa;&#xa;&#x9;&#x9;&#x9;&#x9;fclose(fp);&#xa;&#xa;&#x9;&#x9;&#x9;&#x9;s_r.sDay=d1;&#xa;&#x9;&#x9;&#x9;&#x9;s_r.sMonth=m;&#xa;&#x9;&#x9;&#x9;&#x9;s_r.sYear=y;&#xa;&#x9;&#x9;&#x9;&#x9;strcpy(s_r.medi_id,tar);&#xa;&#x9;&#x9;&#x9;&#x9;strcpy(s_r.medir_name,temp.medi_name);&#xa;&#x9;&#x9;&#x9;&#x9;s_r.qty=a;&#xa;&#x9;&#x9;&#x9;&#x9;s_r.rate=temp.sale;&#xa;&#x9;&#x9;&#x9;&#x9;s_r.total=temp.sale*a;&#xa;&#xa;&#x9;&#x9;&#x9;&#x9;//sale report&#xa;&#x9;&#x9;&#x9;&#x9;fprintf(ptrs_r,&quot;%s %s %s %d %.2f %.2f %d %d %d\u005cn&quot;,s_r.medi_id,s_r.medir_name,s_r.cust_name,s_r.qty,s_r.rate,s_r.total,s_r.sDay,s_r.sMonth,s_r.sYear);&#xa;&#x9;&#x9;&#x9;&#x9;fflush(stdin);&#xa;&#x9;&#x9;&#x9;&#x9;fclose(ptrs_r);&#xa;&#x9;&#x9;&#x9;&#x9;//profit report&#xa;&#xa;&#x9;&#x9;&#x9;&#x9;pr_r.sDay=d1;&#xa;&#x9;&#x9;&#x9;&#x9;pr_r.sMonth=m;&#xa;&#x9;&#x9;&#x9;&#x9;pr_r.sYear=y;&#xa;&#x9;&#x9;&#x9;&#x9;strcpy(pr_r.medi_id,tar);&#xa;&#x9;&#x9;&#x9;&#x9;strcpy(pr_r.medir_name,temp.medi_name);&#xa;&#x9;&#x9;&#x9;&#x9;pr_r.qty=a;&#xa;&#x9;&#x9;&#x9;&#x9;pr_r.rate=temp.sale;&#xa;&#x9;&#x9;&#x9;&#x9;pr_r.unit=temp.unit;&#xa;&#x9;&#x9;&#x9;&#x9;fprintf(ptrpr_r,&quot;%s %s %d %d %d %d %.2f %.2f  %.2f\u005cn&quot;,pr_r.medi_id,pr_r.medir_name,d1,pr_r.sMonth,pr_r.sYear,pr_r.qty,pr_r.unit,pr_r.rate,pr_r.profit);&#xa;&#x9;&#x9;&#x9;&#x9;fflush(stdin);&#xa;&#x9;&#x9;&#x9;&#x9;fclose(ptrpr_r);&#xa;&#xa;&#x9;&#x9;&#x9;}&#xa;&#x9;&#x9;}&#xa;&#x9;&#x9;if (count==0)&#xa;&#x9;&#x9;{&#xa;&#x9;&#x9;&#x9;system(&quot;cls&quot;);&#xa;&#x9;&#x9;&#x9;gotoxy(33,10);&#xa;&#x9;&#x9;&#x9;printf(&quot;Not in stock!!!!!&quot;);&#xa;&#x9;&#x9;&#x9;getch();&#xa;&#x9;&#x9;&#x9;return;&#xa;&#x9;&#x9;}&#xa;&#x9;&#x9;fclose(ptr1);&#xa;&#x9;&#x9;fclose(ptr);&#xa;&#x9;&#x9;n = j;&#xa;&#x9;&#x9;system(&quot;cls&quot;);&#xa;&#x9;&#x9;ptr=fopen(&quot;medical.dat&quot;,&quot;wb&quot;);&#xa;&#x9;&#x9;for(i=0; i&lt;n; i++)&#xa;&#x9;&#x9;fwrite(&amp;x[i],sizeof(x[i]),1,ptr);&#xa;&#x9;&#x9;fclose(ptr);&#xa;&#x9;&#x9;system(&quot;cls&quot;);&#xa;&#x9;&#x9;box();&#xa;&#x9;&#x9;gotoxy(8,15);&#xa;&#x9;&#x9;printf(&quot;* Price paid by customer = %.2f&quot;,b);&#xa;&#x9;&#x9;gotoxy(8,17);&#xa;&#x9;&#x9;printf(&quot;* Quantity sold          = %d&quot;,a);&#xa;&#x9;&#x9;getch();&#xa;&#x9;&#x9;gotoxy(10,20);&#xa;&#x9;&#x9;printf(&quot;more enteries=(y/n) :&quot;);&#xa;&#x9;&#x9;ch=getche();&#xa;&#x9;   }&#xa;&#xa;}&#xa;//===========================MEDICINE STOCK=====================================&#xa;void stock()&#xa;{&#xa;  char ch;&#xa;  int i,c;&#xa;&#x9;   do&#xa;&#x9;   {&#xa;&#x9;&#x9;system(&quot;cls&quot;);&#xa;&#x9;&#x9;ptr1=fopen(&quot;medical.dat&quot;,&quot;r&quot;);&#xa;&#x9;&#x9;if(ptr1==NULL)&#xa;&#x9;&#x9;{&#xa;&#x9;&#x9;&#x9;printf(&quot;\u005cn\u005ct Can not open File! &quot;);&#xa;&#x9;&#x9;&#x9;exit(1);&#xa;&#x9;&#x9;}&#xa;&#x9;&#x9;system(&quot;cls&quot;);&#xa;&#x9;&#x9;box();&#xa;&#x9;&#x9;lbox();&#xa;&#x9;&#x9;//textcolor(GREEN);&#xa;&#x9;&#x9;gotoxy(30,8);&#xa;&#x9;&#x9;////textcolor(GREEN+BLINK);&#xa;&#x9;&#x9;printf(&quot; STOCK OF MEDICINE &quot;);&#xa;&#x9;&#x9;//textcolor(WHITE);&#xa;&#x9;&#x9;i=14;&#xa;&#x9;&#x9;gotoxy(9,10);&#xa;&#x9;&#x9;printf(&quot;ID.   MEDICINE NAME.    QTY     Supplier Name     Exp.Date&quot;);&#xa;&#x9;&#x9;gotoxy(9,12);&#xa;&#x9;&#x9;printf(&quot;==================================================================\u005cn&quot;);&#xa;&#xa;&#x9;&#x9;while((fread(&amp;temp,sizeof(temp),1,ptr1))==1)&#xa;&#x9;&#x9;{&#xa;&#x9;&#x9;&#x9;gotoxy(9,i);&#xa;&#x9;&#x9;&#x9;printf(&quot; %s&quot;,temp.id);&#xa;&#x9;&#x9;&#x9;gotoxy(15,i);&#xa;&#x9;&#x9;&#x9;printf(&quot; %s&quot;,temp.medi_name);&#xa;&#x9;&#x9;&#x9;gotoxy(32,i);&#xa;&#x9;&#x9;&#x9;printf(&quot; %d&quot;,temp.quantity);&#xa;&#x9;&#x9;&#x9;gotoxy(43,i);&#xa;&#x9;&#x9;&#x9;printf(&quot; %s&quot;,temp.supp_name);&#xa;&#x9;&#x9;&#x9;gotoxy(60,i);&#xa;&#x9;&#x9;&#x9;printf(&quot; %s&quot;,temp.exp_date);&#xa;&#x9;&#x9;&#x9;i++;&#xa;&#x9;&#x9;}&#xa;&#x9;&#x9;gotoxy(10,42);&#xa;&#x9;&#x9;printf(&quot;Press [1] for Update Medicine Stock  &amp; [0] for main menu &quot;);&#xa;&#x9;&#x9;c = (getche());&#xa;&#x9;&#x9;switch (c)&#xa;&#x9;&#x9;{&#xa;&#x9;&#x9;&#x9;case &apos;0&apos;:animation();&#xa;&#x9;&#x9;&#x9;&#x9; main_menu();&#xa;&#x9;&#x9;&#x9;&#x9; break;&#xa;&#x9;&#x9;&#x9;case &apos;1&apos;:update_stock();&#xa;&#x9;&#x9;&#x9;&#x9; break;&#xa;&#x9;&#x9;}&#xa;&#xa;&#x9;   }while(c != &apos;1&apos;);&#xa;&#x9;   getche();&#xa;}&#xa;//=============================== FOR MEDICINE SEARCH ====================&#xa;void medi_search()&#xa;{&#xa;  char mid[6];&#xa;  int i,c;&#xa;  system(&quot;cls&quot;);&#xa;&#x9;   ptr1=fopen(&quot;medical.dat&quot;,&quot;r&quot;);&#xa;&#x9;   if(ptr1==NULL)&#xa;&#x9;   {&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005ct Can not open File! &quot;);&#xa;&#x9;&#x9;exit(0);&#xa;&#x9;   }&#xa;&#x9;   system(&quot;cls&quot;);&#xa;&#x9;   box();&#xa;&#xa;&#x9;   gotoxy(10,7);&#xa;&#x9;   printf(&quot;Enter Medicine Id to be searched : &quot;);&#xa;&#x9;   scanf(&quot;%s&quot;,&amp;mid);&#xa;&#x9;   system(&quot;cls&quot;);&#xa;&#x9;   box();&#xa;&#x9;   lbox();&#xa;&#x9;   //textcolor(GREEN);&#xa;&#x9;   gotoxy(30,8);&#xa;&#x9;   //textcolor(GREEN+BLINK);&#xa;&#x9;   printf(&quot; MEDICINE &quot;);&#xa;&#x9;   //textcolor(WHITE);&#xa;&#x9;   i=14;&#xa;&#x9;   gotoxy(9,10);&#xa;&#x9;   printf(&quot;ID.   MEDICINE NAME.    QTY     Supplier Name     Exp.Date&quot;);&#xa;&#x9;   gotoxy(9,12);&#xa;&#x9;   printf(&quot;==================================================================\u005cn&quot;);&#xa;&#x9;   while((fread(&amp;temp,sizeof(temp),1,ptr1))==1)&#xa;&#x9;   {&#xa;&#x9;&#x9;if(strcmp(mid,temp.id)==0)&#xa;&#x9;&#x9;{&#xa;&#x9;&#x9;&#x9;gotoxy(9,i);&#xa;&#x9;&#x9;&#x9;printf(&quot; %s&quot;,temp.id);&#xa;&#x9;&#x9;&#x9;gotoxy(15,i);&#xa;&#x9;&#x9;&#x9;printf(&quot; %s&quot;,temp.medi_name);&#xa;&#x9;&#x9;&#x9;gotoxy(32,i);&#xa;&#x9;&#x9;&#x9;printf(&quot; %d&quot;,temp.quantity);&#xa;&#x9;&#x9;&#x9;gotoxy(43,i);&#xa;&#x9;&#x9;&#x9;printf(&quot; %s&quot;,temp.supp_name);&#xa;&#x9;&#x9;&#x9;gotoxy(60,i);&#xa;&#x9;&#x9;&#x9;printf(&quot; %s&quot;,temp.exp_date);&#xa;&#x9;&#x9;&#x9;i++;&#xa;&#x9;&#x9;&#x9;break;&#xa;&#x9;&#x9;}&#xa;&#xa;&#x9;   }&#xa;&#x9;   if(strcmp(mid,temp.id)!=0)&#xa;&#x9;   {&#xa;&#x9;&#x9;gotoxy(20,20);&#xa;&#x9;&#x9;printf(&quot;Not in Stock.....&quot;);&#xa;&#x9;   }&#xa;&#x9;   getche();&#xa;&#xa;}&#xa;//============================ FOR MEDICINE UPDATE =====================&#xa;void update_stock()&#xa;{&#xa;  char mid[6];&#xa;  int j,a,count=0,n;&#xa;  system(&quot;cls&quot;);&#xa;&#x9;   ptr=fopen(&quot;medical.dat&quot;,&quot;rb&quot;);&#xa;&#x9;   if(ptr==NULL)&#xa;&#x9;   {&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005ct Can not open File! &quot;);&#xa;&#x9;&#x9;exit(0);&#xa;&#x9;   }&#xa;&#x9;   system(&quot;cls&quot;);&#xa;&#x9;   box();&#xa;&#x9;   gotoxy(20,45);&#xa;&#x9;   printf(&quot;Press Enter to go to MENU ...........&quot;);&#xa;&#x9;   //textcolor(GREEN);&#xa;&#x9;   gotoxy(27,8);&#xa;&#x9;   ////textcolor(GREEN+BLINK);&#xa;&#x9;   printf(&quot; UPDATE MEDICINE QUANTITY &quot;);&#xa;&#x9;   //textcolor(WHITE);&#xa;&#x9;   gotoxy(9,10);&#xa;&#x9;   printf(&quot;Enter medicine id to be update qty: &quot;);&#xa;&#x9;   scanf(&quot;%s&quot;,&amp;mid);&#xa;&#x9;   j=0;&#xa;&#xa;&#x9;   while((fread(&amp;temp,sizeof(temp),1,ptr))==1)&#xa;&#x9;   {&#xa;&#x9;&#x9;if((strcmp(temp.id,mid)&lt;0) || (strcmp(temp.id,mid)&gt;0))&#xa;&#x9;&#x9;{&#xa;&#x9;&#x9;&#x9;x[j] = temp;&#xa;&#x9;&#x9;&#x9;j++;&#xa;&#x9;&#x9;}&#xa;&#x9;&#x9;else&#xa;&#x9;&#x9;{&#xa;&#x9;&#x9;&#x9;gotoxy(8,12);&#xa;&#x9;&#x9;&#x9;printf(&quot;Medicine Name     : %s&quot;,temp.medi_name);&#xa;&#x9;&#x9;&#x9;gotoxy(8,14);&#xa;&#x9;&#x9;&#x9;printf(&quot;Quantity in stock : %d&quot;,temp.quantity);&#xa;&#x9;&#x9;&#x9;gotoxy(8,16);&#xa;&#x9;&#x9;&#x9;printf(&quot;Quantity want to update : &quot;);&#xa;&#x9;&#x9;&#x9;scanf(&quot;%d&quot;,&amp;a);&#xa;&#x9;&#x9;&#x9;x[j]=temp;&#xa;&#x9;&#x9;&#x9;x[j].quantity=(x[j].quantity+a);&#xa;&#x9;&#x9;&#x9;x[j].total=(x[j].quantity*temp.sale);&#xa;&#x9;&#x9;&#x9;x[j].cost=(x[j].quantity*temp.unit);&#xa;&#x9;&#x9;&#x9;x[j].bye=(x[j].sale*a);&#xa;&#x9;&#x9;&#x9;x[j].qty=a;&#xa;&#x9;&#x9;&#x9;j++;&#xa;&#x9;&#x9;&#x9;count++;&#xa;&#x9;&#x9;}&#xa;&#x9;   }&#xa;&#x9;   if (count==0)&#xa;&#x9;   {&#xa;&#x9;&#x9; system(&quot;cls&quot;);&#xa;&#x9;&#x9; gotoxy(33,10);&#xa;&#x9;&#x9; printf(&quot;Not in stock!!!!!!&quot;);&#xa;&#x9;&#x9; getch();&#xa;&#x9;&#x9; return;&#xa;&#x9;   }&#xa;&#x9;   fclose(ptr);&#xa;&#x9;   n = j;&#xa;&#x9;   system(&quot;cls&quot;);&#xa;&#x9;   ptr=fopen(&quot;medical.dat&quot;,&quot;wb&quot;);&#xa;&#x9;   for(i=0; i&lt;n; i++)&#xa;&#x9;   fwrite(&amp;x[i],sizeof(x[i]),1,ptr);&#xa;&#x9;   fclose(ptr);&#xa;}&#xa;//===================== view report =============================/&#xa;void sale_rpt()&#xa;{&#xa;  char ch;&#xa;  int j;&#xa;  system(&quot;cls&quot;);&#xa;&#x9;   ptrs_r=fopen(&quot;saleRpt.dat&quot;,&quot;r&quot;);&#xa;&#x9;   if(ptrs_r==NULL)&#xa;&#x9;   {&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005ct Can not open File! &quot;);&#xa;&#x9;&#x9;exit(0);&#xa;&#x9;   }&#xa;&#x9;   system(&quot;cls&quot;);&#xa;&#x9;   box();&#xa;&#x9;   gotoxy(20,50);&#xa;&#x9;   printf(&quot;Press any key to go to REPORT MENU ...........&quot;);&#xa;&#x9;   lbox();&#xa;&#x9;   //textcolor(GREEN);&#xa;&#x9;   gotoxy(30,8);&#xa;&#x9;   ////textcolor(GREEN+BLINK);&#xa;&#x9;   printf(&quot;Sales Report&quot;);&#xa;&#x9;   //textcolor(WHITE);&#xa;&#x9;   gotoxy(7,10);&#xa;&#x9;   printf(&quot;ID. Medicine Name.  Customer Name.   Qty.  Rate.  Total.   Date&quot;);&#xa;&#x9;   gotoxy(7,12);&#xa;&#x9;   printf(&quot;===================================================================&quot;);&#xa;&#x9;   j=14;&#xa;&#x9;   while(fscanf(ptrs_r,&quot;%s %s %s %d %f %f %d %d %d\u005cn&quot;,s_r.medi_id,s_r.medir_name,s_r.cust_name,&amp;s_r.qty,&amp;s_r.rate,&amp;s_r.total,&amp;s_r.sDay,&amp;s_r.sMonth,&amp;s_r.sYear)!=EOF)&#xa;&#x9;   {&#xa;&#x9;&#x9;gotoxy(6,j);&#xa;&#x9;&#x9;printf(&quot;%s&quot;,s_r.medi_id);&#xa;&#x9;&#x9;gotoxy(11,j);&#xa;&#x9;&#x9;printf(&quot;%s&quot;,s_r.medir_name);&#xa;&#x9;&#x9;gotoxy(28,j);&#xa;&#x9;&#x9;printf(&quot;%s&quot;,s_r.cust_name);&#xa;&#x9;&#x9;gotoxy(44,j);&#xa;&#x9;&#x9;printf(&quot;%d&quot;,s_r.qty);&#xa;&#x9;&#x9;gotoxy(50,j);&#xa;&#x9;&#x9;printf(&quot;%.2f&quot;,s_r.rate);&#xa;&#x9;&#x9;gotoxy(57,j);&#xa;&#x9;&#x9;printf(&quot;%.2f&quot;,s_r.total);&#xa;&#x9;&#x9;gotoxy(65,j);&#xa;&#x9;&#x9;printf(&quot;%d-%d-%d&quot;,s_r.sDay,s_r.sMonth,s_r.sYear);&#xa;&#x9;&#x9;j=j+2;&#xa;&#x9;   }&#xa;&#x9;   getche();&#xa;}&#xa;//======================= VIEW PURCHASE REPORT ===========================&#xa;void pur_rpt()&#xa;{&#xa;  char ch;&#xa;  int j;&#xa;  system(&quot;cls&quot;);&#xa;  t();&#xa;  box();&#xa;&#x9;   ptrp_r=fopen(&quot;purreport.dat&quot;,&quot;r&quot;);&#xa;&#x9;   if(ptrp_r==NULL)&#xa;&#x9;   {&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005ct Can not open File! &quot;);&#xa;&#x9;&#x9;exit(0);&#xa;&#x9;   }&#xa;&#x9;   gotoxy(20,50);&#xa;&#x9;   printf(&quot;Press Enter to go to REPORT MENU ...........&quot;);&#xa;&#x9;   lbox();&#xa;&#x9;   //textcolor(GREEN);&#xa;&#x9;   gotoxy(30,8);&#xa;&#x9;   printf(&quot;Purchase Report&quot;);&#xa;&#x9;   //textcolor(WHITE);&#xa;&#x9;   gotoxy(7,10);&#xa;&#x9;   printf(&quot;ID. Medicine Name.  Supplier Name.   Qty.  Rate.  Total.   Date&quot;);&#xa;&#x9;   gotoxy(7,12);&#xa;&#x9;   printf(&quot;===================================================================&quot;);&#xa;&#x9;   j=14;&#xa;&#x9;   while(fscanf(ptrp_r,&quot;%s %s %s %d %f %f %d %d %d\u005cn&quot;,p_r.medi_id,p_r.medir_name,p_r.supp_name,&amp;p_r.qty,&amp;p_r.rate,&amp;p_r.total,&amp;p_r.sDay,&amp;p_r.sMonth,&amp;p_r.sYear)!=EOF)&#xa;&#x9;   {&#xa;&#x9;&#x9;gotoxy(6,j);&#xa;&#x9;&#x9;printf(&quot;%s&quot;,p_r.medi_id);&#xa;&#x9;&#x9;gotoxy(11,j);&#xa;&#x9;&#x9;printf(&quot;%s&quot;,p_r.medir_name);&#xa;&#x9;&#x9;gotoxy(28,j);&#xa;&#x9;&#x9;printf(&quot;%s&quot;,p_r.supp_name);&#xa;&#x9;&#x9;gotoxy(44,j);&#xa;&#x9;&#x9;printf(&quot;%d&quot;,p_r.qty);&#xa;&#x9;&#x9;gotoxy(50,j);&#xa;&#x9;&#x9;printf(&quot;%.2f&quot;,p_r.rate);&#xa;&#x9;&#x9;gotoxy(57,j);&#xa;&#x9;&#x9;printf(&quot;%.2f&quot;,p_r.total);&#xa;&#x9;&#x9;gotoxy(65,j);&#xa;&#x9;&#x9;printf(&quot;%d-%d-%d&quot;,p_r.sDay,p_r.sMonth,p_r.sYear);&#xa;&#x9;&#x9;j+=2;&#xa;&#x9;   }&#xa;&#x9;   getche();&#xa;}&#xa;//========================= report of profit ===========================&#xa;void profit_rpt()&#xa;{&#xa;  char ch;&#xa;  int j;&#xa;  system(&quot;cls&quot;);&#xa;  t();&#xa;  box();&#xa;&#x9;   ptrpr_r=fopen(&quot;profitRpt.dat&quot;,&quot;r&quot;);&#xa;&#x9;   if(ptrpr_r==NULL)&#xa;&#x9;   {&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005ct Can not open File! &quot;);&#xa;&#x9;       //&#x9;exit(0);&#xa;&#x9;   }&#xa;&#x9;   gotoxy(20,50);&#xa;&#x9;   printf(&quot;Press Enter to go to REPORT MENU ...........&quot;);&#xa;&#x9;   lbox();&#xa;&#x9;   //textcolor(GREEN);&#xa;&#x9;   gotoxy(30,8);&#xa;&#x9;   printf(&quot;Profit Report&quot;);&#xa;&#x9;   //textcolor(WHITE);&#xa;&#x9;   gotoxy(7,10);&#xa;&#x9;   printf(&quot;ID. Medicine Name.   Date        Qty.  Unit Price  Sale Price. Profit. &quot;);&#xa;&#x9;   gotoxy(7,12);&#xa;&#x9;   printf(&quot;===================================================================&quot;);&#xa;&#x9;   j=14;&#xa;&#x9;   while(fscanf(ptrpr_r,&quot;%s %s %d %d %d %d %f %f %f \u005cn&quot;,pr_r.medi_id,pr_r.medir_name,&amp;pr_r.sDay,&amp;pr_r.sMonth,&amp;pr_r.sYear,&amp;pr_r.qty,&amp;pr_r.unit,&amp;pr_r.rate,&amp;pr_r.profit)!=EOF)&#xa;&#x9;   {&#xa;&#x9;&#x9;gotoxy(6,j);&#xa;&#xa;&#x9;&#x9;printf(&quot;%s&quot;,pr_r.medi_id);&#xa;&#x9;&#x9;gotoxy(11,j);&#xa;&#x9;&#x9;printf(&quot;%s&quot;,pr_r.medir_name);&#xa;&#x9;&#x9;gotoxy(28,j);&#xa;&#x9;&#x9;printf(&quot;%d-%d-%d&quot;,pr_r.sDay,pr_r.sMonth,pr_r.sYear);&#xa;&#x9;&#x9;gotoxy(40,j);&#xa;&#x9;&#x9;printf(&quot;%d&quot;,pr_r.qty);&#xa;&#x9;&#x9;gotoxy(48,j);&#xa;&#x9;&#x9;printf(&quot;%.2f&quot;,pr_r.unit);&#xa;&#x9;&#x9;gotoxy(60,j);&#xa;&#x9;&#x9;printf(&quot;%.2f&quot;,pr_r.rate);&#xa;&#x9;&#x9;gotoxy(70,j);&#xa;&#x9;&#x9;printf(&quot;%.2f&quot;,pr_r.profit);&#xa;&#x9;&#x9;gotoxy(10,j);&#xa;&#x9;&#x9;printf(&quot;%c&quot;,124);&#xa;&#x9;&#x9;j+=2;&#xa;&#xa;&#x9;   }&#xa;&#x9;   getche();&#xa;}&#xa;&#xa;void sale_rpt_daily()&#xa;{&#xa;  char ch;&#xa;  int j,d,m,y;&#xa;  float total=0.00;&#xa;  system(&quot;cls&quot;);&#xa;&#x9;   ptrs_r=fopen(&quot;saleRpt.dat&quot;,&quot;r&quot;);&#xa;&#x9;   if(ptrs_r==NULL)&#xa;&#x9;   {&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005ct Can not open File! &quot;);&#xa;&#x9;&#x9;exit(0);&#xa;&#x9;   }&#xa;&#x9;   system(&quot;cls&quot;);&#xa;&#x9;   gotoxy(15,10);&#xa;&#x9;   printf(&quot;Enter Date(dd-mm-yyyy):  &quot;);&#xa;&#x9;   scanf(&quot;%d-%d-%d&quot;,&amp;d,&amp;m,&amp;y);&#xa;&#x9;   system(&quot;cls&quot;);&#xa;&#x9;   gotoxy(20,50);&#xa;&#x9;   printf(&quot;Press any key to go to REPORT MENU ...........&quot;);&#xa;&#x9;   box();&#xa;&#x9;   lbox();&#xa;&#x9;   //textcolor(GREEN);&#xa;&#x9;   gotoxy(30,8);&#xa;&#x9;   ////textcolor(GREEN+BLINK);&#xa;&#x9;   printf(&quot;Sales Report&quot;);&#xa;&#x9;   //textcolor(WHITE);&#xa;&#x9;   gotoxy(7,10);&#xa;&#x9;   printf(&quot;ID. Medicine Name.  Customer Name.   Qty.  Rate.  Total.   Date&quot;);&#xa;&#x9;   gotoxy(7,12);&#xa;&#x9;   printf(&quot;===================================================================&quot;);&#xa;&#x9;   j=14;&#xa;&#x9;   while(fscanf(ptrs_r,&quot;%s %s %s %d %f %f %d %d %d\u005cn&quot;,s_r.medi_id,s_r.medir_name,s_r.cust_name,&amp;s_r.qty,&amp;s_r.rate,&amp;s_r.total,&amp;s_r.sDay,&amp;s_r.sMonth,&amp;s_r.sYear)!=EOF)&#xa;&#x9;   {&#xa;&#x9;&#x9;if(d==s_r.sDay &amp;&amp;m== s_r.sMonth &amp;&amp; y==s_r.sYear)&#xa;&#x9;&#x9;{&#xa;&#x9;&#x9;gotoxy(6,j);&#xa;&#x9;&#x9;printf(&quot;%s&quot;,s_r.medi_id);&#xa;&#x9;&#x9;gotoxy(11,j);&#xa;&#x9;&#x9;printf(&quot;%s&quot;,s_r.medir_name);&#xa;&#x9;&#x9;gotoxy(28,j);&#xa;&#x9;&#x9;printf(&quot;%s&quot;,s_r.cust_name);&#xa;&#x9;&#x9;gotoxy(44,j);&#xa;&#x9;&#x9;printf(&quot;%d&quot;,s_r.qty);&#xa;&#x9;&#x9;gotoxy(50,j);&#xa;&#x9;&#x9;printf(&quot;%.2f&quot;,s_r.rate);&#xa;&#x9;&#x9;gotoxy(57,j);&#xa;&#x9;&#x9;printf(&quot;%.2f&quot;,s_r.total);&#xa;&#x9;&#x9;gotoxy(65,j);&#xa;&#x9;&#x9;printf(&quot;%d-%d-%d&quot;,s_r.sDay,s_r.sMonth,s_r.sYear);&#xa;&#x9;&#x9;j=j+2;&#xa;&#x9;&#x9;total=total+s_r.total;&#xa;&#x9;&#x9;}&#xa;&#x9;   }&#xa;&#x9;   gotoxy(7,42);&#xa;&#x9;   printf(&quot;-------------------------------------------------------------------&quot;);&#xa;&#x9;   gotoxy(45,43);&#xa;&#x9;   printf(&quot;Total:        %.2f&quot;,total);&#xa;&#x9;   getche();&#xa;}&#xa;void pur_rpt_daily()&#xa;{&#xa;  char ch;&#xa;  int j,d,m,y;&#xa;  float total=0.00;&#xa;&#xa;&#x9;   ptrp_r=fopen(&quot;purreport.dat&quot;,&quot;r&quot;);&#xa;&#x9;   if(ptrp_r==NULL)&#xa;&#x9;   {&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005ct Can not open File! &quot;);&#xa;&#x9;&#x9;exit(0);&#xa;&#x9;   }&#xa;&#x9;   system(&quot;cls&quot;);&#xa;&#x9;   gotoxy(15,10);&#xa;&#x9;   printf(&quot;Enter Date(dd-mm-yyyy):  &quot;);&#xa;&#x9;   scanf(&quot;%d-%d-%d&quot;,&amp;d,&amp;m,&amp;y);&#xa;&#x9;   system(&quot;cls&quot;);&#xa;&#x9;   gotoxy(20,50);&#xa;&#x9;   printf(&quot;Press Enter to go to REPORT MENU ...........&quot;);&#xa;&#x9;   t();&#xa;&#x9;   box();&#xa;&#x9;   lbox();&#xa;&#x9;   //textcolor(GREEN);&#xa;&#x9;   gotoxy(30,8);&#xa;&#x9;   printf(&quot;Purchase Report&quot;);&#xa;&#x9;   //textcolor(WHITE);&#xa;&#x9;   gotoxy(7,10);&#xa;&#x9;   printf(&quot;ID. Medicine Name.  Supplier Name.   Qty.  Rate.  Total.   Date&quot;);&#xa;&#x9;   gotoxy(7,12);&#xa;&#x9;   printf(&quot;===================================================================&quot;);&#xa;&#x9;   j=14;&#xa;&#x9;   while(fscanf(ptrp_r,&quot;%s %s %s %d %f %f %d %d %d\u005cn&quot;,p_r.medi_id,p_r.medir_name,p_r.supp_name,&amp;p_r.qty,&amp;p_r.rate,&amp;p_r.total,&amp;p_r.sDay,&amp;p_r.sMonth,&amp;p_r.sYear)!=EOF)&#xa;&#x9;   {&#xa;&#x9;&#x9;if(d==p_r.sDay &amp;&amp;m== p_r.sMonth &amp;&amp; y==p_r.sYear)&#xa;&#x9;&#x9;{&#xa;&#x9;&#x9;gotoxy(6,j);&#xa;&#x9;&#x9;printf(&quot;%s&quot;,p_r.medi_id);&#xa;&#x9;&#x9;gotoxy(11,j);&#xa;&#x9;&#x9;printf(&quot;%s&quot;,p_r.medir_name);&#xa;&#x9;&#x9;gotoxy(28,j);&#xa;&#x9;&#x9;printf(&quot;%s&quot;,p_r.supp_name);&#xa;&#x9;&#x9;gotoxy(44,j);&#xa;&#x9;&#x9;printf(&quot;%d&quot;,p_r.qty);&#xa;&#x9;&#x9;gotoxy(50,j);&#xa;&#x9;&#x9;printf(&quot;%.2f&quot;,p_r.rate);&#xa;&#x9;&#x9;gotoxy(57,j);&#xa;&#x9;&#x9;printf(&quot;%.2f&quot;,p_r.total);&#xa;&#x9;&#x9;gotoxy(65,j);&#xa;&#x9;&#x9;printf(&quot;%d-%d-%d&quot;,p_r.sDay,p_r.sMonth,p_r.sYear);&#xa;&#x9;&#x9;j+=2;&#xa;&#x9;&#x9;total=total+p_r.total;&#xa;&#x9;&#x9;}&#xa;&#x9;   }&#xa;&#x9;   gotoxy(7,42);&#xa;&#x9;   printf(&quot;-------------------------------------------------------------------&quot;);&#xa;&#x9;   gotoxy(45,43);&#xa;&#x9;   printf(&quot;Total:        %.2f&quot;,total);&#xa;&#x9;   getche();&#xa;}&#xa;&#xa;//=============================================:) THE END :) =================================&#xa;" containsInvalidXMLChars="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

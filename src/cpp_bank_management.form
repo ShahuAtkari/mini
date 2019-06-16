@@ -1,0 +1,1733 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.8" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="undecorated" type="boolean" value="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,-24,0,0,5,87"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+    <Property name="useNullLayout" type="boolean" value="false"/>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="0" y="0" width="-1" height="100"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="false"/>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="48" style="3"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="rganization"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="290" y="10" width="240" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Container class="javax.swing.JPanel" name="jPanel6">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel6MouseClicked"/>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel6MouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel6MouseExited"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="770" y="30" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace pref="21" max="32767" attributes="0"/>
+                      <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel11">
+              <Properties>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="HOME"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Hand Cursor"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel11MouseEntered"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel7">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel7MouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel7MouseExited"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="863" y="30" width="70" height="-1"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel12" pref="50" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel12">
+              <Properties>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="FEATURE"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Hand Cursor"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel12MouseClicked"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel8">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="f0" green="f0" red="f0" type="rgb"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel8MouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel8MouseExited"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="950" y="30" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel13">
+              <Properties>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="CONTACT"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Hand Cursor"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel13MousePressed"/>
+                <EventHandler event="mouseReleased" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel13MouseReleased"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel9">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel9MouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel9MouseExited"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="1030" y="30" width="70" height="-1"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel14">
+              <Properties>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="ABOUT US"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Hand Cursor"/>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel10">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel10MouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel10MouseExited"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="1110" y="30" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel15" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jLabel15" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel15">
+              <Properties>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="SUPPORT"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Hand Cursor"/>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel11">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel11MouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel11MouseExited"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="1180" y="30" width="67" height="-1"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jLabel16" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel16" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel16">
+              <Properties>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="OTHERS"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Hand Cursor"/>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="jLabel17">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/mini_project/icons8-shutdown-48.png"/>
+            </Property>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Hand Cursor"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel17MouseClicked"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="1320" y="10" width="50" height="50"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel18">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="48" style="3"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="66" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="O"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="250" y="10" width="40" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel19">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="48" style="3"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="66" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="P"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="90" y="10" width="40" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel20">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="48" style="3"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="roject"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="120" y="10" width="140" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel51">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="2" name="F:\netbean\netbean project\mini_project\src\mini_project\icons8-slide-up-48.png"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel51MouseClicked"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="1260" y="10" width="-1" height="50"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="0" y="100" width="300" height="770"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="false"/>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel4">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="33" green="33" red="33" type="rgb"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="10" y="11" width="282" height="50"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+            <Property name="useNullLayout" type="boolean" value="false"/>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel2">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="24" style="0"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="C++ Projects"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="90" y="10" width="-1" height="32"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel5">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+                <MatteColorBorder>
+                  <Color PropertyName="color" blue="f0" green="f0" red="f0" type="rgb"/>
+                </MatteColorBorder>
+              </Border>
+            </Property>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Hand Cursor"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel5MouseClicked"/>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel5MouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel5MouseExited"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="10" y="72" width="282" height="37"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+            <Property name="useNullLayout" type="boolean" value="false"/>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel3">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="18" style="0"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Bookshop Management System"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="10" y="0" width="270" height="30"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel12">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+                <MatteColorBorder>
+                  <Color PropertyName="color" blue="f0" green="f0" red="f0" type="rgb"/>
+                </MatteColorBorder>
+              </Border>
+            </Property>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Hand Cursor"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel12MouseClicked"/>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel12MouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel12MouseExited"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="10" y="120" width="280" height="34"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+            <Property name="useNullLayout" type="boolean" value="false"/>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel4">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="18" style="0"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="66" red="cc" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Bank Management System"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="40" y="0" width="-1" height="30"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel16">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+                <MatteColorBorder>
+                  <Color PropertyName="color" blue="f0" green="f0" red="f0" type="rgb"/>
+                </MatteColorBorder>
+              </Border>
+            </Property>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Hand Cursor"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel16MouseClicked"/>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel16MouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel16MouseExited"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="10" y="172" width="282" height="41"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+            <Property name="useNullLayout" type="boolean" value="false"/>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel8">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="18" style="0"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Supermarket Billing System"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="30" y="10" width="-1" height="24"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel21">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+                <MatteColorBorder>
+                  <Color PropertyName="color" blue="f0" green="f0" red="f0" type="rgb"/>
+                </MatteColorBorder>
+              </Border>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="f0" green="f0" red="f0" type="rgb"/>
+            </Property>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Hand Cursor"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel21MouseClicked"/>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel21MouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel21MouseExited"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="10" y="224" width="282" height="-1"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+            <Property name="useNullLayout" type="boolean" value="false"/>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel23">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="18" style="0"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Exit"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="119" y="0" width="-1" height="40"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="about">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="300" y="150" width="1080" height="590"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="false"/>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel27">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="48" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="66" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="About"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="420" y="40" width="150" height="50"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JSeparator" name="jSeparator1">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="380" y="90" width="220" height="10"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel32">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="This is simple Bank management System Using c++ programming language , the program provide the following option."/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="50" y="130" width="880" height="20"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel63">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="2" name="F:\netbean\netbean project\mini_project\src\mini_project\icons8-chevron-right-filled-48 (1).png"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="60" y="200" width="50" height="40"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel64">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="18" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Add Record"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="120" y="210" width="140" height="20"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel65">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="2" name="F:\netbean\netbean project\mini_project\src\mini_project\icons8-chevron-right-filled-48 (1).png"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="60" y="250" width="50" height="40"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel66">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="18" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="List Record"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="120" y="260" width="150" height="20"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel67">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="2" name="F:\netbean\netbean project\mini_project\src\mini_project\icons8-chevron-right-filled-48 (1).png"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="60" y="300" width="50" height="40"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel68">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="18" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Modify Record"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="120" y="310" width="150" height="20"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel69">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="2" name="F:\netbean\netbean project\mini_project\src\mini_project\icons8-chevron-right-filled-48 (1).png"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="60" y="360" width="50" height="40"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel70">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="18" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Edit Record"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="120" y="370" width="170" height="20"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel34">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="2" name="F:\netbean\netbean project\mini_project\src\mini_project\icons8-chevron-right-filled-48 (1).png"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="60" y="410" width="50" height="40"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel46">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="18" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Delete record"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="120" y="420" width="170" height="20"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="ppt">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="300" y="150" width="1070" height="590"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="false"/>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel30">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="48" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="66" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="PowerPoint Presentation"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="260" y="20" width="620" height="51"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JSeparator" name="jSeparator2">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="212" y="69" width="750" height="10"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="design">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="300" y="150" width="1080" height="590"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="false"/>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel31">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="66" red="ff" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="48" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="66" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Design"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="420" y="20" width="180" height="60"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JSeparator" name="jSeparator3">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="410" y="80" width="190" height="10"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="0" y="90" width="1080" height="500"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jPanel3">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+              </Properties>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+                <Property name="useNullLayout" type="boolean" value="false"/>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel47">
+                  <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="2" name="F:\netbean\netbean project\mini_project\src\mini_project\cpp Pro\bb1.png"/>
+                    </Property>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="180" y="50" width="640" height="300"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel48">
+                  <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="2" name="F:\netbean\netbean project\mini_project\src\mini_project\cpp Pro\bb2.png"/>
+                    </Property>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="180" y="400" width="640" height="300"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel49">
+                  <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="2" name="F:\netbean\netbean project\mini_project\src\mini_project\cpp Pro\bb3.png"/>
+                    </Property>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="180" y="720" width="640" height="300"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="prime">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="300" y="160" width="1080" height="580"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="false"/>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel52">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="36" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="66" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Prime Membership"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="370" y="30" width="370" height="57"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JSeparator" name="jSeparator4">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="370" y="92" width="330" height="10"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel53">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="name"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="240" y="130" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel54">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Address"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="230" y="200" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel55">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="choose your Payment Method"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="130" y="390" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel56">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="choose your Plans "/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="190" y="460" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JTextField" name="lname">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="null"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="340" y="120" width="370" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JTextField" name="laddress">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="null"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="laddressActionPerformed"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="340" y="180" width="370" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jComboBox2">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="3">
+                <StringItem index="0" value="Rs 1000 per project"/>
+                <StringItem index="1" value="Rs 8000 per month"/>
+                <StringItem index="2" value="Rs 20000 per month"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="340" y="460" width="390" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jComboBox1">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="4">
+                <StringItem index="0" value="Rupay"/>
+                <StringItem index="1" value="Mastercard"/>
+                <StringItem index="2" value="Paypal"/>
+                <StringItem index="3" value="Amex"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="350" y="390" width="370" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton1">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="24" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Submit"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="320" y="520" width="130" height="40"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton2">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="24" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="cancel"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="530" y="520" width="130" height="40"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JSeparator" name="jSeparator5">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="340" y="140" width="370" height="10"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JSeparator" name="jSeparator6">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="340" y="200" width="370" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel9">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="account number"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="200" y="240" width="-1" height="20"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel10">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="IFSC Code"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="220" y="280" width="-1" height="20"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel21">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Bank account link mobile number"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="120" y="330" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextField5">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="null"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="340" y="120" width="370" height="20"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JSeparator" name="jSeparator10">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="340" y="140" width="370" height="10"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JTextField" name="laccount">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="null"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="340" y="230" width="370" height="20"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JSeparator" name="jSeparator11">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="340" y="250" width="370" height="10"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JTextField" name="lcode">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="null"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="340" y="270" width="370" height="20"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JSeparator" name="jSeparator12">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="340" y="290" width="370" height="10"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JTextField" name="lmob">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="null"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="340" y="320" width="370" height="20"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JSeparator" name="jSeparator13">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="340" y="340" width="370" height="10"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="prime_confirmation">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="300" y="150" width="1080" height="590"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="false"/>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel5">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="48" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="66" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Prime Membership"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="290" y="20" width="470" height="70"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JSeparator" name="jSeparator7">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="280" y="90" width="490" height="10"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Username"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="180" y="160" width="60" height="30"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel7">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Bank account link mobile number"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="80" y="220" width="210" height="30"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JTextField" name="usern">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="null"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="usernActionPerformed"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="340" y="160" width="430" height="30"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JTextField" name="lmno">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="null"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="340" y="220" width="430" height="30"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton3">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Ok"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jButton3MouseClicked"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="370" y="300" width="100" height="30"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton4">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="cancel"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="600" y="300" width="100" height="30"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JSeparator" name="jSeparator8">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="340" y="190" width="430" height="10"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JSeparator" name="jSeparator9">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="340" y="250" width="430" height="20"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="300" y="150" width="1070" height="590"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="#include&lt;stdio.h&gt;&#xa;#include&lt;conio.h&gt;&#xa;#include&lt;ctype.h&gt;&#xa;#include&lt;stdlib.h&gt;&#xa;#include&lt;string.h&gt;&#xa;void show_record();&#xa;void reset_score();&#xa;void help();&#xa;void edit_score(float , char []);&#xa;int main()&#xa;     {&#xa;     int countr,r,r1,count,i,n;&#xa;     float score;&#xa;     char choice;&#xa;     char playername[20];&#xa;     mainhome:&#xa;     system(&quot;cls&quot;);&#xa;     printf(&quot;\u005ct\u005ct\u005ctC PROGRAM QUIZ GAME\u005cn&quot;);&#xa;     printf(&quot;\u005cn\u005ct\u005ct________________________________________&quot;);&#xa;&#xa;     printf(&quot;\u005cn\u005ct\u005ct\u005ct   WELCOME &quot;);&#xa;     printf(&quot;\u005cn\u005ct\u005ct\u005ct      to &quot;);&#xa;     printf(&quot;\u005cn\u005ct\u005ct\u005ct   THE GAME &quot;);&#xa;     printf(&quot;\u005cn\u005ct\u005ct________________________________________&quot;);&#xa;     printf(&quot;\u005cn\u005ct\u005ct________________________________________&quot;);&#xa;     printf(&quot;\u005cn\u005ct\u005ct   BECOME A MILLIONAIRE!!!!!!!!!!!    &quot;) ;&#xa;     printf(&quot;\u005cn\u005ct\u005ct________________________________________&quot;);&#xa;     printf(&quot;\u005cn\u005ct\u005ct________________________________________&quot;);&#xa;     printf(&quot;\u005cn\u005ct\u005ct &gt; Press S to start the game&quot;);&#xa;     printf(&quot;\u005cn\u005ct\u005ct &gt; Press V to view the highest score  &quot;);&#xa;     printf(&quot;\u005cn\u005ct\u005ct &gt; Press R to reset score&quot;);&#xa;     printf(&quot;\u005cn\u005ct\u005ct &gt; press H for help            &quot;);&#xa;     printf(&quot;\u005cn\u005ct\u005ct &gt; press Q to quit             &quot;);&#xa;     printf(&quot;\u005cn\u005ct\u005ct________________________________________\u005cn\u005cn&quot;);&#xa;     choice=toupper(getch());&#xa;     if (choice==&apos;V&apos;)&#xa;&#x9;{&#xa;&#x9;show_record();&#xa;&#x9;goto mainhome;&#xa;&#x9;}&#xa;     else if (choice==&apos;H&apos;)&#xa;&#x9;{&#xa;&#x9;help();getch();&#xa;&#x9;goto mainhome;&#xa;&#x9;}&#xa;&#x9;else if (choice==&apos;R&apos;)&#xa;&#x9;{reset_score();&#xa;&#x9;getch();&#xa;&#x9;goto mainhome;}&#xa;&#x9;else if (choice==&apos;Q&apos;)&#xa;&#x9;exit(1);&#xa;    else if(choice==&apos;S&apos;)&#xa;    {&#xa;     system(&quot;cls&quot;);&#xa;&#xa;    printf(&quot;\u005cn\u005cn\u005cn\u005cn\u005cn\u005cn\u005cn\u005cn\u005cn\u005cn\u005ct\u005ct\u005ctResister your name:&quot;);&#xa;     gets(playername);&#xa;&#xa;    system(&quot;cls&quot;);&#xa;    printf(&quot;\u005cn ------------------  Welcome %s to C Program Quiz Game --------------------------&quot;,playername);&#xa;    printf(&quot;\u005cn\u005cn Here are some tips you might wanna know before playing:&quot;);&#xa;    printf(&quot;\u005cn -------------------------------------------------------------------------&quot;);&#xa;    printf(&quot;\u005cn &gt;&gt; There are 2 rounds in this Quiz Game,WARMUP ROUND &amp; CHALLANGE ROUND&quot;);&#xa;    printf(&quot;\u005cn &gt;&gt; In warmup round you will be asked a total of 3 questions to test your&quot;);&#xa;    printf(&quot;\u005cn    general knowledge. You are eligible to play the game if you give atleast 2&quot;);&#xa;    printf(&quot;\u005cn    right answers, otherwise you can&apos;t proceed further to the Challenge Round.&quot;);&#xa;    printf(&quot;\u005cn &gt;&gt; Your game starts with CHALLANGE ROUND. In this round you will be asked a&quot;);&#xa;    printf(&quot;\u005cn    total of 10 questions. Each right answer will be awarded $100,000!&quot;);&#xa;    printf(&quot;\u005cn    By this way you can win upto ONE MILLION cash prize!!!!!..........&quot;);&#xa;    printf(&quot;\u005cn &gt;&gt; You will be given 4 options and you have to press A, B ,C or D for the&quot;);&#xa;    printf(&quot;\u005cn    right option.&quot;);&#xa;    printf(&quot;\u005cn &gt;&gt; You will be asked questions continuously, till right answers are given&quot;);&#xa;    printf(&quot;\u005cn &gt;&gt; No negative marking for wrong answers!&quot;);&#xa;    printf(&quot;\u005cn\u005cn\u005ct!!!!!!!!!!!!! ALL THE BEST !!!!!!!!!!!!!&quot;);&#xa;    printf(&quot;\u005cn\u005cn\u005cn Press Y  to start the game!\u005cn&quot;);&#xa;    printf(&quot;\u005cn Press any other key to return to the main menu!&quot;);&#xa;    if (toupper(getch())==&apos;Y&apos;)&#xa;&#x9;&#x9;{&#xa;&#x9;&#x9;    goto home;&#xa;        }&#xa;&#x9;else&#xa;&#x9;&#x9;{&#xa;        goto mainhome;&#xa;       system(&quot;cls&quot;);&#xa;       }&#xa;&#xa;     home:&#xa;     system(&quot;cls&quot;);&#xa;     count=0;&#xa;     for(i=1;i&lt;=3;i++)&#xa;     {&#xa;    system(&quot;cls&quot;);&#xa;     r1=i;&#xa;&#xa;&#xa;     switch(r1)&#xa;&#x9;&#x9;{&#xa;&#x9;&#x9;case 1:&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005cnWhich of the following is a Palindrome number?&quot;);&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005cnA.42042\u005ct\u005ctB.101010\u005cn\u005cnC.23232\u005ct\u005ctD.01234&quot;);&#xa;&#x9;&#x9;if (toupper(getch())==&apos;C&apos;)&#xa;&#x9;&#x9;&#x9;{&#xa;&#x9;&#x9;&#x9;    printf(&quot;\u005cn\u005cnCorrect!!!&quot;);count++;&#xa;&#x9;&#x9;&#x9;    getch();&#xa;&#x9;&#x9;&#x9;    break;&#xa;}&#xa;&#x9;&#x9;else&#xa;&#x9;&#x9;       {&#xa;&#x9;&#x9;           printf(&quot;\u005cn\u005cnWrong!!! The correct answer is C.23232&quot;);&#xa;&#x9;&#x9;           getch();&#xa;&#x9;&#x9;       break;&#xa;&#x9;&#x9;       }&#xa;&#xa;        case 2:&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005cn\u005cnThe country with the highest environmental performance index is...&quot;);&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005cnA.France\u005ct\u005ctB.Denmark\u005cn\u005cnC.Switzerland\u005ct\u005ctD.Finland&quot;);&#xa;&#x9;&#x9;if (toupper(getch())==&apos;C&apos;)&#xa;&#x9;&#x9;&#x9;{printf(&quot;\u005cn\u005cnCorrect!!!&quot;);count++;&#xa;&#x9;&#x9;&#x9;getch();&#xa;&#x9;&#x9;&#x9;break;}&#xa;&#x9;&#x9;else&#xa;&#x9;&#x9;       {printf(&quot;\u005cn\u005cnWrong!!! The correct answer is C.Switzerland&quot;);&#xa;&#x9;&#x9;       getch();&#xa;&#x9;&#x9;       break;}&#xa;&#xa;        case 3:&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005cn\u005cnWhich animal laughs like human being?&quot;);&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005cnA.Polar Bear\u005ct\u005ctB.Hyena\u005cn\u005cnC.Donkey\u005ct\u005ctD.Chimpanzee&quot;);&#xa;&#x9;&#x9;if (toupper(getch())==&apos;B&apos;)&#xa;&#x9;&#x9;&#x9;{printf(&quot;\u005cn\u005cnCorrect!!!&quot;);count++;&#xa;&#x9;&#x9;&#x9;getch();&#xa;&#x9;&#x9;&#x9;break;}&#xa;&#x9;&#x9;else&#xa;&#x9;&#x9;       {printf(&quot;\u005cn\u005cnWrong!!! The correct answer is B.Hyena&quot;);&#xa;&#x9;&#x9;       getch();&#xa;&#x9;&#x9;       break;}&#xa;&#xa;        case 4:&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005cn\u005cnWho was awarded the youngest player award in Fifa World Cup 2006?&quot;);&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005cnA.Wayne Rooney\u005ct\u005ctB.Lucas Podolski\u005cn\u005cnC.Lionel Messi\u005ct\u005ctD.Christiano Ronaldo&quot;);&#xa;&#x9;&#x9;if (toupper(getch())==&apos;B&apos;)&#xa;&#x9;&#x9;&#x9;{printf(&quot;\u005cn\u005cnCorrect!!!&quot;);count++;&#xa;&#x9;&#x9;&#x9;getch();&#xa;&#x9;&#x9;&#x9; break;}&#xa;&#x9;&#x9;else&#xa;&#x9;&#x9;       {printf(&quot;\u005cn\u005cnWrong!!! The correct answer is B.Lucas Podolski&quot;);&#xa;&#x9;&#x9;       getch();&#xa;&#x9;&#x9;       break;}&#xa;&#xa;        case 5:&#xa;        printf(&quot;\u005cn\u005cn\u005cnWhich is the third highest mountain in the world?&quot;);&#xa;        printf(&quot;\u005cn\u005cnA.Mt. K2\u005ct\u005ctB.Mt. Kanchanjungha\u005cn\u005cnC.Mt. Makalu\u005ct\u005ctD.Mt. Kilimanjaro&quot;);&#xa;        if (toupper(getch())==&apos;B&apos;)&#xa;               {printf(&quot;\u005cn\u005cnCorrect!!!&quot;);count++;&#xa;               getch();&#xa;                break;}&#xa;        else&#xa;&#x9;&#x9;       {printf(&quot;\u005cn\u005cnWrong!!! The correct answer is B.Mt. Kanchanjungha&quot;);&#xa;&#x9;&#x9;       getch();&#xa;&#x9;&#x9;       break;}&#xa;&#xa;        case 6:&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005cn\u005cnWhat is the group of frogs known as?&quot;);&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005cnA.A traffic\u005ct\u005ctB.A toddler\u005cn\u005cnC.A police\u005ct\u005ctD.An Army&quot;);&#xa;&#x9;&#x9;if (toupper(getch())==&apos;D&apos; )&#xa;&#x9;&#x9;&#x9;{printf(&quot;\u005cn\u005cnCorrect!!!&quot;);count++;&#xa;&#x9;&#x9;&#x9;getch();&#xa;&#x9;&#x9;&#x9;break;}&#xa;&#x9;&#x9;else&#xa;&#x9;&#x9;       {printf(&quot;\u005cn\u005cnWrong!!! The correct answer is D.An Army&quot;);&#xa;&#x9;&#x9;       getch();&#xa;&#x9;&#x9;       break;}}&#xa;&#x9;&#x9;       }&#xa;&#xa;&#x9;if(count&gt;=2)&#xa;&#x9;{goto test;}&#xa;&#x9;else&#xa;&#x9;{&#xa;&#x9;system(&quot;cls&quot;);&#xa;&#x9;printf(&quot;\u005cn\u005cnSORRY YOU ARE NOT ELIGIBLE TO PLAY THIS GAME, BETTER LUCK NEXT TIME&quot;);&#xa;&#x9;getch();&#xa;&#x9;goto mainhome;&#xa;&#x9;}&#xa;     test:&#xa;     system(&quot;cls&quot;);&#xa;     printf(&quot;\u005cn\u005cn\u005ct*** CONGRATULATION %s you are eligible to play the Game ***&quot;,playername);&#xa;     printf(&quot;\u005cn\u005cn\u005cn\u005cn\u005ct!Press any key to Start the Game!&quot;);&#xa;     if(toupper(getch())==&apos;p&apos;)&#xa;&#x9;&#x9;{goto game;}&#xa;game:&#xa;     countr=0;&#xa;     for(i=1;i&lt;=10;i++)&#xa;     {system(&quot;cls&quot;);&#xa;     r=i;&#xa;&#xa;     switch(r)&#xa;&#x9;&#x9;{&#xa;&#x9;&#x9;case 1:&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005cnWhat is the National Game of England?&quot;);&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005cnA.Football\u005ct\u005ctB.Basketball\u005cn\u005cnC.Cricket\u005ct\u005ctD.Baseball&quot;);&#xa;&#x9;&#x9;if (toupper(getch())==&apos;C&apos;)&#xa;&#x9;&#x9;&#x9;{printf(&quot;\u005cn\u005cnCorrect!!!&quot;);countr++;getch();&#xa;&#x9;&#x9;&#x9; break;getch();}&#xa;&#x9;&#x9;else&#xa;&#x9;&#x9;       {printf(&quot;\u005cn\u005cnWrong!!! The correct answer is C.Cricket&quot;);getch();&#xa;&#x9;&#x9;       goto score;&#xa;&#x9;&#x9;       break;}&#xa;&#xa;&#x9;&#x9;case 2:&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005cn\u005cnStudy of Earthquake is called............,&quot;);&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005cnA.Seismology\u005ct\u005ctB.Cosmology\u005cn\u005cnC.Orology\u005ct\u005ctD.Etimology&quot;);&#xa;&#x9;&#x9;if (toupper(getch())==&apos;A&apos;)&#xa;&#x9;&#x9;&#x9;{printf(&quot;\u005cn\u005cnCorrect!!!&quot;);countr++;getch();&#xa;&#x9;&#x9;&#x9; break;}&#xa;&#x9;&#x9;else&#xa;&#x9;&#x9;       {printf(&quot;\u005cn\u005cnWrong!!! The correct answer is A.Seismology&quot;);getch();&#xa;&#x9;&#x9;      goto score;&#xa;&#x9;&#x9;       break;&#xa;&#x9;&#x9;       }&#xa;&#xa;        case 3:&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005cn\u005cnAmong the top 10 highest peaks in the world, how many lie in Nepal? &quot;);&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005cnA.6\u005ct\u005ctB.7\u005cn\u005cnC.8\u005ct\u005ctD.9&quot;);&#xa;&#x9;&#x9;if (toupper(getch())==&apos;C&apos;)&#xa;&#x9;&#x9;&#x9;{printf(&quot;\u005cn\u005cnCorrect!!!&quot;);countr++;getch();&#xa;&#x9;&#x9;&#x9; break;}&#xa;&#x9;&#x9;else&#xa;&#x9;&#x9;       {printf(&quot;\u005cn\u005cnWrong!!! The correct answer is C.8&quot;);getch();&#xa;&#x9;&#x9;       goto score;&#xa;&#x9;&#x9;       break;}&#xa;&#xa;        case 4:&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005cn\u005cnThe Laws of Electromagnetic Induction were given by?&quot;);&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005cnA.Faraday\u005ct\u005ctB.Tesla\u005cn\u005cnC.Maxwell\u005ct\u005ctD.Coulomb&quot;);&#xa;&#x9;&#x9;if (toupper(getch())==&apos;A&apos;)&#xa;&#x9;&#x9;&#x9;{printf(&quot;\u005cn\u005cnCorrect!!!&quot;);countr++;getch();&#xa;&#x9;&#x9;&#x9; break;}&#xa;&#x9;&#x9;else&#xa;&#x9;&#x9;       {&#xa;                printf(&quot;\u005cn\u005cnWrong!!! The correct answer is A.Faraday&quot;);getch();&#xa;&#x9;&#x9;       goto score;&#xa;&#x9;&#x9;       break;&#xa;&#x9;&#x9;       }&#xa;&#xa;        case 5:&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005cn\u005cnIn what unit is electric power measured?&quot;);&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005cnA.Coulomb\u005ct\u005ctB.Watt\u005cn\u005cnC.Power\u005ct\u005ctD.Units&quot;);&#xa;&#x9;&#x9;if (toupper(getch())==&apos;B&apos;)&#xa;&#x9;&#x9;&#x9;{printf(&quot;\u005cn\u005cnCorrect!!!&quot;);countr++;getch(); break;}&#xa;&#x9;&#x9;else&#xa;&#x9;&#x9;       {&#xa;&#x9;&#x9;           printf(&quot;\u005cn\u005cnWrong!!! The correct answer is B.Power&quot;);&#xa;&#x9;&#x9;       getch();&#xa;&#x9;&#x9;       goto score;&#xa;&#x9;&#x9;       break;&#xa;&#x9;&#x9;       }&#xa;&#xa;&#x9;&#x9;case 6:&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005cn\u005cnWhich element is found in Vitamin B12?&quot;);&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005cnA.Zinc\u005ct\u005ctB.Cobalt\u005cn\u005cnC.Calcium\u005ct\u005ctD.Iron&quot;);&#xa;&#x9;&#x9;if (toupper(getch())==&apos;B&apos; )&#xa;&#x9;&#x9;&#x9;{printf(&quot;\u005cn\u005cnCorrect!!!&quot;);countr++;getch();&#xa;&#x9;&#x9;&#x9; break;}&#xa;&#x9;&#x9;else&#xa;&#x9;&#x9;       {printf(&quot;\u005cn\u005cnWrong!!! The correct answer is B.Cobalt&quot;);goto score;&#xa;&#x9;&#x9;       getch();&#xa;&#x9;&#x9;       break;}&#xa;&#xa;        case 7:&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005cn\u005cnWhat is the National Name of Japan?&quot;);&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005cnA.Polska\u005ct\u005ctB.Hellas\u005cn\u005cnC.Drukyul\u005ct\u005ctD.Nippon&quot;);&#xa;&#x9;&#x9;if (toupper(getch())==&apos;D&apos;)&#xa;&#x9;&#x9;&#x9;{printf(&quot;\u005cn\u005cnCorrect!!!&quot;);countr++;getch();&#xa;&#x9;&#x9;&#x9; break;}&#xa;&#x9;&#x9;else&#xa;&#x9;&#x9;       {printf(&quot;\u005cn\u005cnWrong!!! The correct answer is D.Nippon&quot;);getch();&#xa;&#x9;&#x9;       goto score;&#xa;&#x9;&#x9;       break;}&#xa;&#xa;        case 8:&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005cn\u005cnHow many times a piece of paper can be folded at the most?&quot;);&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005cnA.6\u005ct\u005ctB.7\u005cn\u005cnC.8\u005ct\u005ctD.Depends on the size of paper&quot;);&#xa;&#x9;&#x9;if (toupper(getch())==&apos;B&apos;)&#xa;&#x9;&#x9;&#x9;{printf(&quot;\u005cn\u005cnCorrect!!!&quot;);countr++;getch(); break;}&#xa;&#x9;&#x9;else&#xa;&#x9;&#x9;       {printf(&quot;\u005cn\u005cnWrong!!! The correct answer is B.7&quot;);getch();&#xa;&#x9;&#x9;       goto score;&#xa;&#x9;&#x9;       break;}&#xa;&#xa;        case 9:&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005cn\u005cnWhat is the capital of Denmark?&quot;);&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005cnA.Copenhagen\u005ct\u005ctB.Helsinki\u005cn\u005cnC.Ajax\u005ct\u005ctD.Galatasaray&quot;);&#xa;&#x9;&#x9;if (toupper(getch())==&apos;A&apos;)&#xa;&#x9;&#x9;&#x9;{printf(&quot;\u005cn\u005cnCorrect!!!&quot;);countr++; getch();&#xa;&#x9;&#x9;&#x9;break;}&#xa;&#x9;&#x9;else&#xa;&#x9;&#x9;       {printf(&quot;\u005cn\u005cnWrong!!! The correct answer is A.Copenhagen&quot;);getch();&#xa;&#x9;&#x9;       goto score;&#xa;&#x9;&#x9;       break;}&#xa;&#xa;        case 10:&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005cn\u005cnWhich is the longest River in the world?&quot;);&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005cnA.Nile\u005ct\u005ctB.Koshi\u005cn\u005cnC.Ganga\u005ct\u005ctD.Amazon&quot;);&#xa;&#x9;&#x9;if (toupper(getch())==&apos;A&apos;)&#xa;&#x9;&#x9;&#x9;{printf(&quot;\u005cn\u005cnCorrect!!!&quot;);countr++;getch(); break;}&#xa;&#x9;&#x9;else&#xa;&#x9;&#x9;       {printf(&quot;\u005cn\u005cnWrong!!! The correct answer is A.Nile&quot;);getch();break;goto score;}&#xa;&#xa;        case 11:&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005cn\u005cnWhat is the color of the Black Box in aeroplanes?&quot;);&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005cnA.White\u005ct\u005ctB.Black\u005cn\u005cnC.gray\u005ct\u005ctD.Red&quot;);&#xa;&#x9;&#x9;if (toupper(getch())==&apos;C&apos;)&#xa;&#x9;&#x9;&#x9;{printf(&quot;\u005cn\u005cnCorrect!!!&quot;);countr++;getch();&#xa;&#x9;&#x9;&#x9; break;}&#xa;&#x9;&#x9;else&#xa;              {printf(&quot;\u005cn\u005cnWrong!!! The correct answer is C.gray&quot;);getch();&#xa;              break;goto score;}&#xa;&#xa;        case 12:&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005cn\u005cnWhich city is known at &apos;The City of Seven Hills&apos;?&quot;);&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005cnA.Rome\u005ct\u005ctB.Vactican City\u005cn\u005cnC.Madrid\u005ct\u005ctD.Berlin&quot;);&#xa;&#x9;&#x9;if (toupper(getch())==&apos;A&apos;)&#xa;&#x9;&#x9;&#x9;  {printf(&quot;\u005cn\u005cnCorrect!!!&quot;);countr++;getch();&#xa;&#x9;&#x9;&#x9;   break;}&#xa;&#x9;&#x9;else&#xa;              {printf(&quot;\u005cn\u005cnWrong!!! The correct answer is A.Rome&quot;);getch();&#xa;              break;goto score;}&#xa;&#xa;&#x9;&#x9;case 13:&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005cn\u005cnName the country where there no mosquitoes are found?&quot;);&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005cnA.Japan\u005ct\u005ctB.Italy\u005cn\u005cnC.Argentina\u005ct\u005ctD.France&quot;);&#xa;&#x9;&#x9;if (toupper(getch())==&apos;D&apos;)&#xa;&#x9;&#x9;&#x9;{printf(&quot;\u005cn\u005cnCorrect!!!&quot;);countr++;getch();&#xa;&#x9;&#x9;&#x9;break;}&#xa;&#x9;&#x9;else&#xa;&#x9;&#x9;       {printf(&quot;\u005cn\u005cnWrong!!! The correct answer is D.France&quot;);getch();&#xa;&#x9;&#x9;       break;goto score;}&#xa;&#xa;        case 14:&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005cn\u005cnWho is the author of &apos;Pulpasa Cafe&apos;?&quot;);&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005cnA.Narayan Wagle\u005ct\u005ctB.Lal Gopal Subedi\u005cn\u005cnC.B.P. Koirala\u005ct\u005ctD.Khagendra Sangraula&quot;);&#xa;&#x9;&#x9;if (toupper(getch())==&apos;A&apos;)&#xa;&#x9;&#x9;&#x9;{printf(&quot;\u005cn\u005cnCorrect!!!&quot;);countr++;getch();&#xa;&#x9;&#x9;&#x9; break;}&#xa;&#x9;&#x9;else&#xa;&#x9;&#x9;       {printf(&quot;\u005cn\u005cnWrong!!! The correct answer is A.Narayan Wagle&quot;);getch();&#xa;&#x9;&#x9;       break;goto score;}&#xa;&#xa;&#x9;&#x9;case 15:&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005cn\u005cnWhich Blood Group is known as the Universal Recipient?&quot;);&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005cnA.A\u005ct\u005ctB.AB\u005cn\u005cnC.B\u005ct\u005ctD.O&quot;);&#xa;&#x9;&#x9;if (toupper(getch())==&apos;B&apos;)&#xa;&#x9;&#x9;&#x9;{printf(&quot;\u005cn\u005cnCorrect!!!&quot;);countr++;getch();&#xa;&#x9;&#x9;&#x9; break;}&#xa;&#x9;&#x9;else&#xa;&#x9;&#x9;       {printf(&quot;\u005cn\u005cnWrong!!! The correct answer is B.AB&quot;);getch();&#xa;&#x9;&#x9;       goto score;&#xa;&#x9;&#x9;       break;}&#xa;&#xa;&#x9;&#x9;case 16:&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005cn\u005cnWhat is the unit of measurement of distance between Stars?&quot;);&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005cnA.Light Year\u005ct\u005ctB.Coulomb\u005cn\u005cnC.Nautical Mile\u005ct\u005ctD.Kilometer&quot;);&#xa;&#x9;&#x9;if (toupper(getch())==&apos;A&apos;)&#xa;&#x9;&#x9;&#x9;{printf(&quot;\u005cn\u005cnCorrect!!!&quot;);countr++; getch();&#xa;&#x9;&#x9;&#x9;break;&#xa;&#x9;&#x9;&#x9;}&#xa;&#x9;&#x9;else&#xa;&#x9;&#x9;       {printf(&quot;\u005cn\u005cnWrong!!! The correct answer is A.Light Year&quot;);getch();&#xa;&#x9;&#x9;       goto score;&#xa;&#x9;&#x9;       break;}&#xa;&#xa;&#xa;&#x9;&#x9;case 17:&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005cn\u005cnThe country famous for Samba Dance is........&quot;);&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005cnA.Brazil\u005ct\u005ctB.Venezuela\u005cn\u005cnC.Nigeria\u005ct\u005ctD.Bolivia&quot;);&#xa;&#x9;&#x9;if (toupper(getch())==&apos;A&apos;)&#xa;&#x9;&#x9;&#x9;{printf(&quot;\u005cn\u005cnCorrect!!!&quot;);countr++; getch();&#xa;&#x9;&#x9;&#x9;break;}&#xa;&#x9;&#x9;else&#xa;&#x9;&#x9;       {printf(&quot;\u005cn\u005cnWrong!!! The correct answer is A.Brazil&quot;);getch();goto score;&#xa;&#x9;&#x9;       break;}&#xa;&#xa;&#x9;&#x9;case 18:&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005cn\u005cnWind speed is measure by__________?&quot;);&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005cnA.Lysimeter\u005ct\u005ctB.Air vane\u005cn\u005cnC.Hydrometer\u005ct\u005ctD.Anemometer\u005cn\u005cn&quot;);&#xa;&#x9;&#x9;if (toupper(getch())==&apos;D&apos;)&#xa;&#x9;&#x9;&#x9;{printf(&quot;\u005cn\u005cnCorrect!!!&quot;);countr++; getch();&#xa;&#x9;&#x9;&#x9;break;}&#xa;&#x9;&#x9;else&#xa;&#x9;&#x9;       {printf(&quot;\u005cn\u005cnWrong!!! The correct answer is D.Anemometer&quot;);getch();goto score;&#xa;&#x9;&#x9;       break;}&#xa;&#xa;&#x9;&#x9;case 19:&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005cn\u005cnWhich city in the world is popularly known as The City of Temple?&quot;);&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005cnA.Delhi\u005ctB.Bhaktapur\u005cn\u005cnC.Kathmandu\u005ctD.Agra\u005cn\u005cn&quot;);&#xa;&#x9;&#x9;if (toupper(getch())==&apos;C&apos;)&#xa;&#x9;&#x9;&#x9;{printf(&quot;\u005cn\u005cnCorrect!!!&quot;);countr++; getch();&#xa;&#x9;&#x9;&#x9;break;}&#xa;&#x9;&#x9;else&#xa;&#x9;&#x9;       {printf(&quot;\u005cn\u005cnWrong!!! The correct answer is C.Kathmandu&quot;);getch();goto score;&#xa;&#x9;&#x9;       break;}&#xa;&#xa;&#x9;&#x9;case 20:&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005cn\u005cnWhich hardware was used in the First Generation Computer?&quot;);&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005cnA.Transistor\u005ct\u005ctB.Valves\u005cn\u005cnC.I.C\u005ct\u005ctD.S.S.I&quot;);&#xa;&#x9;&#x9;if (toupper(getch())==&apos;B&apos;)&#xa;&#x9;&#x9;&#x9;{printf(&quot;\u005cn\u005cnCorrect!!!&quot;);countr++; getch();&#xa;&#x9;&#x9;&#x9;break;}&#xa;&#x9;&#x9;else&#xa;&#x9;&#x9;       {printf(&quot;\u005cn\u005cnWrong!!! The correct answer is B.Valves&quot;);getch();goto score;&#xa;&#x9;&#x9;       break;}&#xa;&#xa;&#x9;&#x9;case 21:&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005cn\u005cnOzone plate is being destroyed regularly because of____ ?&quot;);&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005cnA.L.P.G\u005ct\u005ctB.Nitrogen\u005cn\u005cnC.Methane\u005ct\u005ctD. C.F.C&quot;);&#xa;&#x9;&#x9;if (toupper(getch())==&apos;D&apos;)&#xa;&#x9;&#x9;&#x9;{printf(&quot;\u005cn\u005cnCorrect!!!&quot;);countr++; getch();&#xa;&#x9;&#x9;&#x9;break;}&#xa;&#x9;&#x9;else&#xa;&#x9;&#x9;       {printf(&quot;\u005cn\u005cnWrong!!! The correct answer is D. C.F.C&quot;);getch();goto score;&#xa;&#x9;&#x9;       break;}&#xa;&#xa;&#x9;&#x9;case 22:&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005cn\u005cnWho won the Women&apos;s Australian Open Tennis in 2007?&quot;);&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005cnA.Martina Hingis\u005ct\u005ctB.Maria Sarapova\u005cn\u005cnC.Kim Clijster\u005ct\u005ctD.Serena Williams&quot;);&#xa;&#x9;&#x9;if (toupper(getch())==&apos;D&apos;)&#xa;&#x9;&#x9;&#x9;{printf(&quot;\u005cn\u005cnCorrect!!!&quot;);countr++; getch();&#xa;&#x9;&#x9;&#x9;break;}&#xa;&#x9;&#x9;else&#xa;&#x9;&#x9;       {printf(&quot;\u005cn\u005cnWrong!!! The correct answer is D.Serena Williams&quot;);getch();goto score;&#xa;&#x9;&#x9;       break;}&#xa;&#xa;&#x9;&#x9;case 23:&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005cn\u005cnWhich film was awarded the Best Motion Picture at Oscar in 2010?&quot;);&#xa;&#x9;&#x9;printf(&quot;\u005cn\u005cnA.The Secret in their Eyes\u005ct\u005ctB.Shutter Island\u005cn\u005cnC.The King&apos;s Speech\u005ct\u005ctD.The Reader&quot;);&#xa;&#x9;&#x9;if (toupper(getch())==&apos;C&apos;)&#xa;&#x9;&#x9;&#x9;{printf(&quot;\u005cn\u005cnCorrect!!!&quot;);countr++; getch();&#xa;&#x9;&#x9;&#x9;break;}&#xa;&#x9;&#x9;else&#xa;&#x9;&#x9;       {printf(&quot;\u005cn\u005cnWrong!!! The correct answer is C.The King&apos;s Speech&quot;);getch();goto score;&#xa;&#x9;&#x9;       break;}}}&#xa;&#x9;score:&#xa;    system(&quot;cls&quot;);&#xa;&#x9;score=(float)countr*100000;&#xa;&#x9;if(score&gt;0.00 &amp;&amp; score&lt;1000000)&#xa;&#x9;{&#xa;&#x9;   printf(&quot;\u005cn\u005cn\u005ct\u005ct**************** CONGRATULATION *****************&quot;);&#xa;&#x9;     printf(&quot;\u005cn\u005ct You won $%.2f&quot;,score);goto go;}&#xa;&#xa;&#x9; else if(score==1000000.00)&#xa;&#x9;{&#xa;&#x9;    printf(&quot;\u005cn\u005cn\u005cn \u005ct\u005ct**************** CONGRATULATION ****************&quot;);&#xa;&#x9;    printf(&quot;\u005cn\u005ct\u005ct\u005ct\u005ct YOU ARE A MILLIONAIRE!!!!!!!!!&quot;);&#xa;&#x9;    printf(&quot;\u005cn\u005ct\u005ct You won $%.2f&quot;,score);&#xa;&#x9;    printf(&quot;\u005ct\u005ct Thank You!!&quot;);&#xa;&#x9;}&#xa;&#x9; else&#xa;{&#xa;&#x9; printf(&quot;\u005cn\u005cn\u005ct******** SORRY YOU DIDN&apos;T WIN ANY CASH ********&quot;);&#xa;&#x9;    printf(&quot;\u005cn\u005ct\u005ct Thanks for your participation&quot;);&#xa;&#x9;    printf(&quot;\u005cn\u005ct\u005ct TRY AGAIN&quot;);goto go;}&#xa;&#xa;&#x9;go:&#xa;&#x9;puts(&quot;\u005cn\u005cn Press Y if you want to play next game&quot;);&#xa;&#x9;puts(&quot; Press any key if you want to go main menu&quot;);&#xa;&#x9;if (toupper(getch())==&apos;Y&apos;)&#xa;&#x9;&#x9;goto home;&#xa;&#x9;else&#xa;&#x9;&#x9;{&#xa;&#x9;&#x9;edit_score(score,playername);&#xa;&#x9;&#x9;goto mainhome;}}}&#xa;&#xa;void show_record()&#xa;    {system(&quot;cls&quot;);&#xa;&#x9;char name[20];&#xa;&#x9;float scr;&#xa;&#x9;FILE *f;&#xa;&#x9;f=fopen(&quot;score.txt&quot;,&quot;r&quot;);&#xa;&#x9;fscanf(f,&quot;%s%f&quot;,&amp;name,&amp;scr);&#xa;&#x9;printf(&quot;\u005cn\u005cn\u005ct\u005ct*************************************************************&quot;);&#xa;&#x9;printf(&quot;\u005cn\u005cn\u005ct\u005ct %s has secured the Highest Score %0.2f&quot;,name,scr);&#xa;&#x9;printf(&quot;\u005cn\u005cn\u005ct\u005ct*************************************************************&quot;);&#xa;&#x9;fclose(f);&#xa;&#x9;getch();}&#xa;&#xa;void reset_score()&#xa;    {system(&quot;cls&quot;);&#xa;    float sc;&#xa;&#x9;char nm[20];&#xa;&#x9;FILE *f;&#xa;&#x9;f=fopen(&quot;score.txt&quot;,&quot;r+&quot;);&#xa;&#x9;fscanf(f,&quot;%s%f&quot;,&amp;nm,&amp;sc);&#xa;&#x9;sc=0;&#xa;&#x9;fprintf(f,&quot;%s,%.2f&quot;,nm,sc);&#xa;    fclose(f);}&#xa;&#xa;void help()&#xa;&#x9;{system(&quot;cls&quot;);&#xa;    printf(&quot;\u005cn\u005cn                              HELP&quot;);&#xa;    printf(&quot;\u005cn -------------------------------------------------------------------------&quot;);&#xa;    printf(&quot;\u005cn ......................... C program Quiz Game...........&quot;);&#xa;    printf(&quot;\u005cn &gt;&gt; There are two rounds in the game, WARMUP ROUND &amp; CHALLANGE ROUND&quot;);&#xa;    printf(&quot;\u005cn &gt;&gt; In warmup round you will be asked a total of 3 questions to test your general&quot;);&#xa;    printf(&quot;\u005cn    knowledge. You will be eligible to play the game if you can give atleast 2&quot;);&#xa;    printf(&quot;\u005cn    right answers otherwise you can&apos;t play the Game...........&quot;);&#xa;    printf(&quot;\u005cn &gt;&gt; Your game starts with the CHALLANGE ROUND. In this round you will be asked&quot;);&#xa;    printf(&quot;\u005cn    total 10 questions each right answer will be awarded $100,000.&quot;);&#xa;    printf(&quot;\u005cn    By this way you can win upto ONE MILLION cash prize in USD...............&quot;);&#xa;    printf(&quot;\u005cn &gt;&gt; You will be given 4 options and you have to press A, B ,C or D for the&quot;);&#xa;    printf(&quot;\u005cn    right option&quot;);&#xa;    printf(&quot;\u005cn &gt;&gt; You will be asked questions continuously if you keep giving the right answers.&quot;);&#xa;    printf(&quot;\u005cn &gt;&gt; No negative marking for wrong answers&quot;);&#xa;&#xa;&#x9;printf(&quot;\u005cn\u005cn\u005ct*********************BEST OF LUCK*********************************&quot;);&#xa;&#x9;printf(&quot;\u005cn\u005cn\u005ct*****C PROGRAM QUIZ GAME is developed by CODE WITH C TEAM********&quot;);}&#xa;&#xa;void edit_score(float score, char plnm[20])&#xa;&#x9;{system(&quot;cls&quot;);&#xa;&#x9;float sc;&#xa;&#x9;char nm[20];&#xa;&#x9;FILE *f;&#xa;&#x9;f=fopen(&quot;score.txt&quot;,&quot;r&quot;);&#xa;&#x9;fscanf(f,&quot;%s%f&quot;,&amp;nm,&amp;sc);&#xa;&#x9;if (score&gt;=sc)&#xa;&#x9;  { sc=score;&#xa;&#x9;    fclose(f);&#xa;&#x9;    f=fopen(&quot;score.txt&quot;,&quot;w&quot;);&#xa;&#x9;    fprintf(f,&quot;%s\u005cn%.2f&quot;,plnm,sc);&#xa;&#x9;    fclose(f);}}&#xa;" containsInvalidXMLChars="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel25">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="300" y="100" width="1070" height="50"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="false"/>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="designs">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder roundedCorners="true"/>
+              </Border>
+            </Property>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Hand Cursor"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="designsMouseClicked"/>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="designsMouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="designsMouseExited"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="350" y="10" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                      <Component id="jLabel40" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="43" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel40" alignment="0" pref="30" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel40">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="18" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="design"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="abouts">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder roundedCorners="true"/>
+              </Border>
+            </Property>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Hand Cursor"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="aboutsMouseClicked"/>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="aboutsMouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="aboutsMouseExited"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="35" y="11" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="jLabel50" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="45" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel50" alignment="0" pref="30" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel50">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="18" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="about"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel28">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="66" red="ff" type="rgb"/>
+            </Property>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder roundedCorners="true"/>
+              </Border>
+            </Property>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Hand Cursor"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel28MouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel28MouseExited"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="320" y="180" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace pref="48" max="32767" attributes="0"/>
+                      <Component id="jLabel61" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel61" alignment="0" pref="30" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel61">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="18" style="0"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="ppt"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="sources">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder roundedCorners="true"/>
+              </Border>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="f0" green="f0" red="f0" type="rgb"/>
+            </Property>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Hand Cursor"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="sourcesMouseClicked"/>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="sourcesMouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="sourcesMouseExited"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="200" y="10" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                      <Component id="jLabel62" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="30" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel62" alignment="0" pref="30" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel62">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="18" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="source"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
